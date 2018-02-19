@@ -1,0 +1,64 @@
+section.join-us {
+  background-color: $white;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: $off-white;
+  box-shadow: $shadow-default;
+  align-items: center;
+
+  &.form-signup {
+    background-color: #0E4266;
+    color: $white;
+    box-shadow: none;
+    align-items: unset;
+    flex-direction: column;
+    padding: 2rem 4rem;
+
+    @media (max-width: 900px) {
+      padding: 2rem;
+    }
+
+    .close-button {
+      speak: none;
+      display: none;
+      user-select: none;
+    }
+  }
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+}
+
+.c2a-image {
+  background: url(../assets/images/office/azavea-front-sign.jpg) no-repeat;
+  background-size: cover;
+  flex-basis: 55%;
+  min-height: 35rem;
+  justify-self: stretch;
+  align-self: stretch;
+
+  @media (max-width: 900px) {
+    height: 25rem;
+    min-height: initial;
+  }
+}
+
+.c2a-message {
+  padding: 4rem;
+  flex: 1;
+
+  @media (max-width: 900px) {
+    padding: 3rem 2rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+  }
+}

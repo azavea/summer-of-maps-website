@@ -1,0 +1,98 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-section">
+      <a href="/"><img class="footer-brand" src="/assets/images/azavea-summer-of-maps-logo-white.svg" alt="Azavea summer of maps"></a>
+    </div>
+    <div class="footer-section">
+      <nav>
+        <a href="/about">About</a>
+        <a href="/projects">Projects</a>
+        <a href="/faq">FAQ</a>
+        <a href="/contact">Contact</a>
+        {% if site.fellowship.in_session %}
+          {% if site.fellowship.stage.nonprofit_signup %}
+          <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
+          {% elsif site.fellowship.stage.student_signup %}
+          <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
+          {% endif %}
+        {% endif %}
+          <a href="#job-alert-modal" class="btn btn-ghost form-modal-open" rel="modal:open">
+            Newsletter
+          </a>
+      </nav>
+    </div>
+  </div>
+</footer>
+<footer>
+  <div class="container">
+    <div class="row stack-xs">
+      <div class="column">
+        <a href="https://azavea.com">
+          <img class="footer-logo" src="{{ site.baseurl }}/assets/images/azavea-logo.png" alt="Azavea logo">
+        </a>
+        <address>
+          990 Spring Garden,<br>
+          5th Floor<br>
+          Philadelphia, PA 19123<br>
+          (215) 925-2600<br>
+        </address>
+      </div>
+      <div class="column">
+        <h5 class="footer-header">Company</h5>
+        <ul class="footer-menu">
+          <li><a href="https://www.azavea.com/about/">About</a></li>
+          <li><a href="https://www.azavea.com/work/">What we do</a></li>
+          <li><a href="https://www.azavea.com/research/">Research</a></li>
+          <li><a href="http://jobs.azavea.com/">Jobs</a></li>
+          <li><a href="https://www.azavea.com/blog/">Blog</a></li>
+          <li><a href="https://www.azavea.com/press/">Press</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h5 class="footer-header">Services</h5>
+        <ul class="footer-menu">
+          <li><a href="https://www.azavea.com/services/software-development/">Software Development</a></li>
+          <li><a href="https://www.azavea.com/services/data-analytics/">Data Analytics</a></li>
+          <li><a href="https://www.azavea.com/services/ux-design/">UX Design</a></li>
+          <li><a href="https://www.azavea.com/services/big-geospatial-data/">Big Geospatial Data</a></li>
+          <li><a href="https://www.azavea.com/services/research-and-development/">R&D</a></li>
+        </ul>
+      </div>
+      <div class="column">
+        <h5 class="footer-header">Newsletter</h5>
+        <div id="mc_embed_signup">
+          <form action="https://azavea.us1.list-manage.com/subscribe/post?u=61da999c9897859f1c1fff262&amp;id=d189bde191" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="mc-field-group">
+                <label for="mce-EMAIL" class="sr-only">Email Address</label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email address">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_61da999c9897859f1c1fff262_d189bde191" tabindex="-1" value=""></div>
+              <input class="btn btn-primary" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column footer-social">
+        <a href="https://twitter.com/azavea"><img src="{{ site.baseurl }}/assets/icons/icon-twitter.svg" alt="Azavea twitter"></img></a>
+        <a href="https://facebook.com/azavea"><img src="{{ site.baseurl }}/assets/icons/icon-facebook.svg" alt="Azavea facebook"></img></a>
+        <a href="https://www.linkedin.com/company/azavea"><img src="{{ site.baseurl }}/assets/icons/icon-linkedin.svg" alt="Azavea linkedin"></img></a>
+        <a href="https://github.com/azavea"><img src="{{ site.baseurl }}/assets/icons/icon-github.svg" alt="Azavea github"></img></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column footer-bottom">
+        <a href="https://azavea.com/terms-of-use/">Terms of Use</a> •
+        <a href="https://azavea.com/privacy-policy/">Privacy Policy</a> •
+        <a href="https://azavea.com/directions/">Directions</a><br>
+        © {{ 'now' | date: "%Y" }} Azavea
+      </div>
+    </div>
+  </div>
+</footer>

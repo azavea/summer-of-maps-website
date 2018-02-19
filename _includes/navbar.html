@@ -1,0 +1,49 @@
+<div class="navbar">
+  <div class="container">
+    <div class="navbar-left">
+      <a href="/" class="brand" title="Azavea Open Source Fellowship homepage">
+        <img src="{{ site.baseurl }}/assets/images/azavea-summer-of-maps-logo.svg" alt="Azavea Summer of Maps logo">
+      </a>
+    </div>
+    <div class="navbar-right">
+      <nav>
+        <a href="/about"
+          {% if page.url == "/about/" %}
+             class="active"
+          {% endif %}>
+          About
+        </a>
+        <a href="/projects"
+          {% if page.url == "/projects/" %}
+             class="active"
+          {% endif %}>
+          Projects
+        </a>
+        <a href="/faq"
+          {% if page.url == "/faq/" %}
+             class="active"
+          {% endif %}>
+          FAQ
+        </a>
+        <a href="/contact"
+          {% if page.url == "/contact/" %}
+             class="active"
+          {% endif %}>
+          Contact
+        </a>
+        <div class="navbar-button-group">
+          {% if site.fellowship.in_session %}
+            {% if site.fellowship.stage.nonprofit_signup %}
+            <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
+            {% elsif site.fellowship.stage.student_signup %}
+            <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
+            {% endif %}
+          {% endif %}
+          <a href="#job-alert-modal" class="btn btn-default form-modal-open" rel="modal:open">
+            Newsletter
+          </a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,85 @@
+sarahGates:
+  name: Sarah Gates
+  info: 'Master of Science candidate in Geographic Information Science for Development and Environment at Clark University'
+  year: 2017
+  image: sarahGates.jpg
+juliaHeslin:
+  name: Julia Heslin
+  info: 'Master’s of Arts candidate in Geography at Towson University'
+  year: 2017
+  image: juliaHeslin.png
+jiantingZhao:
+  name: Jianting Zhao
+  info: 'Master’s candidate in Urban Spatial Analytics at the University of Pennsylvania'
+  year: 2017
+  image: jiantingZhao.jpg
+parkerZiegler:
+  name: Parker Ziegler
+  info: 'Bachelor’s Degree in Geography and Arabic, Middlebury College'
+  year: 2016
+  image: parkerZiegler.jpg
+annakaScheeres:
+  name: Annaka Scheeres
+  info: 'Bachelor of Science and Bachelor of Arts, Biology and Environmental Studies (Geography Concentration), Calvin College'
+  year: 2016
+  image: annakaScheeres.jpg
+carlosBonilla:
+  name: Carlos Bonilla
+  info: 'Bachelor of Arts in Geography and Urban Studies, Temple University'
+  year: 2016
+  image: carlosBonilla.jpg
+nathanielHenry:
+  name: Nathaniel Henry
+  info: 'Bachelor of Science in Geographic Information Science and Bachelor of Science in Geography: Urban, Regional, and Global Studies with Minors in Economics, Chinese'
+  year: 2015
+  image: nathanielHenry.jpg
+lauraLaderman:
+  name: Laura Laderman
+  info: 'Major: Physics, Minor: Statistics at Swarthmore Colege'
+  year: 2015
+  image: lauraLaderman.jpg
+kevinFrech:
+  name: Kevin Frech
+  info: 'B.A. Candidate, Geography and Urban Studies at Temple University'
+  year: 2015
+  image: kevinFrech.jpg
+timStOnge:
+  name: Tim St. Onge
+  info: 'M.S. Candidate, Geographic Information Science for Development and Environment, Clark University'
+  year: 2014
+  image: timStOnge.jpg
+amoryHillengas:
+  name: Amory Hillengas
+  info: 'Masters of Urban Spatial Analytics, Community and Economic Development concentration, University of Pennsylvania'
+  year: 2014
+  image: amoryHillengas.jpg
+jennaGlat:
+  name: Jenna Glat
+  info: 'B.A. in Geography and Spanish, Colgate University'
+  year: 2014
+  image: jennaGlat.jpg
+lenaFerguson:
+  name: Lena Ferguson
+  info: 'Growth and Structure of Cities at Bryn Mawr College'
+  year: 2013
+  image: lenaFerguson.jpg
+tylerDahlberg:
+  name: Tyler Dahlberg
+  info: 'MS in GIS for Development and Environment at Clark University'
+  year: 2013
+  image: tylerDahlberg.jpg
+juliaReeves:
+  name: Julia Reeves
+  info: 'Growth and Structure of Cities at Haverford College'
+  year: 2013
+  image: juliaReeves.jpg
+nseAbasiEsema:
+  name: Nse-Abasi Esema
+  info: 'MIT Masters in City Planning'
+  year: 2012
+  image: nseAbasiEsema.jpg
+angelaSakrison:
+  name: Angela Sakrison
+  info: 'University of Pennsylvania MA Environmental Studies, Resource Management, Certificate in GIS and Spatial Analysis'
+  year: 2012
+  image: angelaSakrison.jpg

@@ -1,0 +1,30 @@
+.fellow {
+  display: flex;
+  align-items: center;
+}
+
+.fellow-image {
+  width: 7rem;
+  height: 7rem;
+  overflow: hidden;
+  border-radius: 7rem;
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+.fellow-info {
+  padding-left: 1rem;
+}
+
+.fellow-name {
+  @extend .h5;
+  font-weight: 600;
+  margin: 0;
+}
+
+.fellow-year {
+  opacity: .8;
+}

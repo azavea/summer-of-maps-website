@@ -14,22 +14,68 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Azavea Summer of Maps
-email: info@azavea.com
+email: summerofmaps@azavea.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Summer of Maps - Paid summer fellowships for student GIS analysts to perform pro bono work for non-profits
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: azavea
-github_username:  azavea
+
+# Fellowship settings
+# What is the current year for the fellowship
+# What is the current session timeframe ie: Summer 2018
+# Is the fellowship in progress?
+# What is the stage of the current fellowship?
+# Only assign true to the current stage
+fellowship:
+  year: 2018
+  timeframe: Summer 2018
+  in_session: true
+  stage: 
+    nonprofit_signup: false
+    nonprofit_review: false
+    student_signup: true
+    student_review: false
+    fellowship_ongoing: false
+
+# Signup application link settings
+# Define where the applications live
+nonprofit_app_link: "https://azavea.forms.fm/2018-summer-of-maps-geospatial-analysis-services-grant-application"
+student_app_link: "https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAAADK0knd5cWXHZ"
+
+# Estabish project collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:slug
+  project-shortlist:
+    output: true
+    permalink: /projects/shortlist/:slug
+
+# Define site defaults for post types
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post" # automatically sets layout for projects
+      is_project: true # automatically set is_post=true for all projects
+      published: false # automatically sets all project as drafts
+      page_class: "projects"
+  - scope:
+      path: ""
+      type: "project-shortlist"
+    values:
+      layout: "post" # automatically sets layout for projects
+      is_shortlist: true # automatically set is_shortlist=true for all project shortlist
+      published: false # automatically sets all project as drafts
+      page_class: "projects"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
 
+# sass settings
 sass:
   sass_dir: _sass
   style: compressed

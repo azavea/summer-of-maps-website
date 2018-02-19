@@ -1,0 +1,36 @@
+.paginator {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: block;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border: 1px solid #d0d9e2;
+  border-radius: 4px;
+  margin: 5px 0;
+  flex-basis: 48%;
+  text-align: center;
+  background: white;
+  transition: .2s ease-in-out background;
+
+  &:hover {
+    background: $off-white;
+    text-decoration: none;
+  }
+
+  &.next {
+    margin-left: auto;
+  }
+
+  span {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    opacity: .7;
+    color: $base;
+    display: block;
+  }
+}

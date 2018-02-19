@@ -1,0 +1,66 @@
+%clearfix {
+  &:before,
+  &:after {
+    content: '';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.clearfix {
+  @extend %clearfix;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+// Color helpers
+.color-white {
+  color: #fff !important;
+}
+
+.color-primary {
+  color: $primary !important;
+}
+
+// background helpers
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-white {
+  background-color: $white !important;
+}
+
+.bg-off-white {
+  background-color: $off-white !important;
+}
+
+.hide {
+  display: none !important;
+}
+
+.invisible {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+// Only display content to screen readers
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}

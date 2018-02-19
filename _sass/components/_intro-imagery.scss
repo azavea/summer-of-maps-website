@@ -1,0 +1,22 @@
+.intro-imagery {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: -5rem -1rem 2rem;
+  width: auto;
+  overflow: hidden;
+
+  img {
+    width: 33%;
+    flex-basis: 33%;
+
+    @media (max-width: 500px) {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1210px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

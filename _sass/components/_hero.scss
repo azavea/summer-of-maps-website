@@ -1,0 +1,102 @@
+@keyframes spinstar {
+  from {
+    transform: rotate(13deg);
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(2px);
+    background-image: url('/assets/images/starfish-character.svg');
+  }
+  to {
+    transform: rotate(-380deg);
+    filter: blur(0px);
+    z-index: 99;
+    background-image: url('/assets/images/starfish-character.svg');
+  }
+}
+
+.hero {
+  padding-top: 16rem;
+  padding-bottom: 4rem;
+
+  .container {
+    max-width: 1190px;
+    position: relative;
+  }
+
+  .starfish {
+    display: block;
+    width: 8.5rem;
+    height: 8.5rem;
+    position: absolute;
+    bottom: -90px;
+    will-change: filter, transform, background-image;
+    background-image: url('/assets/images/starfish.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    backface-visibility: hidden;
+    perspective: 1000;
+    transform: rotate(13deg);
+
+    &:hover {
+      animation: spinstar .2s .5s linear 1 forwards;
+    }
+  }
+}
+
+.hero-content {
+  width: 54%;
+
+  @media (max-width: 900px) {
+    width: 100%;
+  }
+}
+
+.hero-mini-title {
+  display: block;
+  margin-bottom: .5rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  opacity: .7;
+  color: $base;
+
+  > a {
+    color: $base;
+    font-weight: 600;
+  }
+}
+
+.hero-title {
+  font-size: 3.6rem;
+  margin-bottom: 1rem;
+
+  .homepage & {
+    font-size: 4.5rem;
+
+    @media (max-width: 900px) {
+      font-size: 3.6rem;
+    }
+  }
+}
+
+.hero-subtitle {
+  font-size: 2.2rem;
+  font-weight: 400;
+  margin-top: 2rem;
+
+  @media (max-width: 900px) {
+    font-size: 1.8rem;
+  }
+}
+
+.hero-actions {
+  margin-bottom: 3rem;
+
+  .btn {
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+}

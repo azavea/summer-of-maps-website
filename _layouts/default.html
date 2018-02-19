@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- TODO: Setup proper SEO & Favicon-->
+  
+  <!-- SEO -->
+  <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.seo_description %}{{ page.seo_description }}{% endif %}">
+  <meta name="Copyright" content="Copyright © Summer of Maps 2018. All Rights Reserved.">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/assets/favicon/manifest.json">
+  <link rel="mask-icon" href="{{ site.baseurl }}/assets/favicon//safari-pinned-tab.svg" color="#3174a3">
+  <meta name="theme-color" content="#ffffff">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Source+Code+Pro" rel="stylesheet">
+
+  
+</head>
+<body 
+  {% if page.page_class %} 
+    class="{{- page.page_class }} {{ layout.page_class -}}" 
+  {% endif %}>
+  {% include navbar.html %}
+  {% if layout.use-alternate-hero %}
+  {% include hero-alt.html %}
+  {% elsif layout.use-post-hero %}
+  {% include hero-post.html %}
+  {% else %}
+  {% include hero.html %}
+  {% endif %}
+  
+  <!-- page content -->
+  {{ content }}
+  <!-- page content -->
+
+  {% include call-to-action.html %}
+  {% include footer.html %}
+  {% include form-modal.html %}
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascript/form-modal.js"></script>
+  {% if page.js_dependencies %}
+    {% for dependency in page.js_dependencies %}
+    <script src="{{ site.baseurl }}/assets/javascript/{{ dependency }}"></script>
+    {% endfor %}
+  {% endif %}  
+
+</body>
+</html>
+
+

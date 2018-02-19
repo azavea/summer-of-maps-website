@@ -1,0 +1,136 @@
+@mixin button-states($bg, $text) {
+  &:hover, &.hover,
+  &:active, &.active, {
+    background-color: darken($bg, 5%);
+    color: $text;
+  }
+
+  &:active, &.active {
+    box-shadow: inset 0 2px 2px 0px rgba(black, .2);
+  }
+
+  &:focus, &.focus {
+    outline: none;
+    box-shadow: $focus-state;
+  }
+
+  // Note: <buttons> and <a> handle active+focus differently. This will normalize behaviour.
+  &:focus:active {
+    box-shadow: inset 0 2px 2px 0px rgba(black, .2);
+  }
+
+  &:disabled, &.disabled, &[disabled] {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+}
+
+.btn {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  outline: 0;
+  border: none;
+  font-size: 1.4rem;
+  padding: 1rem 2rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  user-select: none;
+  background: #fff;
+  color: $base;
+  transition: .2s ease-in-out box-shadow, .2s ease-in-out color, .2s ease-in-out background;
+
+  &:hover, &.hover,
+  &:active, &.active, {
+    color: darken($base, 5%);
+    background-color: $off-white;
+    text-decoration: none;
+  }
+
+  &:active, &.active {
+    box-shadow: inset 0 2px 2px 0px rgba(black, .2);
+  }
+
+  &:focus, &.focus {
+    outline: none;
+    box-shadow: $focus-state;
+  }
+
+  // Note: <buttons> and <a> handle active+focus differently. This will normalize behaviour.
+  &:focus:active {
+    box-shadow: inset 0 2px 2px 0px rgba(black, .2);
+  }
+
+  &:disabled, &.disabled, &[disabled] {
+    opacity: .5;
+    cursor: not-allowed;
+  }
+}
+
+.btn-default {
+  background: $base;
+  color: #fff;
+
+  @include button-states(lighten($base, 15%), #fff);
+}
+
+.btn-primary {
+  background: $primary;
+  color: $base;
+
+  @include button-states($primary, $base);
+}
+
+.btn-secondary {
+  background: #3773A1;
+  color: $white;
+
+  @include button-states(#3773A1, $white);
+}
+
+.btn-ghost {
+  background: none;
+  color: $white;
+  box-shadow: inset 0 0 0 1.5px currentColor;
+
+  @include button-states(rgba($white, .1), $white);
+}
+
+.btn-ghost-primary {
+  background: none;
+  color: $primary;
+  box-shadow: inset 0 0 0 1.5px currentColor;
+
+  @include button-states(transparent, darken($primary, 15%));
+}
+
+.btn-ghost-secondary {
+  background: none;
+  color: $secondary;
+  box-shadow: inset 0 0 0 1.5px currentColor;
+
+  @include button-states(transparent, darken($secondary, 15%));
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1.5rem 0;
+
+  .btn { 
+    flex: 1;
+
+    + .btn {
+      margin-left: 1rem;
+    }
+  }
+}

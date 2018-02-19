@@ -1,0 +1,15 @@
+---
+layout: default
+page_class: secondary
+use-alternate-hero: true
+---
+<section>
+  {% if page.use-intro-imagery %}
+    {% include intro-imagery.html %}
+  {% endif %}
+  <div class="container">
+    <div class="inner-content">
+      {{ content }}
+    </div>
+  </div>
+</section>

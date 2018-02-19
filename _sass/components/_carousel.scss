@@ -1,0 +1,154 @@
+.about-carousel {
+  box-shadow: $shadow-default;
+
+  .slick-prev {
+    bottom: 1rem;
+    left: 49%;
+    transform: translate(-100%);
+  }
+
+  .slick-next {
+    bottom: 1rem;
+    right: 49%;
+    transform: translate(100%);
+  }
+}
+
+.qualifications-carousel {
+  margin-top: 2rem;
+  position: relative;
+
+  @media (min-width: 1240px) {
+    margin-left: -10rem;
+    width: 1240px;
+  }
+
+  @media (max-width: 1239px) {
+    width: 100%;
+  }
+
+  img.slick-slide {
+    max-height: 35rem;
+    padding: 5px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .slick-arrow {
+    bottom: 2rem;
+    background-color: $off-white;
+
+    &.slick-prev {
+      right: 15rem;
+    }
+
+    &.slick-next {
+      right: 10rem;
+    }
+  }
+}
+
+.slick-arrow {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  padding: 0;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 1;
+
+  &.slick-prev {
+    background-image: url(../assets/icons/icon-arrow-left.svg);
+  }
+
+  &.slick-next {
+    background-image: url(../assets/icons/icon-arrow-right.svg);
+  }
+}
+
+.slick-dots {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+  &:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    height: 5px;
+    background: white;
+    z-index: -1;
+  }
+
+  li {
+    padding: 0;
+    margin: 0 5px;
+    position: relative;
+
+    &:last-of-type {
+      &:before, &:after {
+        display: none;
+      }
+    }
+
+    &:before {
+      padding: 0;
+      content: '';
+      display: block;
+      width: 1rem;
+      height: .7rem;
+      box-shadow: inset 0 4px 0 0 white;
+      border-radius: 100%;
+      position: absolute;
+      top: 50%;
+      left: 100%;
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      width: 1rem;
+      height: .7rem;
+      box-shadow: inset 0 -4px 0 0 white;
+      border-radius: 100%;
+      position: absolute;
+      top: initial;
+      bottom: 50%;
+      left: 100%;
+    }
+
+    button {
+      text-indent: -9999rem;
+      margin: -2px;
+      padding: 0;
+      display: block;
+      appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      width: 1.7rem;
+      height: 1.7rem;
+      border-radius: 100%;
+      background-color: #D0D9E1;
+      border: 5px solid $white;
+      transition: .2s ease-in-out background-color;
+      z-index: 10;
+      position: relative;
+    }
+  }
+
+  .slick-active button {
+    background-color: $header;
+  }
+}

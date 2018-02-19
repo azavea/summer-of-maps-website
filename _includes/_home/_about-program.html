@@ -1,0 +1,42 @@
+<section>
+  <div class="container">
+    <div class="inner-content">
+      <div class="content-header">
+        <span class="content-mini-title">
+          {{ page.about.above-title }}
+        </span>
+        <h2 class="content-title">
+          {{ page.about.title }}
+        </h2>
+      </div>
+      <p class="content-blurb">{{ page.about.blurb }}</p>
+    </div>
+    <div class="row stack-xs">
+      <div class="column-6">
+        <div class="carousel about-carousel">
+          <div class="slide">
+            <img src="assets/images/office/azavea-front-sign.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="assets/images/office/azavea-living-room.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="assets/images/office/azavea-scrum.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="assets/images/office/azavea-geotrellis-nook.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="column-6">
+        <h3>Important dates</h3>
+        <ul>
+          {% for date in site.data.dates %}
+            <li><strong>{{ date.date }}:</strong> {{ date.description }}</li>
+          {% endfor %}
+        </ul>
+        <a href="{{ site.baseurl }}/about" class="btn btn-primary">More details</a>
+      </div>
+    </div>
+  </div>
+</section>

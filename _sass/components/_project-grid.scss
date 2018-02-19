@@ -1,0 +1,91 @@
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-card {
+  width: 30%;
+  margin-bottom: 3rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: .2s ease-in-out transform;
+  box-shadow: $shadow-default;
+
+  @media (max-width: 675px) {
+    width: 100%;
+  }
+
+  &:hover {
+    transform: scale(1.01);
+  }
+
+  &.placeholder {
+    justify-content: center;
+  }
+
+  .fellow {
+    flex-direction: column;
+    text-align: center;
+    margin-top: -4.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .fellow-image {
+    width: 5rem;
+    height: 5rem;
+    overflow: hidden;
+    border-radius: 7rem;
+    border: 2px solid white;
+  }
+
+  .fellow-year {
+    font-size: 1.3rem;
+  }
+
+  .project-card-title {
+    @extend .h4;
+    text-align: center;
+    margin: 0;
+  }
+
+  .arrow {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: 2px solid darken($off-white, 15%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+}
+
+.project-card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-indent: -999rem;
+  font-size: 0.1px;
+  color: transparent;
+
+  &:focus {
+    outline: none;
+    box-shadow: $focus-state;
+  }
+}
+
+.project-card-image {
+  height: 20rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project-card-details {
+  padding: 2rem;
+}

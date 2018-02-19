@@ -1,0 +1,30 @@
+<header class="hero" id="hero">
+  {% if page.is_404 != true %}
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        {{ page.hero.title }}
+      </h1>
+      <h2 class="hero-subtitle">
+        {{ page.hero.subtitle }}
+      </h2>
+
+      <div class="hero-actions">
+        {% if site.fellowship.in_session %}
+          {% if site.fellowship.stage.nonprofit_signup %}
+          <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
+          {% elsif site.fellowship.stage.student_signup %}
+          <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
+          {% endif %}
+        {% else %}
+          <a href="#job-alert-modal" class="btn btn-ghost-secondary form-modal-open" rel="modal:open">
+            Sign up for alerts
+          </a>
+        {% endif %}
+        <a href="/about" class="btn btn-secondary">Learn more</a>
+      </div>
+    </div>
+    <div class="starfish"></div>
+  </div>
+  {% endif %}
+</header>
