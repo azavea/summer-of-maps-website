@@ -1,0 +1,57 @@
+::selection {
+  background-color: rgba($primary, .7);
+  color: $off-white;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+html { 
+  font-size: 62.5%; 
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+}
+
+body {
+  font-size: 16px; 
+  font-size: 1.6rem;
+  color: $base;
+  background-color: #fff;
+  background-image: url(/assets/images/topography-light-alt.svg);
+  background-size: 25rem;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 400;
+  color: $primary;
+  word-wrap: break-word;
+
+  &:hover {
+    color: darken($primary, 10%);
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  &:disabled, &.disabled, &[disabled] {
+    opacity: .5;
+    cursor: not-allowed;
+
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid #ddd;
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+}

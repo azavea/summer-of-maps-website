@@ -1,0 +1,19 @@
+<header class="hero" id="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">
+        <span class="hero-mini-title">
+          {% if page.is_project or page.is_shortlist %}
+          <a href="{{ site.baseurl }}/projects/">&#10094; Projects page</a>
+          {% else %}
+          
+          {% endif %}
+        </span>
+        {{ page.title }}
+      </h1>
+      {% if site.fellowship_in_session %}
+        <a href="#" class="btn btn-primary">Apply</a>
+      {% endif %}
+    </div>
+  </div>
+</header>

@@ -1,0 +1,59 @@
+<section class="join-us">
+  <div class="container">
+    <div class="inner-content">
+      <div class="content-header">
+        <span class="content-subtitle">
+          {% if site.fellowship.in_session %}
+          Join us
+          {% else %}
+          Until next time
+          {% endif %}
+        </span>
+        <h2 class="content-title">
+          {{ site.fellowship.timeframe }}
+          {% if site.fellowship.in_session != true %}
+          session is closed
+          {% endif %}
+        </h2>
+      </div>
+      <p class="content-blurb">
+        {% if site.fellowship.in_session %}
+        Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are open.
+        {% else %}
+        Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed. Sign up for notifications about future opportunities.
+        {% endif %}
+      </p>
+    </div>
+    <div class="row align-center">
+      <div class="column-10">
+        {% if site.fellowship.in_session %}
+        <div class="call-to-action">
+          <div class="c2a-image"></div>
+          <div class="c2a-message">
+            {% if site.fellowship.stage.nonprofit_signup %}
+              <h2>Nonprofit applications are now open.</h2>
+              <a href="{{ site.nonprofit_app_link }}" class="btn btn-ghost-primary">Apply now</a>
+            {% elsif site.fellowship.stage.nonprofit_review %}
+              <h2>Nonprofit applications have closed.</h2>
+              <h3>Check back soon for student signups</h3>
+            {% elsif site.fellowship.stage.student_signup %}
+              <h2>Student applications are now open.</h2>
+              <a href="{{ site.student_app_link }}" class="btn btn-ghost-primary">Apply now</a>
+            {% elsif site.fellowship.stage.student_review %}
+              <h2>Thank you!</h2>
+              <h3>Applications are now closed and the fellowship will begin shortly.</h3>
+            {% elsif site.fellowship.stage.fellowship_ongoing %}
+              <h2>Congratulations {{ site.fellowship.timeframe }} fellows</h2>
+              <h3>The Summer of Maps fellows are hard at work on exciting, new projects.</h3>
+            {% endif %}
+          </div>
+        </div>
+        {% else %}
+        <div class="call-to-action form-signup">
+          {% include job-form.html %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</section>

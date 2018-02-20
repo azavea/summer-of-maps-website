@@ -1,0 +1,30 @@
+---
+layout: secondary
+permalink: "/projects/"
+title: "Projects"
+seo_description: ""
+page_class: projects
+partials_location: "_includes/_projects/"
+js_dependencies:
+  - "projects.js"
+
+# hero section
+hero:
+  above-title: "Projects"
+  title: "Open source focus"
+  subtitle: "Azavea Open Source Fellows contribute to cutting-edge high impact geospatial projects."
+# hero section
+
+# page intro section
+intro:
+  above-title: "Proposed Projects"
+  title: "2018 Project Shortlist"
+  blurb: "Fellows select the projects they would like to work on as part of the application process. Click on a project to learn more about the project details and goals."
+# page intro section
+---
+<!-- Filter the shortlist by the current year -->
+{% assign shortlist = site.project-shortlist | where:'year', site.fellowship.year %}
+
+<!-- Project page content -->
+{% include_relative {{ page.partials_location }}project.html %}
+<!-- Project page content -->

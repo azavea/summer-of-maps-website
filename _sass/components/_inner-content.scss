@@ -1,0 +1,7 @@
+.inner-content {
+  width: 60%;
+
+  @media (max-width: 900px) {
+    width: initial;
+  }
+}

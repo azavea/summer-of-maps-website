@@ -255,7 +255,6 @@ DEPENDENCIES
   github-pages
   hawkins
   html-proofer
-  minima
 
 BUNDLED WITH
    1.16.1

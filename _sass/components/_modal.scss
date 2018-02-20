@@ -1,0 +1,19 @@
+.jquery-modal {
+  z-index: 100;
+}
+
+// Jquery modal's backdrop
+.blocker {
+  background-color: rgba(darken(#0E4266, 10%), .8);
+}
+
+.modal {
+  background: #0E4266;
+  border-radius: 0;
+  color: $white;
+  max-width: 80rem;
+  box-shadow: none;
+
+  a.close-modal {
+  }
+}

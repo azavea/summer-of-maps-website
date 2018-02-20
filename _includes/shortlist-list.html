@@ -1,0 +1,47 @@
+{% comment %} Assign shortlist variables {% endcomment %}
+{% assign categories = shortlist | map: 'category' | uniq %} 
+{% if shortlist.size == 0 %}
+<div class="project-list empty" id="project-list">
+  <div class="empty-message">This year's shortlist hasn't been announced yet. Check back soon.</div>
+  <a class="btn btn-ghost-primary" href="/project/shortlist/{{ site.fellowship.year - 1}}">See last year's project shortlist</a>
+</div>
+{% else %}
+<div class="project-list" id="project-list">
+  <div class="project-filters">
+    <h4>Categories</h4>
+    {% comment %} List each unique category {% endcomment %}
+    <ul class="filters">
+      <li>
+        <a href="#" id="" class="active reset-filters">All</a>
+      </li>
+      {% for category in categories %}
+        <li>
+          <a href="#" id="{{ category | slugify }}">{{ category }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% for project in shortlist %}
+
+    {% comment %} Stores project tags in array {% endcomment %}
+    {% assign category = project.category%} 
+    <div class="project" 
+         data-tag="{{- category | slugify -}}">
+      <div class="project-details">
+        <div class="project-category">
+          {{ project.category }}
+        </div>
+        <div class="project-title">
+          <a href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
+        </div>
+        <div class="project-excerpt">
+          {{ project.excerpt }}
+        </div>
+      </div>
+      <div class="project-action">
+        <a class="btn btn-ghost-secondary" href="{{ site.url }}{{ project.url }}">Read more</a>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,19 @@
+---
+layout: shortlist
+permalink: "/projects/shortlist/2017"
+title: "2017 Project Shortlists"
+seo_description: ""
+page_class: projects
+partials_location: "_includes/_shortlist/"
+js_dependencies:
+  - "projects.js"
+
+# hero section
+hero:
+  above-title: "<a href='/projects/'>&#10094; Projects</a>"
+  title: "2017 Project shortlists"
+  subtitle: "Azavea Summer of Maps 2017 project shortlist"
+# hero section
+---
+{% assign shortlist = site.project-shortlist | where:'year', '2017' %}
+{% include shortlist-list.html %}
