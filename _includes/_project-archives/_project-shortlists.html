@@ -1,0 +1,22 @@
+<div class="section-spacer"></div>
+<div class="content-header">
+  <h2 class="content-title">
+    All project shortlists
+  </h2>
+</div>
+
+{% comment %} Group shortlists by year. {% endcomment %}
+{% assign shortlistYears = site.project-shortlist | group_by: 'year' | reverse %}
+{% comment %} 
+  The above returns:
+  {"name"=>"::year", "items"=>[#,..#], "size"=>n}
+{% endcomment %}
+
+{% comment %} Loop through the project groups {% endcomment %}
+<div class="paginator">
+{% for group in shortlistYears %}
+  <a class="pagination" href="/projects/shortlist/{{group.name}}">
+    {{group.name}} project shortlist
+  </a>
+{% endfor %}
+</div>
