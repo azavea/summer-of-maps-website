@@ -53,7 +53,7 @@ use-post-hero: true
 
         <!-- Articles and press -->
         <div class="attribute-section">
-          <strong>Articles and press</strong>
+          <strong class="attribute-section-title">Articles and press</strong>
           {% if page.articles %}
           <ul>
             {% for article in page.articles %}
@@ -74,7 +74,7 @@ use-post-hero: true
 
         <!-- Blogs -->
         <div class="attribute-section">
-          <strong>Blogs</strong>
+          <strong class="attribute-section-title">Blogs</strong>
           {% if page.blogs %}
           <ul>
             {% for blog in page.blogs %}
@@ -96,6 +96,7 @@ use-post-hero: true
         <!-- Images -->
         {% if page.images %}
         <div class="attribute-section">
+          <strong class="attribute-section-title">Project images</strong>
           <div class="post-images">
             {% for image in page.images %}
             <a class="post-image" href="/assets/images/projects/{{page.year}}/{{image}}">

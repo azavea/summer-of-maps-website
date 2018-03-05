@@ -1,15 +1,24 @@
-<div class="inner-content">
-  <div class="content-header">
-    <span class="content-mini-title">
-      From past fellows
-    </span>
-    <h2 class="content-title">
-      Completed projects
-    </h2>
-  </div>
+<div class="content-header">
+  <h2 class="content-title">
+    All projects
+  </h2>
 </div>
+
+{% comment %} Group projects by year. {% endcomment %}
+{% assign projects_grouped = site.projects | group_by: 'year' | reverse %}
+{% comment %} 
+  The above returns:
+  {"name"=>"::year", "items"=>[#,..#], "size"=>n}
+{% endcomment %}
+
+{% comment %} Loop through the project groups {% endcomment %}
+{% for group in projects_grouped %}
+<h3>{{group.name}} projects</h3>
+{% comment %} Create the projects within the groups sorted by date {% endcomment %}
+{% assign projects = group.items | sort: 'date' %}
+{% comment %} Loop through the items {% endcomment %}
 <div class="project-grid">
-  {% for item in site.projects limit:2 %}
+{% for item in projects  %}
     {% assign author = site.data.fellows[item.fellow] %}
     <div class="project-card">
       <a class="project-card-link" href="{{ item.url }}">Go to project</a>
@@ -25,15 +34,6 @@
         <div class="project-card-title">{{ item.title }}</div>
       </div>
     </div>
-  {% endfor %}
-  <div class="project-card placeholder">
-    <a class="project-card-link" href="/projects/all">Go to all projects page</a>
-    <div class="project-card-details">
-      <div class="arrow">
-        <img src="/assets/icons/icon-arrow-right.svg" alt="{{ author.name }}">
-      </div>
-      <div class="project-card-title">All projects &amp; project shortlists</div>
-    </div>
-  </div>
+{% endfor %}
 </div>
-
+{% endfor %}

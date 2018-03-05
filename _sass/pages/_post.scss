@@ -17,6 +17,13 @@
 .post-image {
   flex-basis: 30%;
   margin: 1%;
+
+  img {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 2px;
+    border-radius: 4px;
+  }
 }
 
 .post-container {
@@ -41,7 +48,6 @@
     }
 
     li {
-      margin: 0;
 
       &:before {
         top: 0;
@@ -53,6 +59,11 @@
     margin-top: 1rem;
     margin-bottom: 2rem;
     font-size: 1.4rem;
+  }
+
+  .attribute-section-title {
+    display: block;
+    margin-bottom: 1rem;
   }
 
   @media (max-width: 800px) {
