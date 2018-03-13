@@ -8,75 +8,79 @@ use-intro-imagery: false
 
 # hero section
 hero:
-  above-title: "Guide for"
-  title: "Prospective nonprofits"
-  subtitle: ""
+  above-title: "Resources for"
+  title: "Nonprofits"
+  subtitle: "Explore the sections below to learn about details relevant to nonprofit organizations applying for or participating in the Azavea Summer of Maps program."
 # hero section
 
 # This page uses Kramdown for content
 # refer to https://kramdown.gettalong.org/syntax.html for syntax
 ---
+### Applying for the program
+We distribute Geospatial Data Analysis Services Grants to several nonprofit organizations each year. Nonprofits submit a specific project proposal as part of their grant application.
 
-## About Summer of Maps
-Summer of Maps is a 12-week program that provides competitive fellowships to students and matches them with challenging spatial analysis projects with nonprofit organizations. We are a B Corporation, a social enterprise that applies the power of business to effect change. Our mission is to apply geospatial technology for positive social and civic impact as well as to advance the state-of-the-art through research. While we are primarily a software engineering and data analytics firm, we give back to the communities we serve in many ways, including contributions to open data and open source projects, donating a portion of our profits, hackathon participation, and pro bono work.
+The application period for nonprofits typically begins in December and lasts approximately eight weeks. Organizations are limited to two project submissions. Nonprofits may submit two projects, but they should do so as separate applications rather than trying to combine them into a single application.
 
-We are convinced that much of the potential of geospatial technology is not being realized, particularly in the nonprofit sector. Summer of Maps is a program we launched in 2012 to address this. The program offers stipends to student spatial data analysts to apply their skills on projects for nonprofit organizations. Each year we match talented students of GIS with nonprofit organizations that have high quality geospatial data sets and interesting spatial analysis questions. The students work with our Summer of Maps team to implement the projects over a three-month period during the summer.
+The Azavea Data Analytics Team will review all Nonprofit Applications and select a shortlist of proposed projects. This project shortlist is made public on the Azavea Summer of Maps website and students will select the projects they would like to work on as part of the Fellow Application process.
 
-The program has several objectives:
-- Provide a **high quality first professional experience** for students with advanced geospatial analysis skills in order to prepare them to become the next generation of GIS professionals.
-- Develop **useful geospatial analysis deliverables** that can be used to improve the operations of nonprofit organizations that would otherwise not be able to do so.
-- Demonstrate the potential for use of geospatial data science to **improve the impact and operations** in the nonprofit sector.
-- **Grow the nonprofit GIS marketplace** by encouraging sophisticated projects and delivering significant and useful results.
+Notes:
+- Text from the project proposal included in Nonprofit Applications will be made public (with contact information removed). Please do not include proprietary or confidential information in the project description.
+- Students will select the projects they are interested in working on from the Project Shortlist, so it’s important to consider how students will engage with the submitted project.
 
-Fellows are provided a stipend and one-on-one mentoring by staff on Azavea’s Summer of Maps team during their 12-week fellowship while the nonprofit organizations receive sophisticated analysis and visualization of their data. Each fellow works with two nonprofit organizations as part of the Summer of Maps team in Azavea’s Philadelphia office
+### Defining your proposed project
 
-### Applying to the program
-The application period for nonprofits begins in December and lasts approximately eight weeks. We invite nonprofit organizations with spatial analysis and geographic visualization needs to submit their project ideas.
+Successful Nonprofit Applications include the follow aspects in their project proposals:
 
-At this stage, we are looking for nonprofit organizations with spatial analysis and geographic visualization needs to submit their project ideas. Some examples of potential projects include: 
+- A primary focus on geographic data analysis rather than on a developing software or webmapping applications
+- A connection between the proposed analysis project and your organization’s mission
+- An idea of types of analyses to be performed
+- A list of deliverables that a Fellow can use to measure their progress
+- Data provided in usable formats (Fellows do not perform large scale data collection or digitization as part of this program).
+- A project that necessitates outside resources - in other words, if the organization already has a lot of GIS analysis capacity and are looking to supplement their own work, the proposal is much less likely to be successful
+
+In general, more sophisticated projects are more attractive to Fellows, so if the nonprofit just needs to put some dots on a map, this may not be the right program. We’re looking for analysis or visualizations projects that pose tough, challenging, or intriguing questions and will require innovative ideas and problem solving.
+
+### Example project proposals
+Some examples of potential projects include:
+
+- **Arts & Culture** – analyze geographic location of ticket sales and donations to both identify existing clusters and untapped markets
+- **Community & Economic Development** – analyze housing needs to determine the best site for a new low income housing development
+- **Elections & Civil Rights** – identify the sources of campaign contributions and measure the influence they have on the national political landscape
 - **Environment, Sustainability and Ecosystems** - analyze the urban tree canopy and existing development to make a recommendation for future preservation
 - **Public Safety** - analyze the impact of neighborhood indicators or other environmental factors on crime risk
 - **Public Health & Food** - develop three potential sites for a new soup kitchen and perform a market analysis to determine how each will affect existing sites
 - **Community & Economic Development** - analyze housing needs to determine the best site for a new low income housing development
 - **Transportation** - identify the next 10 streets for the addition of bike lanes by scoring all street segments based on a variety of geographic criteria
 
-Organizations are limited to two project submissions. Nonprofits may submit two projects, but they should do so as separate applications rather than trying to combine them into a single application. Azavea will review the projects then shortlist about 12-18 before making them available to students. Because parts of the proposal will be made public (with contact information removed), no proprietary or confidential information should be submitted. Students will select the projects they are interested in working on from the finalists so it’s important to consider how students will engage with the submitted project.
+View previous Project Shortlists or Completed Projects on the [Projects page](/projects/) to learn more about the types of projects that are accepted as part of the Azavea Summer of Maps program.
 
-### What defines a successful project application?
-- A primary focus on geographic data analysis rather than on a software or webmapping application
-- A clear idea of what type of analysis to be performed
-- A clear set of deliverables by which the student can measure their progress
-- All appropriate data sets that incorporate geographic information the organization plans to provide (addresses, census tracts, zip codes, etc.) should be in hand by May 15 - projects that will require a lot of data gathering by students are unlikely to be successful
-- A clear connection between the proposed analysis project and the organization’s mission
-- Not a project that could be completed with in-house resources - in other words, if the organization already has a lot of GIS analysis capacity and are just looking for some free labor for the summer, the proposal is much less likely to be successful
-- Not include manual data digitization, software building or other work beyond the scope of the program.
+### Program eligibility
+The Azavea Summer of Maps program is limited to registered nonprofit organizations with 501(c)3 designation in the United States. We invite international organizations to apply if they have a registered U.S. affiliate that will be the primary contact for the work.
 
-More sophisticated projects are likely to be more attractive to Azavea and to students, so if the nonprofit just needs to put some dots on a map, this may not be the right program. We’re looking for analysis or visualizations projects that pose tough, challenging or intriguing questions and will require innovative ideas and thinking to solve.
+Nonprofit organizations are limited to two project submissions and only one Geospatial Data Analysis Services Grant is awarded per organization.
 
-### Eligibility
-The program is limited to registered nonprofit organizations with 501(c)3 designation in the United States. We invite international organizations to apply if they have a registered U.S. affiliate that will be the primary contact for the work.
+### Grant recipient commitments
 
-### General expectations and commitments 
-Azavea strives to make the Summer of Maps a rewarding program for the fellows and nonprofits. In order to do so, we expect that the nonprofit will be engaged with the work and fellow throughout the course of the summer. 
+#### General requirements
+Azavea strives to make the Summer of Maps program a rewarding experience for the Fellows and Nonprofits. Nonprofit organizations that are awarded a Azavea Summer of Maps Geospatial Data Analysis Services Grant are required to commit to the following agreements in order to participate in the program:
 
-We expect the selected nonprofit to commit to:
-- A primary and secondary single point of contact for the fellow to coordinate with. This point of contact will make themselves available for status calls, presentations, questions and clarifications about the project and data.
-- Delivering all necessary project data by the delivery due date of May 15th.
-- Attending a kick-off meeting the first week of the program and at least bi-weekly status calls with the fellow
-- Provide timely feedback for deliverables when requested by the fellow
-- Attend a final presentation where the fellow presents the work they have accomplished over the summer
+- Provide a primary and secondary point of contact for the full project term. This point of contact will make themselves available for status calls, presentations, questions, and clarifications about the project and data.
+- Deliver all necessary project data by May 15th.
+- Participate in a kick-off meeting the first week of the program and at least bi-weekly status calls with the fellow.
+- Provide timely feedback for deliverables when requested by the fellow.
+- Attend a final presentation where the fellow presents the work they have accomplished over the summer.
 
-### Timeline
-Applications for nonprofits open in December and remain open for two months. After the submission due date has passed, the Summer of Maps team will review applications and select about 12-18 projects rigorous enough to pass on to the student application. The nonprofits with selected projects will be contacted by the Program Coordinator in February before the student application period has opened. The Program Coordinator will summarize the finalist projects and create a public document listing the details of each project that the student applicants will use to select their projects
+We invite nonprofit project contacts to visit our office in Philadelphia, PA for any meeting, but this is not expected or required. Fellows are provided with resources to participate in remote video or conference calls. If a nonprofit project contact outside the Philadelphia region would like to visit the Azavea office, the kick-off meeting in June or the final presentations/reception in August may be preferred times. On a case-by-case basis, Fellows may be provided with travel to visit a nonprofit office to present the final deliverables in person.
 
-Student applications open in late February and each applicant can select three projects from our selected list to work on. Once the final students are selected, sometime in April, the nonprofit projects they selected to work on will be chosen as the selected organizations. Organizations will be notified by the Program Coordinator in April if they have been selected. In May, nonprofits will be contacted and asked to deliver their project data in advance of the beginning of the program. Nonprofits will also be contacted to set up kick-off meetings and be introduced to the fellow that will be working on the project. The fellowship will kick off in early June, with kickoff meetings with the Summer of Maps team and the fellows, as well as a welcome happy hour located in Philadelphia. The fellowship concludes in mid-to-late August with a presentation held at the nonprofit’s office (or remotely via webinar if not feasible) and a closing reception at the Azavea office. Nonprofits are sent a survey post-fellowship in September and coordinate with Azavea’s marketing staff around press information.
-
-### Data delivery
-Azavea asks that selected nonprofits deliver project datasets ahead of time. The Summer of Maps Program Coordinator will notify the nonprofits they have been selected and provide an FTP server or Dropbox to deliver data to. Data delivered should, at the very least, be all the pertinent nonprofit organizational data specified as “data on-hand” in the application.
-
-### Communication
+#### Communication
 Selected nonprofits must name one main point of contact and a secondary point of contact. We expect
 that this main point of contact will be well-versed in the details of the project and be able to answer
 emails and phone calls from the fellow should any questions arise. Communication will mainly take place
 via email with at least bi-weekly status calls with the fellow, though weekly status calls are recommended
-at the beginning of the project. 
+at the beginning of the project.
+
+#### Data delivery
+
+All appropriate data sets that are required to complete the project must be delivered to Azavea by May 15th. The Summer of Maps Program Coordinator will notify the nonprofits they have been selected and provide an FTP server or Dropbox for data delivery.
+
+Data delivered should, at the very least, include all the pertinent nonprofit organizational data specified in the grant application. Fellows have access to open data repositories and may collect some data at the start of the project, but the grant recipient should outline the location of necessary data sets to the best of their ability.
