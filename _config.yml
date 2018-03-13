@@ -21,8 +21,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Fellowship settings
-# What is the current year for the fellowship
-# What is the current session timeframe ie: Summer 2018
+# What is the current year for the fellowship?
+# What is the current session timeframe? (ie: Summer 2018)
 # Is the fellowship in progress?
 # What is the stage of the current fellowship?
 # Only assign true to the current stage
@@ -30,11 +30,11 @@ fellowship:
   year: 2018
   timeframe: Summer 2018
   in_session: true
-  stage: 
+  stage:
     nonprofit_signup: false
     nonprofit_review: false
-    student_signup: true
-    student_review: false
+    student_signup: false
+    student_review: true
     fellowship_ongoing: false
 
 # Signup application link settings
