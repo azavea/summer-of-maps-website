@@ -10,6 +10,13 @@
   </div>
   <!-- Author/fellow -->
 
+  <!-- Client -->
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Client</strong>
+    {{page.client}}
+  </div>
+  <!-- Client -->
+
   <!-- Articles and press -->
   {% if page.articles %}
   <div class="attribute-section">
@@ -71,8 +78,6 @@
 {% endcomment %}
 {% if page.is_shortlist %}
 <div class="post-attributes">
-
-  <!-- Blogs -->
   <div class="attribute-section">
     <strong class="attribute-section-title">Organization</strong>
     <a href="{{page.client_website}}">{{page.client_website}}</a>
@@ -85,6 +90,5 @@
     <strong class="attribute-section-title">Category</strong>
     {{page.category}}
   </div>
-  <!-- Blogs -->
 </div>
 {% endif %}
