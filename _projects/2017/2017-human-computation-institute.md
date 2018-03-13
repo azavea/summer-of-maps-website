@@ -2,8 +2,8 @@
 published: true # change to true once ready to post
 year: "2017"
 
-title: "Human Computation Institute" # project title inside quotes
-client: "Human Computation Institute"
+title: "Human Computation Institute" # Displays on the project post page
+client: "Human Computation Institute" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

@@ -1,0 +1,23 @@
+.shortlist-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  a {
+    display: block;
+    font-size: 1.8rem;
+    margin: 5px 0;
+    flex-basis: 48%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #d0d9e2;
+    background: $white;
+    transition: .2s ease-in-out background;
+
+    &:hover {
+      background: $off-white;
+      text-decoration: none;
+    }
+  }
+}

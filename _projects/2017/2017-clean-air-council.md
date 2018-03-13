@@ -2,8 +2,8 @@
 published: true # change to true once ready to post
 year: "2017"
 
-title: "Clean Air Council" # project title inside quotes
-client: "Clean Air Council"
+title: "Clean Air Council" # Displays on the project post page
+client: "Clean Air Council" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

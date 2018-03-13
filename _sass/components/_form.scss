@@ -12,7 +12,8 @@
 }
 
 input,
-select {
+select,
+textarea {
   -webkit-appearance: none;
   -moz-appearance: none;
   margin: 0;
@@ -29,6 +30,11 @@ select {
   box-shadow: none;
   font-size: 1.6rem;
   font-weight: 400;
+
+  &:focus,
+  &:active {
+    box-shadow: $focus-state;
+  }
 }
 
 select {
@@ -36,6 +42,10 @@ select {
   background-size: 12px;
   background-repeat: no-repeat;
   background-position: right 7px center;
+}
+
+textarea {
+  min-height: 5rem;
 }
 
 form {
@@ -50,12 +60,13 @@ form {
 label {
   display: block;
   flex: 1;
-  color: $white;
   margin-bottom: 5px;
   font-weight: 400;
   font-size: 1.4rem;
 
-  input {
+  input,
+  select,
+  textarea {
     margin-top: .5rem;
   }
 }
@@ -75,6 +86,7 @@ label {
     background: none;
     padding: 0;
     z-index: 10;
+    margin: 0;
     
     &:checked + span {
       background: $primary;
@@ -86,6 +98,10 @@ label {
 
     &:focus + span {
       box-shadow: 0 0 0 2px rgba($white, .5);
+    }
+
+    &:hover + span {
+      border-color: $primary;
     }
   }
 
@@ -101,7 +117,7 @@ label {
     border: none;
     color: $base;
     border-radius: 2px;
-    transition: .2s ease-in-out background;
+    transition: .2s ease-in-out all;
 
     &:after {
       content: '✕';
@@ -109,6 +125,69 @@ label {
       position: absolute;
       left: 3px;
       top: 0px;
+      transform: scale(0);
+      transition: .2s ease-in-out transform;
+    }
+  }
+}
+
+.radio {
+  position: relative;
+  padding-left: 2.5rem;
+
+  input[type="radio"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    padding: 0;
+    z-index: 10;
+    margin: 0;
+    
+    &:checked + span {
+      background: $primary;
+    }
+
+    &:checked + span:after {
+      transform: scale(1);
+    }
+
+    &:focus + span {
+      box-shadow: 0 0 0 2px rgba($white, .5);
+    }
+
+    &:hover + span {
+      border-color: $primary;
+    }
+  }
+
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: block;
+    width: 1.7rem;
+    height: 1.7rem;
+    background: $white;
+    border: 1px solid rgba($black, .1);
+    color: $base;
+    border-radius: 2rem;
+    transition: .2s ease-in-out all;
+
+    &:after {
+      content: '';
+      background-color: $white;
+      position: absolute;
+      left: 4px;
+      top: 4px;
+      width: 7px;
+      height: 7px;
+      border-radius: 1rem;
       transform: scale(0);
       transition: .2s ease-in-out transform;
     }
@@ -135,20 +214,95 @@ label {
   }
 }
 
-/* 
- * Mailchimp overrides
- */
-form {
+.form {
 
-  input.mce_inline_error {
-    border-color: $red;
-    box-shadow: inset 0 0 0 1px $red, 0 0 0 3px rgba($red, .4);
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
-  div.mce_inline_error {
-    background-color: $red;
-    font-size: 1.3rem;
-    font-weight: 400;
-    border-radius: 2px;
+  .form-group {
+    flex-basis: 48%;
+
+    @media (max-width: 900px) {
+      flex-basis: 100%;
+      width: 100%;
+    }
+
+    &.full-width {
+      flex-basis: 100%;
+      width: 100%;
+    }
+  }
+
+  .check-list,
+  .radio-list {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    > label {
+      flex: none;
+      width: 100%;
+    }
+
+    .checkbox,
+    .radio {
+      display: flex;
+      flex: 1;
+      align-items: center;
+    }
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    border: 1px solid rgba($black, .1);
+
+    &:hover,
+    &:focus {
+      border-color: $primary;
+    }
+  }
+
+  input[type="submit"],
+  button[type="submit"] {
+    color: $primary;
+  }
+}
+
+.form.dark {
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    color: $white;
+    background-color: rgba($black, .4);
+  }
+
+  label {
+    color: $white;
+  }
+}
+
+.form-action {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+
+.form-blurb {
+  max-width: 60%;
+
+  @media (max-width: 900px) {
+    max-width: 100%;
   }
 }

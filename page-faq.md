@@ -1,10 +1,13 @@
 ---
 layout: secondary
 permalink: "/faq/"
-title: "FAQ"
-seo_description: ""
 page_class: ""
 
+# NO EDITING ABOVE THIS LINE
+# # # # # #
+
+title: "FAQ"
+seo_description: ""
 
 # hero section
 hero:

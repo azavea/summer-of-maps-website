@@ -1,10 +1,14 @@
 ---
 layout: secondary
 permalink: "/nonprofit-guide/"
-title: "Prospective nonprofit resource guide"
-seo_description: ""
 page_class: guide
 use-intro-imagery: false
+
+# NO EDITING ABOVE THIS LINE
+# # # # # #
+
+title: "Prospective nonprofit resource guide"
+seo_description: ""
 
 # hero section
 hero:

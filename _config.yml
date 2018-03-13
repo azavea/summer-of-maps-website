@@ -1,24 +1,10 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# SEO Title and description
+# SoM email address
 title: Azavea Summer of Maps
-email: summerofmaps@azavea.com
+email: summerofmaps@azavea.com # currently unused
 description: >- # this means to ignore newlines until "baseurl:"
   Summer of Maps - Paid summer fellowships for student GIS analysts to perform pro bono work for non-profits
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Fellowship settings
 # What is the current year for the fellowship
@@ -33,16 +19,23 @@ fellowship:
   stage: 
     nonprofit_signup: false
     nonprofit_review: false
-    student_signup: true
-    student_review: false
+    student_signup: false
+    student_review: true
     fellowship_ongoing: false
 
-# Signup application link settings
+# Student and Non-profit application links
 # Define where the applications live
 nonprofit_app_link: "https://azavea.forms.fm/2018-summer-of-maps-geospatial-analysis-services-grant-application"
 student_app_link: "https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAAADK0knd5cWXHZ"
 
+####
+## DON'T EDIT BEYOND THIS LINE
+####
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
 # Estabish project collections
+# Estabish project shortlist collections
 collections:
   projects:
     output: true

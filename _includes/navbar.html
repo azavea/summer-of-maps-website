@@ -31,18 +31,13 @@
           {% endif %}>
           Contact
         </a>
-        <div class="navbar-button-group">
-          {% if site.fellowship.in_session %}
-            {% if site.fellowship.stage.nonprofit_signup %}
-            <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
-            {% elsif site.fellowship.stage.student_signup %}
-            <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
-            {% endif %}
+        {% if site.fellowship.in_session %}
+          {% if site.fellowship.stage.nonprofit_signup %}
+          <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
+          {% elsif site.fellowship.stage.student_signup %}
+          <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
           {% endif %}
-          <a href="#job-alert-modal" class="btn btn-default form-modal-open" rel="modal:open">
-            Newsletter
-          </a>
-        </div>
+        {% endif %}
       </nav>
     </div>
   </div>

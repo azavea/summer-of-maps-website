@@ -1,5 +1,5 @@
 <header class="hero" id="hero">
-  {% if page.is_404 != true %}
+  {% if page.no_hero != true %}
   <div class="container">
     <div class="hero-content">
       <h1 class="hero-title">
@@ -18,13 +18,12 @@
           {% endif %}
         {% else %}
           <a href="#job-alert-modal" class="btn btn-ghost-secondary form-modal-open" rel="modal:open">
-            Sign up for alerts
+            Get involved
           </a>
         {% endif %}
         <a href="/about" class="btn btn-secondary">Learn more</a>
       </div>
     </div>
-    <div class="starfish"></div>
   </div>
   {% endif %}
 </header>

@@ -4,23 +4,42 @@
       <div class="content-header">
         <span class="content-subtitle">
           {% if site.fellowship.in_session %}
-          Join us
+            {% if site.fellowship.stage.fellowship_ongoing %}
+              Thank you
+            {% else %}
+              Join us
+            {% endif %}
           {% else %}
           Until next time
           {% endif %}
         </span>
         <h2 class="content-title">
-          {{ site.fellowship.timeframe }}
-          {% if site.fellowship.in_session != true %}
-          session is closed
+          {% if site.fellowship.in_session %}
+            {% if site.fellowship.stage.fellowship_ongoing %}
+              The current session is underway
+            {% else %}
+              {{ site.fellowship.timeframe }}
+            {% endif %}
+          {% else %}
+            {{ site.fellowship.timeframe }} session is closed
           {% endif %}
         </h2>
       </div>
       <p class="content-blurb">
         {% if site.fellowship.in_session %}
-        Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are open.
+          {% if site.fellowship.stage.nonprofit_signup %}
+            Non-profit applications for {{ site.fellowship.timeframe }} are open.
+          {% elsif site.fellowship.stage.nonprofit_review %}
+            Student applications for {{ site.fellowship.timeframe }} will be opening soon.
+          {% elsif site.fellowship.stage.student_signup %}
+            Student applications for {{ site.fellowship.timeframe }} are open.
+          {% elsif site.fellowship.stage.student_review %}
+            Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed. Students will be announced soon.
+          {% elsif site.fellowship.stage.fellowship_ongoing %}
+            <a href="/contact/">Sign up</a> for notifications about future opportunities and dont' forget to check out the <a href="/projects">projects</a> page for upcoming projects from our students.
+          {% endif %}
         {% else %}
-        Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed. Sign up for notifications about future opportunities.
+          The {{ site.fellowship.timeframe }} session has finished. <a href="/contact/">Sign up</a> for notifications about future opportunities.
         {% endif %}
       </p>
     </div>
@@ -49,8 +68,12 @@
           </div>
         </div>
         {% else %}
-        <div class="call-to-action form-signup">
-          {% include job-form.html %}
+        <div class="call-to-action">
+          <div class="c2a-image"></div>
+          <div class="c2a-message">
+            <h2>Summer of maps is not in session currently.</h2>
+            <a href="/contact/" class="btn btn-ghost-primary">Contact us now</a>
+          </div>
         </div>
         {% endif %}
       </div>

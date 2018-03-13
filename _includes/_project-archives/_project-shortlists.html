@@ -13,9 +13,9 @@
 {% endcomment %}
 
 {% comment %} Loop through the project groups {% endcomment %}
-<div class="paginator">
+<div class="shortlist-links">
 {% for group in shortlistYears %}
-  <a class="pagination" href="/projects/shortlist/{{group.name}}">
+  <a href="/projects/shortlist/{{group.name}}">
     {{group.name}} project shortlist
   </a>
 {% endfor %}

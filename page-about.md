@@ -1,10 +1,14 @@
 ---
 layout: secondary
 permalink: "/about/"
-title: "About the program"
-seo_description: ""
 page_class: about
 use-intro-imagery: true
+
+# NO EDITING ABOVE THIS LINE
+# # # # # #
+
+title: "About the program"
+seo_description: ""
 
 # hero section
 hero:

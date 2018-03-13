@@ -25,6 +25,7 @@
   nav {
     display: inline-block;
     vertical-align: middle;
+    align-items: center;
 
     a:not(.btn) {
       font-size: 1.6rem;
@@ -105,7 +106,6 @@
 }
 
 .navbar-right {
-  margin-top: -1rem;
 
   @include respond-to('sm-down') {
     justify-content: flex-end;

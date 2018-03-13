@@ -2,8 +2,8 @@
 published: true # change to true once ready to post
 year: "2016"
 
-title: "Bicycle Coalition of Greater Philadelphia" # project title inside quotes
-client: "Bicycle Coalition of Greater Philadelphia" # shows on project list page
+title: "Bicycle Coalition of Greater Philadelphia" # Displays on the project post page
+client: "Bicycle Coalition of Greater Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

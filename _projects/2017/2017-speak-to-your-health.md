@@ -2,8 +2,8 @@
 published: true # change to true once ready to post
 year: "2017"
 
-title: "Speak to Your Health" # project title inside quotes
-client: "Speak to Your Health" # shows on project list page
+title: "Speak to Your Health" # Displays on the project post page
+client: "Speak to Your Health" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
