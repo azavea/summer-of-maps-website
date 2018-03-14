@@ -28,15 +28,15 @@
       <p class="content-blurb">
         {% if site.fellowship.in_session %}
           {% if site.fellowship.stage.nonprofit_signup %}
-            Non-profit applications for {{ site.fellowship.timeframe }} are open.
+            Nonprofit applications for {{ site.fellowship.timeframe }} are open. Apply for a Geospatial Data Analysis Services Grant today!
           {% elsif site.fellowship.stage.nonprofit_review %}
-            Student applications for {{ site.fellowship.timeframe }} will be opening soon.
+            We are currently reviewing nonprofit applications. Fellowship applications for {{ site.fellowship.timeframe }} will open soon.
           {% elsif site.fellowship.stage.student_signup %}
-            Student applications for {{ site.fellowship.timeframe }} are open.
+            Fellowship applications for {{ site.fellowship.timeframe }} are open. Apply for a paid fellowship position and work on high impact nonprofit projects!
           {% elsif site.fellowship.stage.student_review %}
-            Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed. Students will be announced soon.
+            Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed. Fellows and nonprofit projects will be announced soon.
           {% elsif site.fellowship.stage.fellowship_ongoing %}
-            <a href="/contact/">Sign up</a> for notifications about future opportunities and dont' forget to check out the <a href="/projects">projects</a> page for upcoming projects from our students.
+            <a href="/contact/">Sign up</a> for notifications about future opportunities and don't forget to check out the <a href="/projects">projects</a> page for nonprofit projects completed by fellows.
           {% endif %}
         {% else %}
           The {{ site.fellowship.timeframe }} session has finished. <a href="/contact/">Sign up</a> for notifications about future opportunities.
@@ -50,20 +50,20 @@
           <div class="c2a-image"></div>
           <div class="c2a-message">
             {% if site.fellowship.stage.nonprofit_signup %}
-              <h2>Nonprofit applications are now open.</h2>
+              <h2>Nonprofit applications are open until {{ site.data.dates[1].date }}.</h2>
               <a href="{{ site.nonprofit_app_link }}" class="btn btn-ghost-primary">Apply now</a>
             {% elsif site.fellowship.stage.nonprofit_review %}
               <h2>Nonprofit applications have closed.</h2>
-              <h3>Check back soon for student signups</h3>
+              <h3>Check back soon for Fellowship applications.</h3>
             {% elsif site.fellowship.stage.student_signup %}
-              <h2>Student applications are now open.</h2>
+              <h2>Fellow applications are open until {{ site.data.dates[3].date }}.</h2>
               <a href="{{ site.student_app_link }}" class="btn btn-ghost-primary">Apply now</a>
             {% elsif site.fellowship.stage.student_review %}
               <h2>Thank you!</h2>
               <h3>Applications are now closed and the fellowship will begin shortly.</h3>
             {% elsif site.fellowship.stage.fellowship_ongoing %}
               <h2>Congratulations {{ site.fellowship.timeframe }} fellows</h2>
-              <h3>The Summer of Maps fellows are hard at work on exciting, new projects.</h3>
+              <h3>Summer of Maps Fellows are hard at work on challenging, high impact projects.</h3>
             {% endif %}
           </div>
         </div>
@@ -71,7 +71,7 @@
         <div class="call-to-action">
           <div class="c2a-image"></div>
           <div class="c2a-message">
-            <h2>Summer of maps is not in session currently.</h2>
+            <h2>Sign up to receive notifications when applications open.</h2>
             <a href="/contact/" class="btn btn-ghost-primary">Contact us now</a>
           </div>
         </div>
