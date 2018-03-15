@@ -1,0 +1,62 @@
+<!-- pagination -->
+<div class="paginator">
+{% if page.previous.url %}
+
+  {% comment %}
+    If the post if a shortlist, prevent pagination if the previous post if from a different year
+  {% endcomment %}
+  {% if page.previous.year == page.year and page.is_shortlist %}
+  <a class="prev pagination" href="{{page.previous.url}}">
+    <span>
+      Previous
+    </span>
+    {{page.previous.title}}
+  </a>
+
+  {% comment %}
+    If the post if a project show pagination regardless of year
+  {% endcomment %}
+  {% elsif page.previous.year and page.is_project %}
+  <a class="prev pagination" href="{{page.previous.url}}">
+    <span>
+      Previous
+      {% if page.previous.year %}
+        <em>({{page.previous.year}})</em>
+      {% endif %}
+    </span>
+    {{page.previous.title}}
+  </a>
+  {% endif %}
+{% endif %}
+
+
+{% if page.next.url %}
+  
+  {% comment %}
+    If the post if a shortlist, prevent pagination if the previous post if from a different year
+  {% endcomment %}
+  {% if page.next.year == page.year and page.is_shortlist %}
+  <a class="next pagination" href="{{page.next.url}}">
+    <span>
+      Next
+    </span>
+    {{page.next.title}}
+  </a>
+
+  {% comment %}
+    If the post if a project show pagination regardless of year
+  {% endcomment %}
+  {% elsif page.next.year and page.is_project %}
+  <a class="next pagination" href="{{page.next.url}}">
+    <span>
+      Next
+      {% if page.next.year %}
+        <em>({{page.next.year}})</em>
+      {% endif %}
+    </span>
+    {{page.next.title}}
+  </a>
+  {% endif %}
+{% endif %}
+</div>
+<!-- pagination -->

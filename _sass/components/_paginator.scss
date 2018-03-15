@@ -6,14 +6,11 @@
 
 .pagination {
   display: block;
-  padding: 1rem;
   font-size: 1.8rem;
-  border: 1px solid #d0d9e2;
-  border-radius: 4px;
   margin: 5px 0;
   flex-basis: 48%;
-  text-align: center;
-  background: white;
+  text-align: left;
+  position: relative;
   transition: .2s ease-in-out background;
 
   &:hover {
@@ -21,8 +18,32 @@
     text-decoration: none;
   }
 
+  &.prev {
+    padding-left: 3rem;
+    
+    &:before {
+      content: url(/assets/icons/icon-arrow-left.svg);
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+      opacity: .5;
+    }
+  }
+
   &.next {
     margin-left: auto;
+    text-align: right;
+    padding-right: 3rem;
+
+    &:before {
+      content: url(/assets/icons/icon-arrow-right.svg);
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      opacity: .5;
+    }
   }
 
   span {

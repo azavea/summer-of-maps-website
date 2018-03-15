@@ -1,20 +1,3 @@
-@keyframes spinstar {
-  from {
-    transform: rotate(13deg);
-    filter: blur(0px);
-  }
-  50% {
-    filter: blur(2px);
-    background-image: url('/assets/images/starfish-character.svg');
-  }
-  to {
-    transform: rotate(-380deg);
-    filter: blur(0px);
-    z-index: 99;
-    background-image: url('/assets/images/starfish-character.svg');
-  }
-}
-
 .hero {
   padding-top: 16rem;
   padding-bottom: 4rem;
@@ -22,26 +5,6 @@
   .container {
     max-width: 1190px;
     position: relative;
-  }
-
-  .starfish {
-    display: block;
-    width: 8.5rem;
-    height: 8.5rem;
-    position: absolute;
-    bottom: -90px;
-    will-change: filter, transform, background-image;
-    background-image: url('/assets/images/starfish.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    backface-visibility: hidden;
-    perspective: 1000;
-    transform: rotate(13deg);
-
-    &:hover {
-      animation: spinstar .2s .5s linear 1 forwards;
-    }
   }
 }
 

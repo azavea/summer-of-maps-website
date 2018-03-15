@@ -49,12 +49,13 @@
   "components/hero",
   "components/inner-content",
   "components/intro-imagery",
-  "components/job-form",
   "components/mentor",
   "components/modal",
   "components/paginator",
   "components/project-grid",
   "components/project-list",
+  "components/shortlist-links",
+  "components/starfish",
   "components/success-story";
 
 /* * * *
@@ -62,6 +63,8 @@
  * * * */
  @import
   "pages/404",
+  "pages/contact",
   "pages/homepage",
   "pages/post",
-  "pages/secondary";
+  "pages/secondary",
+  "pages/thanks";

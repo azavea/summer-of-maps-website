@@ -1,0 +1,37 @@
+@keyframes spinstar {
+  from {
+    transform: rotate(-13deg);
+    filter: blur(0px);
+  }
+  50% {
+    filter: blur(2px);
+  }
+  to {
+    transform: rotate(-373deg);
+    filter: blur(0px);
+    z-index: 99;
+  }
+}
+
+.starfish {
+  display: block;
+  width: 8.5rem;
+  height: 8.5rem;
+  position: absolute;
+  bottom: 30px;
+  left: -40px;
+  will-change: filter, transform, background-image;
+  background-image: url('/assets/images/starfish.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  backface-visibility: hidden;
+  transform: rotate(-13deg);
+
+  &:hover {
+    animation: spinstar .2s .5s linear 1 forwards;
+    transition: .2s ease-in background-image;
+    transition-delay: .5s;
+    background-image: url('/assets/images/starfish-character.svg');
+  }
+}

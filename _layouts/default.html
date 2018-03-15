@@ -44,8 +44,16 @@
   {{ content }}
   <!-- page content -->
 
+  {% comment %}
+  hide call to action if var hide-c2a 
+  is anything but nil
+  {% endcomment %}
+  {% if page.hide-c2a == nil %}
   {% include call-to-action.html %}
+  {% endif %}
+  {% if page.hide-footer == nil %}
   {% include footer.html %}
+  {% endif %}
   {% include form-modal.html %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>

@@ -2,8 +2,8 @@
 published: false # change to true once ready to post
 year: ""
 
-title: "" # project title inside quotes
-client: "" # shows on project list page
+title: "" # Displays on the project post page
+client: "" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

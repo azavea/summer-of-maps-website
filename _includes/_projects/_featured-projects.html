@@ -9,7 +9,7 @@
   </div>
 </div>
 <div class="project-grid">
-  {% for item in site.projects limit:2 %}
+  {% for item in site.projects limit:5 %}
     {% assign author = site.data.fellows[item.fellow] %}
     <div class="project-card">
       <a class="project-card-link" href="{{ item.url }}">Go to project</a>
@@ -22,7 +22,7 @@
           <div class="fellow-name">{{author.name}}</div>
           <div class="fellow-year">{{author.year}} fellow</div>
         </div>
-        <div class="project-card-title">{{ item.title }}</div>
+        <div class="project-card-title">{{ item.client }}</div>
       </div>
     </div>
   {% endfor %}

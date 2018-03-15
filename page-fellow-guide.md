@@ -1,10 +1,14 @@
 ---
 layout: secondary
 permalink: "/fellow-guide/"
-title: "Prospective fellow resource guide"
-seo_description: ""
 page_class: guide
 use-intro-imagery: false
+
+# NO EDITING ABOVE THIS LINE
+# # # # # #
+
+title: "Prospective fellow resource guide"
+seo_description: ""
 
 # hero section
 hero:

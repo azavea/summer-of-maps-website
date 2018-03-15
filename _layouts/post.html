@@ -12,102 +12,10 @@ use-post-hero: true
   <div class="container post-container">
     <div class="inner-content">
       {{ content }}
-
-      <!-- pagination -->
-        <div class="paginator">
-        {% if page.previous.url %}
-          <a class="prev pagination" href="{{page.previous.url}}">
-            <span>
-              Previous
-              {% if page.previous.year %}
-                <em>({{page.previous.year}})</em>
-              {% endif %}
-            </span>
-            {{page.previous.title}}
-          </a>
-        {% endif %}
-        {% if page.next.url %}
-          <a class="next pagination" href="{{page.next.url}}">
-            <span>
-              Next
-              {% if page.next.year %}
-                <em>({{page.next.year}})</em>
-              {% endif %}
-            </span>
-            {{page.next.title}}
-          </a>
-        {% endif %}
-        </div>
-        <!-- pagination -->
+      {% include paginator.html %}
     </div>
 
     <!-- Post attributes -->
-    <div class="post-attributes">
-      {% if page.is_project %}
-
-        <!-- Author/fellow -->
-        <div class="attribute-section">
-          {% include fellow.html %}
-        </div>
-        <!-- Author/fellow -->
-
-        <!-- Articles and press -->
-        <div class="attribute-section">
-          <strong class="attribute-section-title">Articles and press</strong>
-          {% if page.articles %}
-          <ul>
-            {% for article in page.articles %}
-            <li>
-              <a href="{{ article.link }}" title="{{ article.title }}">
-                {{ article.title }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          {% else %}
-          <ul>
-            <li>No articles posted, yet.</li>
-          </ul>
-          {% endif %}
-        </div>
-        <!-- Articles and press -->
-
-        <!-- Blogs -->
-        <div class="attribute-section">
-          <strong class="attribute-section-title">Blogs</strong>
-          {% if page.blogs %}
-          <ul>
-            {% for blog in page.blogs %}
-            <li>
-              <a href="{{ blog.link }}" title="{{ blog.title }}">
-                {{ blog.title }}
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          {% else %}
-          <ul>
-            <li>No blogs posted, yet.</li>
-          </ul>
-          {% endif %}
-        </div>
-        <!-- Blogs -->
-
-        <!-- Images -->
-        {% if page.images %}
-        <div class="attribute-section">
-          <strong class="attribute-section-title">Project images</strong>
-          <div class="post-images">
-            {% for image in page.images %}
-            <a class="post-image" href="/assets/images/projects/{{page.year}}/{{image}}">
-              <img src="/assets/images/projects/{{page.year}}/{{image}}" alt="{{page.title}} image">
-            </a>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-        <!-- Images -->
-      {% endif %}
-    </div>
+    {% include post-attributes.html %}
   </div>
 </section>

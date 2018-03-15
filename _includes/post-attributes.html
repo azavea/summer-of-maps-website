@@ -1,0 +1,94 @@
+{% comment %}
+  If post is a project
+{% endcomment %}
+{% if page.is_project %}
+<div class="post-attributes">
+
+  <!-- Author/fellow -->
+  <div class="attribute-section">
+    {% include fellow.html %}
+  </div>
+  <!-- Author/fellow -->
+
+  <!-- Client -->
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Client</strong>
+    {{page.client}}
+  </div>
+  <!-- Client -->
+
+  <!-- Articles and press -->
+  {% if page.articles %}
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Articles and press</strong>
+    <ul>
+      {% for article in page.articles %}
+      <li>
+        <a href="{{ article.link }}" title="{{ article.title }}">
+          {{ article.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+  <!-- Articles and press -->
+
+  <!-- Blogs -->
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Blogs</strong>
+    {% if page.blogs %}
+    <ul>
+      {% for blog in page.blogs %}
+      <li>
+        <a href="{{ blog.link }}" title="{{ blog.title }}">
+          {{ blog.title }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <ul>
+      <li>No blogs posted, yet.</li>
+    </ul>
+    {% endif %}
+  </div>
+  <!-- Blogs -->
+
+  <!-- Images -->
+  {% if page.images %}
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Project images</strong>
+    <div class="post-images">
+      {% for image in page.images %}
+      <a class="post-image" href="/assets/images/projects/{{page.year}}/{{image}}">
+        <img src="/assets/images/projects/{{page.year}}/{{image}}" alt="{{page.title}} image">
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+  <!-- Images -->
+</div>
+{% endif %}
+
+
+{% comment %}
+  If post is a project-shortlist
+{% endcomment %}
+{% if page.is_shortlist %}
+<div class="post-attributes">
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Organization</strong>
+    <a href="{{page.client_website}}">{{page.client_website}}</a>
+  </div>
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Shortlist year</strong>
+    <a href="/projects/shortlist/{{page.year}}">{{page.year}}</a>
+  </div>
+  <div class="attribute-section">
+    <strong class="attribute-section-title">Category</strong>
+    {{page.category}}
+  </div>
+</div>
+{% endif %}
