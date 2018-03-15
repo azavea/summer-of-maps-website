@@ -7,8 +7,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   A 12-week fellowship where geospatial data analysis students work alongside experienced mentors to complete projects for nonprofit organizations.
 
 # Fellowship settings
-# What is the current year for the fellowship
-# What is the current session timeframe ie: Summer 2018
+# What is the current year for the fellowship?
+# What is the current session timeframe? (ie: Summer 2018)
 # Is the fellowship in progress?
 # What is the stage of the current fellowship?
 # Only assign true to the current stage
@@ -16,7 +16,7 @@ fellowship:
   year: 2018
   timeframe: Summer 2018
   in_session: true
-  stage: 
+  stage:
     nonprofit_signup: false
     nonprofit_review: false
     student_signup: false
