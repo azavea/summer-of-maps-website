@@ -4,6 +4,7 @@ year: "2017"
 
 title: "Human Computation Institute" # Displays on the project post page
 client: "Human Computation Institute" # shows on the project card
+brief_description: "Crowdsourced mapping to support sustainable development in rural Tanzania" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -11,8 +12,7 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: jiantingZhao
 
-# project attributes
-articles: # bullet list of articles and press
+# No articles related to this project
 
 blogs: # bullet list of blogs
   - title: "How to Calculate Location Accessibility with AccessMod 5"
@@ -21,7 +21,9 @@ blogs: # bullet list of blogs
 featured_image: "2017-human-computation-institute-featured.png"
 
 images:
-
+  - "2017-human-computation-institute-01.png"
+  - "2017-human-computation-institute-02.png"
+  - "2017-human-computation-institute-03.png"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

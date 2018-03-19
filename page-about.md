@@ -13,8 +13,8 @@ seo_description: ""
 # hero section
 hero:
   above-title: "About"
-  title: "Summer of Maps"
-  subtitle: "Fellowship program and service for nonprofits focused on completing challenging, high impact projects."
+  title: "The program"
+  subtitle: "Fellowship program for students and service for nonprofits focused on completing challenging, high impact projects."
 # hero section
 
 # This page uses Kramdown for content
@@ -83,3 +83,7 @@ The application is open to registered non-profit organizations registered as 501
 
 <em>"Azavea helped us to visualize our programs' impact in the community. With these tools in hand, our organization can continue to grow, secure funding, and continue to provide legal services to low income people with disabilities in Philadelphia and the surrounding counties."</em><br>
 <small>– Elizabeth Oquendo, Legal Clinic for the Disabled, 2015 Summer of Maps Organization</small>
+
+___
+<small>_Disclaimers:_\\
+Filling in this application will simply put students and organizations in the running to be selected to be part of Summer of Maps. Applying neither guarantees an interview or a fellowship if you are a student, nor guarantees that your project will be selected if you are a non-profit organization.</small>

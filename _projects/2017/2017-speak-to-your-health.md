@@ -4,6 +4,7 @@ year: "2017"
 
 title: "Speak to Your Health" # Displays on the project post page
 client: "Speak to Your Health" # shows on the project card
+brief_description: "Mapping Impact of the Flint Water Crisis on Community Health" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -11,9 +12,7 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "juliaHeslin"
 
-# If no articles or blogs, DELETE these lines
-articles: # bullet list of articles and press
-
+# No articles related to this project
 
 blogs: # bullet list of blogs
   - title: "Interpolating Lead Levels from Tap Water Samples Following the Flint Water Crisis"
@@ -24,9 +23,10 @@ blogs: # bullet list of blogs
 featured_image: "2017-speak-to-your-health-featured.png"
 
 images:
-  - STYH_NHSatisfaction_Final-826x1024.png
-  - STYH_WaterQuality_Final-835x1024.png
-  - STYH_PhysicalHealth_Final-826x1024.png
+  - "2017-speak-to-your-health-01.png"
+  - "2017-speak-to-your-health-02.png"
+  - "2017-speak-to-your-health-03.png"
+  - "2017-speak-to-your-health-04.png"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
