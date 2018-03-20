@@ -23,9 +23,9 @@ blogs: # bullet list of blogs
 featured_image: "2015-pennsylvania-horticultural-society-featured.jpg"
 
 images:
- - "2015-pennsylvania-horticultural-society-01.jpg"
- - "2015-pennsylvania-horticultural-society-02.jpg"
- - "2015-pennsylvania-horticultural-society-03.jpg"
+ - "2015-pennsylvania-horticultural-society-01.png"
+ - "2015-pennsylvania-horticultural-society-02.png"
+ - "2015-pennsylvania-horticultural-society-03.png"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

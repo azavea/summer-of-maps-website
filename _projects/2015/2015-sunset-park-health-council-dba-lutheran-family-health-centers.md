@@ -26,7 +26,7 @@ blogs: # bullet list of blogs
 featured_image: "2015-sunset-park-health-council-dba-lutheran-family-health-centers-featured.jpg"
 
 images:
- - "2015-sunset-park-health-council-dba-lutheran-family-health-centers-01.jpg"
+ - "2015-sunset-park-health-council-dba-lutheran-family-health-centers-01.png"
  - "2015-sunset-park-health-council-dba-lutheran-family-health-centers-02.jpg"
  - "2015-sunset-park-health-council-dba-lutheran-family-health-centers-03.jpg"
 

@@ -27,8 +27,8 @@ featured_image: "2015-the-greening-of-detroit-featured.jpg"
 
 images:
  - "2015-the-greening-of-detroit-01.jpg"
- - "2015-the-greening-of-detroit-02.jpg"
- - "2015-the-greening-of-detroit-03.jpg"
+ - "2015-the-greening-of-detroit-02.png"
+ - "2015-the-greening-of-detroit-03.png"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

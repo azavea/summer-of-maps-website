@@ -23,11 +23,11 @@ blogs: # bullet list of blogs
 featured_image: "2017-fair-tech-collective-featured.png"
 
 images:
-  - "2017-fair-tech-collective-01.png"
-  - "2017-fair-tech-collective-02.png"
-  - "2017-fair-tech-collective-03.png"
-  - "2017-fair-tech-collective-04.png"
-  - "2017-fair-tech-collective-05.png"
+  - "2017-fair-tech-collective-01.jpg"
+  - "2017-fair-tech-collective-02.jpg"
+  - "2017-fair-tech-collective-03.jpg"
+  - "2017-fair-tech-collective-04.jpg"
+  - "2017-fair-tech-collective-05.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

@@ -48,8 +48,16 @@
 
   .project-card-title {
     @extend .h4;
+    font-size: 2rem;
     text-align: center;
-    margin: 0;
+    margin: 0 0 5px;
+  }
+
+  .project-card-description {
+    font-size: 1.4rem;
+    text-align: center;
+    color: $base;
+    opacity: .7;
   }
 
   .arrow {
@@ -73,6 +81,7 @@
   text-indent: -999rem;
   font-size: 0.1px;
   color: transparent;
+  z-index: 1;
 
   &:focus {
     outline: none;
