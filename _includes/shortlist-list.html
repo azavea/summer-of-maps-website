@@ -16,7 +16,7 @@
       </li>
       {% for category in categories %}
         <li>
-          <a href="#" id="{{ category | slugify }}">{{ category }}</a>
+          <a href="#" id="{{ category | slugify }}">{{ site.data.categories[category].name }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -29,7 +29,7 @@
          data-tag="{{- category | slugify -}}">
       <div class="project-details">
         <div class="project-category">
-          {{ project.category }}
+          {{ site.data.categories[project.category].name }}
         </div>
         <div class="project-title">
           <a href="{{ site.url }}{{ project.url }}">{{ project.title }}</a>
