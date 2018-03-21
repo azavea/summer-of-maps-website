@@ -4,6 +4,7 @@ year: ""
 
 title: "" # Displays on the project post page
 client: "" # shows on the project card
+brief_description: "" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -31,7 +32,7 @@ featured_image: ""
 # If no images, DELETE these lines
 images:
   - image.jpg
-  - 
+  -
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

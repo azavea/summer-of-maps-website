@@ -4,6 +4,7 @@ year: "2016"
 
 title: "Bicycle Coalition of Greater Philadelphia" # Displays on the project post page
 client: "Bicycle Coalition of Greater Philadelphia" # shows on the project card
+brief_description: "An Analysis of Fatal Road Crashes and Equity" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -13,15 +14,15 @@ fellow: "carlosBonilla"
 
 # If no articles or blogs, DELETE these lines
 articles: # bullet list of articles and press
-  - title: "Results of Azavea's Summer of Maps Work with Bicycle Coalition"
+  - title: "Results of Azavea's Summer of Maps Work with Bicycle Coalition, Bicycle Coalition Blog, August 23, 2016"
     link: "http://bicyclecoalition.org/azavea-summer-maps/#sthash.OoCPWYBi.dpbs"
-  - title: "Map reveals which Philly neighborhoods are most prone to severe crashes"
+  - title: "Map reveals which Philly neighborhoods are most prone to severe crashes, Curbed Philly, August 26, 2016"
     link: "http://philly.curbed.com/2016/8/26/12646262/severe-crashes-philadelphia-map-by-neighborhood"
-  - title: "Explore these data visualizations from Azavea’s ‘Summer of Maps’ program"
+  - title: "Explore these data visualizations from Azavea’s ‘Summer of Maps’ program, Technical.ly Philly, August 30, 2016"
     link: "http://technical.ly/philly/2016/08/30/data-visualization-azavea-summer-of-maps-fellowship/"
-  - title: "What is the Impact of Summer of Maps?"
+  - title: "What is the Impact of Summer of Maps?, Azavea Blog, September 1, 2016"
     link: "https://www.azavea.com/blog/2016/09/01/what-is-the-impact-of-summer-of-maps/"
-  - title: "This Is What Happens When GIS Students And Non-Profits Team Up"
+  - title: "This Is What Happens When GIS Students And Non-Profits Team Up, Visual News, September 15, 2016"
     link: "https://www.visualnews.com/2016/09/15/summer-maps-data-visualization/"
 
 blogs: # bullet list of blogs
@@ -30,13 +31,13 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-fairhill-featured.png"
+featured_image: "2016-bicycle-coalition-of-greater-philadelphia-featured.png"
 
 images:
- - "BCGP_Webmap-1024x820.png"
- - "IPD_tract-1024x873.png"
- - "Fairhill-1024x866.png"
- - "nohighways_crashdensity-791x1024.png"
+ - "2016-bicycle-coalition-of-greater-philadelphia-01.png"
+ - "2016-bicycle-coalition-of-greater-philadelphia-02.png"
+ - "2016-bicycle-coalition-of-greater-philadelphia-03.png"
+ - "2016-bicycle-coalition-of-greater-philadelphia-04.png"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

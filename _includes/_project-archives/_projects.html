@@ -6,7 +6,7 @@
 
 {% comment %} Group projects by year. {% endcomment %}
 {% assign projects_grouped = site.projects | group_by: 'year' | reverse %}
-{% comment %} 
+{% comment %}
   The above returns:
   {"name"=>"::year", "items"=>[#,..#], "size"=>n}
 {% endcomment %}
@@ -32,6 +32,7 @@
           <div class="fellow-year">{{author.year}} fellow</div>
         </div>
         <div class="project-card-title">{{ item.client }}</div>
+        <div class="project-card-description">{{ item.brief_description }}</div>
       </div>
     </div>
 {% endfor %}

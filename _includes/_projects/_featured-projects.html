@@ -1,13 +1,12 @@
 <div class="inner-content">
   <div class="content-header">
     <span class="content-mini-title">
-      Completed projects
+      From past fellows
     </span>
     <h2 class="content-title">
-      Project archive
+      Completed projects
     </h2>
   </div>
-  <p class="content-blurb">Explore projects completed for nonprofits as part of previous Azavea Summer of Maps seasons.</p>
 </div>
 <div class="project-grid">
   {% for item in site.projects limit:5 %}
@@ -24,6 +23,7 @@
           <div class="fellow-year">{{author.year}} fellow</div>
         </div>
         <div class="project-card-title">{{ item.client }}</div>
+        <div class="project-card-description">{{ item.brief_description }}</div>
       </div>
     </div>
   {% endfor %}
