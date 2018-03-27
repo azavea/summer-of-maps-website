@@ -5,7 +5,7 @@ year: '2016'
 title: "Heartland Alliance's National Initiatives on Poverty & Economic Opportunity" # project title or client name
 excerpt: "Pathways to Shared Prosperity: Mapping Access to Economic Opportunity in the United States" # shows on project list page
 client_website: "http://www.heartlandalliance.org/nationalinitiatives/"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

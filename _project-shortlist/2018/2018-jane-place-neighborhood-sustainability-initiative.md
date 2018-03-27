@@ -5,7 +5,7 @@ year: "2018"
 title: "Jane Place Neighborhood Sustainability Initiative" # project title or client name
 excerpt: "Mapping New Orleans Hidden Eviction Crisis" # shows on project list page
 client_website: "http://www.jpnsi.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

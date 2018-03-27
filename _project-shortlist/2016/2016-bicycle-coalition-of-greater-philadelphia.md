@@ -5,7 +5,7 @@ year: '2016'
 title: "Bicycle Coalition of Greater Philadelphia (BCGP)" # project title or client name
 excerpt: "Fatal Road Crashes and Equity" # shows on project list page
 client_website: "http://bicyclecoalition.org"
-category: "Transportation" #see list at `./_data/categories.yml`
+category: "transportation" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

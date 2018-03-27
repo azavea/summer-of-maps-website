@@ -5,7 +5,7 @@ year: '2015'
 title: "Sunset Park Health Council dba Lutheran Family Health Centers (LFHC)" # project title or client name
 excerpt: "Analyzing Adult ESOL Students' Needs and Available Community Assets in Southwest Brooklyn, NY" # shows on project list page
 client_website: "http://www.lmcmc.com"
-category: "Education" #see list at `./_data/categories.yml`
+category: "education" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

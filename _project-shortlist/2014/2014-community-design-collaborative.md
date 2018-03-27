@@ -5,7 +5,7 @@ year: '2014'
 title: "Community Design Collaborative" # project title or client name
 excerpt: "Using Spatial Analysis to Prioritize Design Grants in Philadelphia" # shows on project list page
 client_website: "http://www.cdesignc.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

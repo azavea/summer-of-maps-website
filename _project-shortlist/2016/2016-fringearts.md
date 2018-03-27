@@ -5,7 +5,7 @@ year: '2016'
 title: "FringeArts" # project title or client name
 excerpt: "Visualizing and Analyzing Performance Art Donors and Audience by Location" # shows on project list page
 client_website: "http://fringearts.com/"
-category: "Arts & Culture" #see list at `./_data/categories.yml`
+category: "arts" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

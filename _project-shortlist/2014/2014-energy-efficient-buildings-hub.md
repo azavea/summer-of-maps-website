@@ -5,7 +5,7 @@ year: '2014'
 title: "Energy Efficient Buildings Hub" # project title or client name
 excerpt: "Measuring Energy Efficiency of Philadelphia's Building Stock" # shows on project list page
 client_website: "http://www.eebhub.org"
-category: "Environment & Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

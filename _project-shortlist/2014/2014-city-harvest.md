@@ -5,7 +5,7 @@ year: '2014'
 title: "City Harvest" # project title or client name
 excerpt: "Analysis of Retail Food Access in Low Income Communities to Measure Need for and Impact of City Harvest Programming" # shows on project list page
 client_website: "http://www.cityharvest.org"
-category: "Food & Agriculture" #see list at `./_data/categories.yml`
+category: "food" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

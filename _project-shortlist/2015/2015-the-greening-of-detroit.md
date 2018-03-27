@@ -5,7 +5,7 @@ year: '2015'
 title: "The Greening of Detroit" # project title or client name
 excerpt: "Analysis of Total Tree Canopy in the City of Detroit" # shows on project list page
 client_website: "http://www.greeningofdetroit.com"
-category: "Environment & Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

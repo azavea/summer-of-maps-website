@@ -5,7 +5,7 @@ year: '2015'
 title: "Detroiters Working for Environmental Justice" # project title or client name
 excerpt: "Determining Optimal Route for Dedicated Bus System for High Performing Detroit Schools" # shows on project list page
 client_website: "http://www.dwej.org"
-category: "Transportation" #see list at `./_data/categories.yml`
+category: "transportation" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

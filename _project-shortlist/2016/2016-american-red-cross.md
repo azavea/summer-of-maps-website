@@ -5,7 +5,7 @@ year: '2016'
 title: "American Red Cross" # project title or client name
 excerpt: "Identifying Priority Communities for West Africa Health Interventions" # shows on project list page
 client_website: "http://www.redcross.org"
-category: "Health" #see list at `./_data/categories.yml`
+category: "health" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

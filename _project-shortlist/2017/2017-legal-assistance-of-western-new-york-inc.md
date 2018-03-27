@@ -5,7 +5,7 @@ year: '2017'
 title: "Legal Assistance of Western New York, Inc." # project title or client name
 excerpt: "Housing Conditions and Substandard Housing Enforcement in Rural Western New York" # shows on project list page
 client_website: "http://www.lawny.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

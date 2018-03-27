@@ -5,7 +5,7 @@ year: '2016'
 title: "Ecotrust" # project title or client name
 excerpt: "Ongoing Change in Portland's Urban Forest Canopy and Looking Ahead in the 2035 Comprehensive Plan" # shows on project list page
 client_website: "http://www.ecotrust.org"
-category: "Environment & Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

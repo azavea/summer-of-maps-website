@@ -5,7 +5,7 @@ year: "2018"
 title: "Southeast Alaska Land Trust" # project title or client name
 excerpt: "Conservation Prioritization of Ketchikan, Alaska" # shows on project list page
 client_website: "http://www.southeastalaskalandtrust.org"
-category: "Environment and Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

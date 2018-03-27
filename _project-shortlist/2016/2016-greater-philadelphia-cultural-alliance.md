@@ -5,7 +5,7 @@ year: '2016'
 title: "Greater Philadelphia Cultural Alliance" # project title or client name
 excerpt: "Analysis of the Students at Museums in Philly (STAMP) Program to Increase Participation" # shows on project list page
 client_website: "http://phillystamppass.org/"
-category: "Arts & Culture" #see list at `./_data/categories.yml`
+category: "arts" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

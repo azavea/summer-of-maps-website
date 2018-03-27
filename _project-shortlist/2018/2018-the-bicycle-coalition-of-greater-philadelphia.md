@@ -5,7 +5,7 @@ year: "2018"
 title: "The Bicycle Coalition of Greater Philadelphia" # project title or client name
 excerpt: "Developing a Bicycle Travel Demand Model to Grow Mode Share and Prioritize Infrastructure Improvements" # shows on project list page
 client_website: "http://BicycleCoalition.org"
-category: "Transportation" #see list at `./_data/categories.yml`
+category: "transportation" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

@@ -5,7 +5,7 @@ year: '2015'
 title: "African Family Health Organization (AFAHO)" # project title or client name
 excerpt: "Afya Zetu (Our Health): Analysis of Healthcare Needs and Availability for African and Caribbean Immigrants and Refugees in Northeast Philadelphia" # shows on project list page
 client_website: "http://www.afaho.net"
-category: "Health" #see list at `./_data/categories.yml`
+category: "health" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

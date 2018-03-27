@@ -5,7 +5,7 @@ year: "2018"
 title: "PlanPhilly" # project title or client name
 excerpt: "Mapping Out Philadelphia's Most Dangerous Intersections for Pedestrians. 2015 and Now." # shows on project list page
 client_website: "http://planphilly.com"
-category: "Transportation" #see list at `./_data/categories.yml`
+category: "transportation" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

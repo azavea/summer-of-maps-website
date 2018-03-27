@@ -5,7 +5,7 @@ year: '2016'
 title: "Delaware Center for Horticulture" # project title or client name
 excerpt: "From Seed to Sale: What is the Market for Urban Farm Products?" # shows on project list page
 client_website: "http://www.thedch.org"
-category: "Food & Agriculture" #see list at `./_data/categories.yml`
+category: "food" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

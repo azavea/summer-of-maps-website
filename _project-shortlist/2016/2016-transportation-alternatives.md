@@ -5,7 +5,7 @@ year: '2016'
 title: "Transportation Alternatives" # project title or client name
 excerpt: "The Road to Vision Zero: Traffic Crashes and Poverty Level in New York City" # shows on project list page
 client_website: "http://transalt.org"
-category: "Transportation" #see list at `./_data/categories.yml`
+category: "transportation" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

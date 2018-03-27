@@ -5,7 +5,7 @@ year: '2014'
 title: "National Institute on Money in State Politics" # project title or client name
 excerpt: "Partisan Split or Consensus View: How Purple is the Country?" # shows on project list page
 client_website: "http://www.followthemoney.org/"
-category: "Elections & Civil Rights" #see list at `./_data/categories.yml`
+category: "elections" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

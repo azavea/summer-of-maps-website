@@ -5,7 +5,7 @@ year: '2016'
 title: "IMPACT, Inc." # project title or client name
 excerpt: "Polling Place Location in Milwaukee, Wisconsin: Does it Matter?" # shows on project list page
 client_website: "http://www.impactinc.org"
-category: "Elections & Politics" #see list at `./_data/categories.yml`
+category: "elections" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

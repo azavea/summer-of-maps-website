@@ -5,7 +5,7 @@ year: "2018"
 title: "The Committee of Seventy" # project title or client name
 excerpt: "Exploring How Philly Elections Work" # shows on project list page
 client_website: "http://www.seventy.org"
-category: "Elections and Civil Rights" #see list at `./_data/categories.yml`
+category: "elections" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

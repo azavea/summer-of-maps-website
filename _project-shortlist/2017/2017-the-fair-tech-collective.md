@@ -5,7 +5,7 @@ year: '2017'
 title: "The Fair Tech Collective, Drexel University" # project title or client name
 excerpt: "Petrochemical Pollution Footprint" # shows on project list page
 client_website: "http://fairtechcollective.org"
-category: "Environment & Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

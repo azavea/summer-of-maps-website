@@ -5,7 +5,7 @@ year: '2017'
 title: "Community Legal Services" # project title or client name
 excerpt: "Mapping the Incidence and Frequency of Homes with Water Shutoffs in Philadelphia" # shows on project list page
 client_website: "http://clsphila.org"
-category: "Health" #see list at `./_data/categories.yml`
+category: "health" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

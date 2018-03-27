@@ -5,7 +5,7 @@ year: '2014'
 title: "Center City District/Central Philadelphia Development Corporation" # project title or client name
 excerpt: "Real Estate and Demographic Analysis of Central Philadelphia School Catchments" # shows on project list page
 client_website: "http://www.centercityphila.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

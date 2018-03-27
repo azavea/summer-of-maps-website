@@ -5,7 +5,7 @@ year: '2014'
 title: "Open Technology Institute, New America" # project title or client name
 excerpt: "Mapping and Statistical Analysis of Community Wireless Networks" # shows on project list page
 client_website: "http://oti.newamerica.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

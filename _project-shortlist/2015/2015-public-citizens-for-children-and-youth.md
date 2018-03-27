@@ -5,7 +5,7 @@ year: '2015'
 title: "Public Citizens for Children and Youth (PCCY)" # project title or client name
 excerpt: "Locating the Unmet Need for Quality Early Learning in Philadelphia's Suburbs" # shows on project list page
 client_website: "http://pccy.org"
-category: "Education" #see list at `./_data/categories.yml`
+category: "education" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

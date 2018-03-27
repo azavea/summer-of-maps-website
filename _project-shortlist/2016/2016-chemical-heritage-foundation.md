@@ -5,7 +5,7 @@ year: '2016'
 title: "Chemical Heritage Foundation" # project title or client name
 excerpt: "A Visualization of National, Regional, and Local Air Quality in the U.S." # shows on project list page
 client_website: "http://www.chemheritage.org/"
-category: "Environment & Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

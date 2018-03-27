@@ -5,7 +5,7 @@ year: "2018"
 title: "Thurgood Marshall Institute" # project title or client name
 excerpt: "Prison Gerrymandering and the Democratic Principle of 'One Person, One Vote'" # shows on project list page
 client_website: "https://www.tminstituteldf.org/"
-category: "Elections & Civil Rights" #see list at `./_data/categories.yml`
+category: "elections" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

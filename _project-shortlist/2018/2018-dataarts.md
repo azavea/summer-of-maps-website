@@ -5,7 +5,7 @@ year: "2018"
 title: "DataArts" # project title or client name
 excerpt: "The Social Geography of Arts and Culture" # shows on project list page
 client_website: "http://www.culturaldata.org/"
-category: "Arts & Culture" #see list at `./_data/categories.yml`
+category: "arts" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

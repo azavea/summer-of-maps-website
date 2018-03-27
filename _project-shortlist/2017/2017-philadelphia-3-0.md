@@ -5,7 +5,7 @@ year: '2017'
 title: "Philadelphia 3.0" # project title or client name
 excerpt: "Re:Ward - ReMapping Philadelphia's Political Geography for a 21st Century City" # shows on project list page
 client_website: "http://www.phila3-0.org"
-category: "Elections & Civil Rights" #see list at `./_data/categories.yml`
+category: "elections" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

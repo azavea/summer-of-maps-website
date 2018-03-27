@@ -5,7 +5,7 @@ year: '2015'
 title: "Legal Clinic for the Disabled, Inc." # project title or client name
 excerpt: "Visualizing Correlations Between Poverty, Health Status, Legal Need, and Geography in Philadelphia" # shows on project list page
 client_website: "http://www.lcdphila.org/"
-category: "Health" #see list at `./_data/categories.yml`
+category: "health" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

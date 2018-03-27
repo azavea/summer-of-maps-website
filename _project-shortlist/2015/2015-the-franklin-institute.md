@@ -5,7 +5,7 @@ year: '2015'
 title: "The Franklin Institute" # project title or client name
 excerpt: "Extending the Reach of the Philadelphia Science Festival Using Visualization of Attendee Data" # shows on project list page
 client_website: "http://www.fi.edu"
-category: "Arts & Culture" #see list at `./_data/categories.yml`
+category: "arts" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

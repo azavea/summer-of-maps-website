@@ -5,7 +5,7 @@ year: '2014'
 title: "DataHaven" # project title or client name
 excerpt: "Analyzing the Associations Between Neighborhood Indicators in the Greater New Haven and Valley Region" # shows on project list page
 client_website: "http://www.ctdatahaven.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

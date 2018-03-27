@@ -5,7 +5,7 @@ year: '2015'
 title: "William Way LGBT Community Center" # project title or client name
 excerpt: "The Future of LGBT Communities in the Delaware Valley: The Gayborhood and its Satellites" # shows on project list page
 client_website: "http://www.waygay.org"
-category: "Community & Economic Development" #see list at `./_data/categories.yml`
+category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

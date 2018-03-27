@@ -5,7 +5,7 @@ year: '2017'
 title: "Hillsborough County School Readiness Coalition DBA Early Learning Coalition of Hillsborough County" # project title or client name
 excerpt: "ELCHC Building Success for Young Children" # shows on project list page
 client_website: "https://www.elchc.org/"
-category: "Education" #see list at `./_data/categories.yml`
+category: "education" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

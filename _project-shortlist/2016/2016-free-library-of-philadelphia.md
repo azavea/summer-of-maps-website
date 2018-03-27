@@ -5,7 +5,7 @@ year: '2016'
 title: "Free Library of Philadelphia" # project title or client name
 excerpt: "Analyzing the Free Library of Philadelphia's Service and Program Delivery and its Effects on the People of Philadelphia" # shows on project list page
 client_website: "http://freelibrary.org"
-category: "Education" #see list at `./_data/categories.yml`
+category: "education" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

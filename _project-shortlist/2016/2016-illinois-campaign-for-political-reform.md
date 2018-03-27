@@ -5,7 +5,7 @@ year: '2016'
 title: "Illinois Campaign for Political Reform" # project title or client name
 excerpt: "Mapping Voter Registration Needs and Gaps in Illinois" # shows on project list page
 client_website: "http://ilcampaign.org"
-category: "Elections & Politics" #see list at `./_data/categories.yml`
+category: "elections" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

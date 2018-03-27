@@ -5,7 +5,7 @@ year: '2015'
 title: "Literacy Network" # project title or client name
 excerpt: "Determining Highest Need Areas to Offer Adult Education Programming in Dane County, MI" # shows on project list page
 client_website: "http://www.litnetwork.org/"
-category: "Education" #see list at `./_data/categories.yml`
+category: "education" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

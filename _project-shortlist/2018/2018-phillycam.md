@@ -5,7 +5,7 @@ year: '2018'
 title: "PhillyCAM"
 excerpt: "Community media as indicator of super engaged neighborhoods"
 client_website: "http://www.phillycam.org/"
-category: "Arts & Culture"
+category: "arts"
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

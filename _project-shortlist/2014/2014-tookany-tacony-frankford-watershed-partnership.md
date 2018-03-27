@@ -5,7 +5,7 @@ year: '2014'
 title: "Tookany/Tacony-Frankford Watershed Partnership" # project title or client name
 excerpt: "Community Benefits of Green Infrastructure Near Tacony Creek Park" # shows on project list page
 client_website: "http://ttfwatershed.org/"
-category: "Environment & Ecosystems" #see list at `./_data/categories.yml`
+category: "environment" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

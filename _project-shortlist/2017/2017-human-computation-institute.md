@@ -5,7 +5,7 @@ year: '2017'
 title: "Human Computation Institute" # project title or client name
 excerpt: "Crowdsourced Mapping to Support Sustainable Development in Rural Tanzania" # shows on project list page
 client_website: "http://humancomputation.org/"
-category: "Community & Economic Development"  #see list at `./_data/categories.yml`
+category: "community"  #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

@@ -5,7 +5,7 @@ year: '2017'
 title: "Clean Air Council" # project title or client name
 excerpt: "An Analysis of Bike Parking Demand in Center City Philadelphia" # shows on project list page
 client_website: "http://www.cleanair.org"
-category: "Transportation" #see list at `./_data/categories.yml`
+category: "transportation" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

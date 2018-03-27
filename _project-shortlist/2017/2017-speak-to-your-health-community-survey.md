@@ -5,7 +5,7 @@ year: '2017'
 title: "Speak to Your Health! Community Survey" # project title or client name
 excerpt: "Mapping Impact of the Flint Water Crisis on Community Health" # shows on project list page
 client_website: "http://speak.gchd.us"
-category: "Health" #see list at `./_data/categories.yml`
+category: "health" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
