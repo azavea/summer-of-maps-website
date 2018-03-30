@@ -21,20 +21,21 @@ hero:
 # refer to https://kramdown.gettalong.org/syntax.html for syntax
 ---
 ## About the Azavea Summer of Maps program
-Summer of Maps is a fellowship program and service for nonprofits organized by [Azavea](https://azavea.com). We are a [B Corporation](http://www.bcorporation.net/community/azavea) that applies geospatial technology, data analytics, and research for positive civic, social, and environmental impact.
+The Azavea Summer of Maps program is a 12-week fellowship where geospatial data analysis students work alongside experienced mentors to complete projects for nonprofit organizations.
 
-As part of the Azavea Summer of Maps program, Geospatial Data Analysis Services Grants are awarded to nonprofits, who are matched with Fellows to complete high impact work that benefits the fellows, nonprofits, and the communities that the organizations serve.
+The program is managed by [Azavea](https://azavea.com). We are a [B Corporation](http://www.bcorporation.net/community/azavea) that applies geospatial technology, data analytics, and research for positive civic, social, and environmental impact.
 
-Azavea Summer of Maps Fellows have completed nonprofit projects in a wide array of domains including:
+As part of the Azavea Summer of Maps program, Geospatial Data Analysis Services Grants are awarded to nonprofits. Fellows work with grant recipients to complete high impact projects that aid in decision-making, have a positive community impact, and improve programming or fundraising.
+
+Azavea Summer of Maps fellows have completed nonprofit projects in a wide array of domains including:
 
 - Arts & Culture
 - Community & Economic Development
 - Education
-- Energy
+- Elections & Civil Rights
 - Environment & Ecosystems
 - Food & Agriculture
 - Health
-- Elections & Civil Rights
 - Transportation
 
 ##### Visit the Projects page to view project details:
@@ -42,13 +43,13 @@ Azavea Summer of Maps Fellows have completed nonprofit projects in a wide array 
 
 ___
 ## Program Timeline
-Although Summer of Maps Fellows complete project work for 12 weeks during the summer, the program is a year-round operation.
+Azavea Summer of Maps fellows complete project work for 12 weeks during the summer, but the program is a year-round operation.
 
 Early in the year, the [Azavea Data Analytics Team](https://www.azavea.com/services/data-analytics/) reviews nonprofit project proposals and selects a shortlist of projects that meet data requirements, have challenging geospatial analysis and geographic visualization needs, and will contribute meaningful impact to the nonprofit organization and the communities they serve.
 
-Then, student applicants submit their materials and candidates are interviewed. Qualified students are selected based on their skills and their desire to grow a career in geospatial data analysis. The top candidates are matched with challenging and meaningful projects and are awarded a paid fellowship position.
+Then, students submit applications and candidates are interviewed. Qualified students are selected based on their skills and their desire to grow a career in geospatial data analysis. The top candidates are matched with challenging and meaningful projects and are awarded a paid fellowship position.
 
-Starting in the summer, each Summer of Maps Fellow manages two different nonprofit projects. The fellows are paid a stipend for their work, in addition to the opportunity to learn from mentors and Azavea staff members.
+Starting in the summer, each Summer of Maps fellow manages two different nonprofit projects. The fellows are paid a stipend for their work, in addition to the opportunity to learn from mentors and Azavea staff members.
 
 
 ### {{ site.fellowship.year }} Dates
@@ -63,7 +64,7 @@ Starting in the summer, each Summer of Maps Fellow manages two different nonprof
 
 ___
 ## Fellow Information
-Fellows receive a stipend and one-on-one mentoring while they serve as the Project Manager and Data Analyst for geospatial data analysis projects for nonprofit organizations. Each fellow works with two nonprofit organizations as part of the Summer of Maps team at Azavea’s Philadelphia office.
+Each fellow works with two nonprofit organizations throughout the summer, acting as both the project manager and geospatial data analyst. Fellows work in Azavea’s Philadelphia office and receive one-on-one mentoring and a stipend.
 
 ##### Check out the resources page before applying:
 [Resources for Fellows](/fellow-guide/){: .btn .btn-ghost-secondary}
@@ -75,7 +76,7 @@ ___
 ## Nonprofit Information
 Nonprofits receive a Geospatial Data Analysis Services Grant providing a spatial analysis and geographic visualization project that facilitates improved operations, programming, or fundraising for the organization.
 
-The application is open to registered non-profit organizations registered as 501(c)3 with the IRS. We will also consider international organizations that have a registered U.S. affiliate. We are looking for non-profit organizations with spatial analysis and geographic visualization needs. Organizations are limited to two project submissions, but no more than one is likely to be funded.
+The application is open to nonprofits that are registered as a 501(c)3 organization with the IRS. We will also consider international organizations that have a registered U.S. affiliate. We are looking for nonprofit organizations with spatial analysis and geographic visualization needs. Organizations are limited to two project submissions, but no more than one is likely to be funded.
 
 ##### Check out the resources page before submitting a grant application:
 [Resources for Nonprofits](/nonprofit-guide/){: .btn .btn-ghost-secondary}
@@ -83,7 +84,3 @@ The application is open to registered non-profit organizations registered as 501
 
 <em>"Azavea helped us to visualize our programs' impact in the community. With these tools in hand, our organization can continue to grow, secure funding, and continue to provide legal services to low income people with disabilities in Philadelphia and the surrounding counties."</em><br>
 <small>– Elizabeth Oquendo, Legal Clinic for the Disabled, 2015 Summer of Maps Organization</small>
-
-___
-<small>_Disclaimers:_\\
-Filling in this application will simply put students and organizations in the running to be selected to be part of Summer of Maps. Applying neither guarantees an interview or a fellowship if you are a student, nor guarantees that your project will be selected if you are a non-profit organization.</small>
