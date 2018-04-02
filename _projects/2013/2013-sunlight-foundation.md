@@ -2,9 +2,9 @@
 published: true # change to true once ready to post
 year: "2013"
 
-title: "Delaware Valley Association for the Education of Young Children" # Displays on the project post page
-client: "Delaware Valley Association for the Education of Young Children" # shows on the project card
-brief_description: "Mapping of need versus capacity of high-quality childcare in the Delaware Valley" # shows on the project card
+title: "Sunlight Foundation" # Displays on the project post page
+client: "Sunlight Foundation" # shows on the project card
+brief_description: "Mapping and analysis of political influence by county" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
