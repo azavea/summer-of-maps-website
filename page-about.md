@@ -14,7 +14,7 @@ seo_description: ""
 hero:
   above-title: "About"
   title: "The program"
-  subtitle: "Fellowship program for students and service for nonprofits focused on completing challenging, high impact projects."
+  subtitle: "Fellowship program for students and mapping service for nonprofits focused on completing challenging, high impact projects."
 # hero section
 
 # This page uses Kramdown for content
