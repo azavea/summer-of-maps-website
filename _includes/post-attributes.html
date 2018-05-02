@@ -90,5 +90,14 @@
     <strong class="attribute-section-title">Category</strong>
     {{ site.data.categories[page.category].name }}
   </div>
+  {% if page.completed %}
+    <hr>
+    <div class="attribute-section">
+        <a class="btn btn-primary" 
+           href="/projects/{{ page.completed }}">
+            View the final project
+        </a>
+    </div>
+  {% endif %}
 </div>
 {% endif %}

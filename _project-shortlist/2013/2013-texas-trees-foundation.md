@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
+completed: "2013-texas-trees-foundation"
 
 title: "Texas Trees Foundation" # project title or client name
 excerpt: "Analyzing Tree Planting Locations to Prioritize Planting Projects While Evaluating the Impact of Canopy Change in the City of Dallas" # shows on project list page

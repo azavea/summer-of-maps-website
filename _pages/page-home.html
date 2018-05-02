@@ -2,7 +2,7 @@
 layout: default
 permalink: "/"
 title: "Home"
-partials_location: "_includes/_home/"
+partials_location: "_home/"
 js_dependencies:
   - "slick.min.js"
   - "carousels.js"
@@ -60,5 +60,5 @@ mentors:
 ---
 
 <!-- Homepage content -->
-{% include_relative {{ page.partials_location }}home.html %}
+{% include {{ page.partials_location }}home.html %}
 <!-- Homepage content -->

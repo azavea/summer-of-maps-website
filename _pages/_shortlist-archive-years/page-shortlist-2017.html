@@ -1,23 +1,22 @@
 ---
 layout: secondary-fullwidth
-permalink: "/projects/shortlist/2015"
+permalink: "/projects/shortlist/2017"
 page_class: projects
-partials_location: "_includes/_shortlist/"
 js_dependencies:
   - "projects.js"
 
 # NO EDITING ABOVE THIS LINE
 # # # # # #
 
-title: "2015 Project Shortlists"
+title: "2017 Project Shortlists"
 seo_description: ""
 
 # hero section
 hero:
   above-title: "<a href='/projects/'>&#10094; Projects</a>"
-  title: "2015 Project shortlists"
-  subtitle: "Azavea Summer of Maps 2015 project shortlist"
+  title: "2017 Project shortlists"
+  subtitle: "Azavea Summer of Maps 2017 project shortlist"
 # hero section
 ---
-{% assign shortlist = site.project-shortlist | where:'year', '2015' %}
+{% assign shortlist = site.project-shortlist | where:'year', '2017' %}
 {% include shortlist-list.html %}

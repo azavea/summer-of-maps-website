@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2017'
+completed: "2017-world-resources-institute"
 
 title: "World Resources Institute" # project title or client name
 excerpt: "Data Driven Conservation in Salonga National Park" # shows on project list page

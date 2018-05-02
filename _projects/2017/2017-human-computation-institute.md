@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2017"
+featured: true
 
 title: "Human Computation Institute" # Displays on the project post page
 client: "Human Computation Institute" # shows on the project card

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2014'
+completed: "2014-datahaven"
 
 title: "DataHaven" # project title or client name
 excerpt: "Analyzing the Associations Between Neighborhood Indicators in the Greater New Haven and Valley Region" # shows on project list page

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2017'
+completed: "2017-the-common-market"
 
 title: "The Common Market" # project title or client name
 excerpt: "Regional Economy, Food Security, and Agricultural Sustainability Impact of the Common Market" # shows on project list page

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2017'
+completed: "2017-fair-tech-collective"
 
 title: "The Fair Tech Collective, Drexel University" # project title or client name
 excerpt: "Petrochemical Pollution Footprint" # shows on project list page

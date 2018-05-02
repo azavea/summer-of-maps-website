@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2012'
+completed: "2012-stroud-water-research-center"
 
 title: "Stroud Water Research Center" # project title or client name
 excerpt: "Evaluating the Impact of Vegetation Changes in the Riparian Buffer on Stream Geomorphology and the Fish Community" # shows on project list page

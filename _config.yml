@@ -73,6 +73,12 @@ sass:
   sass_dir: _sass
   style: compressed
 
+include: 
+  - _pages
+  - _project-archive-years
+  - _shortlist-archive-years
+
+
 exclude:
   - deployment
   - Dockerfile

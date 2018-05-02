@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2014'
+completed: "2014-city-harvest"
 
 title: "City Harvest" # project title or client name
 excerpt: "Analysis of Retail Food Access in Low Income Communities to Measure Need for and Impact of City Harvest Programming" # shows on project list page

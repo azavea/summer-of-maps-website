@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2015'
+completed: "2015-african-family-health-organization"
 
 title: "African Family Health Organization (AFAHO)" # project title or client name
 excerpt: "Afya Zetu (Our Health): Analysis of Healthcare Needs and Availability for African and Caribbean Immigrants and Refugees in Northeast Philadelphia" # shows on project list page

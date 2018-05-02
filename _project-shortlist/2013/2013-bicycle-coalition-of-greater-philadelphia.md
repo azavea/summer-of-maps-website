@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
+completed: "2013-bicycle-coalition-of-greater-philadelphia"
 
 title: "Bicycle Coalition of Greater Philadelphia" # project title or client name
 excerpt: "Analysis and Visualization of Bicycle Activity in Philadelphia" # shows on project list page

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2012'
+completed: "2012-audubon-pennsylvania"
 
 title: "Audubon Pennsylvania" # project title or client name
 excerpt: "Analyzing Spatial and Species Patterns in Bird Collisions in Downtown Philadelphia" # shows on project list page

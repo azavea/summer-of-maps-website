@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2016"
+featured: true
 
 title: "American Red Cross" # Displays on the project post page
 client: "American Red Cross" # shows on the project card

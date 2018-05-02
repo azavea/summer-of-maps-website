@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2017'
+completed: "2017-clean-air-council"
 
 title: "Clean Air Council" # project title or client name
 excerpt: "An Analysis of Bike Parking Demand in Center City Philadelphia" # shows on project list page

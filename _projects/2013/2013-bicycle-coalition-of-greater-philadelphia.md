@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2013"
+featured: true
 
 title: "Bicycle Coalition of Greater Philadelphia" # Displays on the project post page
 client: "Bicycle Coalition of Greater Philadelphia" # shows on the project card

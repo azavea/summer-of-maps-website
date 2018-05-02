@@ -1,6 +1,7 @@
 ---
 published: false # change to true once ready to post
 year: ""
+featured: false # set to true to display on /projects page
 
 title: "" # Displays on the project post page
 client: "" # shows on the project card

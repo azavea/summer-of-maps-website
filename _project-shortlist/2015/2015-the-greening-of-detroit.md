@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2015'
+completed: "2015-the-greening-of-detroit"
 
 title: "The Greening of Detroit" # project title or client name
 excerpt: "Analysis of Total Tree Canopy in the City of Detroit" # shows on project list page

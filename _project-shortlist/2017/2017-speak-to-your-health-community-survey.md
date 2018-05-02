@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2017'
+completed: "2017-speak-to-your-health"
 
 title: "Speak to Your Health! Community Survey" # project title or client name
 excerpt: "Mapping Impact of the Flint Water Crisis on Community Health" # shows on project list page

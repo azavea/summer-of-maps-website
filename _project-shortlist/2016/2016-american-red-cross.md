@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2016'
+completed: "2016-american-red-cross"
 
 title: "American Red Cross" # project title or client name
 excerpt: "Identifying Priority Communities for West Africa Health Interventions" # shows on project list page

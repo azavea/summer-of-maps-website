@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
+completed: "2013-dvaeyc"
 
 title: "DVAEYC" # project title or client name
 excerpt: "Mapping the Need Versus Capacity of High-Quality Childcare in the Delaware Valley" # shows on project list page
