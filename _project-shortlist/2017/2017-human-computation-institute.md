@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2017'
+completed: "2017-human-computation-institute"
 
 title: "Human Computation Institute" # project title or client name
 excerpt: "Crowdsourced Mapping to Support Sustainable Development in Rural Tanzania" # shows on project list page

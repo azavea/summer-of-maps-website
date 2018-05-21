@@ -38,33 +38,31 @@
     class="{{- page.page_class }} {{ layout.page_class -}}" 
   {% endif %}>
   {% include navbar.html %}
+  
   {% if layout.use-alternate-hero %}
-  {% include hero-alt.html %}
+    {% include hero-alt.html %}
   {% elsif layout.use-post-hero %}
-  {% include hero-post.html %}
+    {% include hero-post.html %}
   {% else %}
-  {% include hero.html %}
+    {% include hero.html %}
   {% endif %}
   
   <!-- page content -->
   {{ content }}
   <!-- page content -->
 
-  {% comment %}
-  hide call to action if var hide-c2a 
-  is anything but nil
-  {% endcomment %}
-  {% if page.hide-c2a == nil %}
-  {% include call-to-action.html %}
+  {% if page.hide-c2a != true %}
+    {% include call-to-action.html %}
   {% endif %}
-  {% if page.hide-footer == nil %}
-  {% include footer.html %}
+  {% if page.hide-footer != true %}
+    {% include footer.html %}
   {% endif %}
-  {% include form-modal.html %}
+  {% unless site.fellowship.in_session %}
+    {% include form-modal.html %}
+  {% endunless %}
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
-  <script src="{{ site.baseurl }}/assets/javascript/form-modal.js"></script>
   {% if page.js_dependencies %}
     {% for dependency in page.js_dependencies %}
     <script src="{{ site.baseurl }}/assets/javascript/{{ dependency }}"></script>

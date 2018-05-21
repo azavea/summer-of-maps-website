@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
+completed: "2013-greater-philadelphia-coalition-against-hunger"
 
 title: "Greater Philadelphia Coalition Against Hunger" # project title or client name
 excerpt: "Identifying High-Need Residents and Underserved Areas in Philadelphia for Coalition Against Hunger Assistance" # shows on project list page

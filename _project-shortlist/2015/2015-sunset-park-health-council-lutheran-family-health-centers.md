@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2015'
+completed: "2015-sunset-park-health-council-dba-lutheran-family-health-centers"
 
 title: "Sunset Park Health Council dba Lutheran Family Health Centers (LFHC)" # project title or client name
 excerpt: "Analyzing Adult ESOL Students' Needs and Available Community Assets in Southwest Brooklyn, NY" # shows on project list page

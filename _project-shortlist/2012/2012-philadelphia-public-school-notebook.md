@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2012'
+completed: "2012-philadelphia-public-school-notebookwhyy"
 
 title: "Philadelphia Public School Notebook" # project title or client name
 excerpt: "Evaluating Changes to School Catchment Areas Resulting From the Renaissance Schools Initiative" # shows on project list page

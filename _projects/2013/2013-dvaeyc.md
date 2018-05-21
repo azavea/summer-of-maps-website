@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2013"
+featured: true
 
 title: "Delaware Valley Association for the Education of Young Children" # Displays on the project post page
 client: "Delaware Valley Association for the Education of Young Children" # shows on the project card

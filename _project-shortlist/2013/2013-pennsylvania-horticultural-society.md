@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
+completed: "2013-pennsylvania-horticultural-society"
 
 title: "Pennsylvania Horticultural Society" # project title or client name
 excerpt: "Analyzing Urban Tree Mortality with Active and Non-Active Tree Tenders" # shows on project list page

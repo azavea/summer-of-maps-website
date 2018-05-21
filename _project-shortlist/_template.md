@@ -1,6 +1,7 @@
 ---
 published: false # change to true once ready to post
 year: ""
+completed: "" # filename of project post without file type extension
 
 title: "" # client name
 excerpt: "" # project title, shows on project list page

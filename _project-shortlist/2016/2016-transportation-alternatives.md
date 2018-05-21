@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2016'
+completed: "2016-transportation-alternatives"
 
 title: "Transportation Alternatives" # project title or client name
 excerpt: "The Road to Vision Zero: Traffic Crashes and Poverty Level in New York City" # shows on project list page

@@ -1,19 +1,38 @@
-{% comment %}
-  If the fellowship is in session, show the shortlist 
-  and show the page intro (which talks about the shortlist),
-  otherwise, hide it.
-{% endcomment %}
-{% if site.fellowship.in_session == true %}
-  <!-- project page intro -->
-  {% include_relative {{ page.partials_location }}_intro.html %}
-  <!-- project page intro -->
-  
-  <!-- project list -->
-  {% include shortlist-list.html %}
-  <!-- project list -->
-  <div class="section-spacer"></div>
-{% endif %}
+{% capture shortlist %}
+  {% if site.fellowship.in_session %}
+    <!-- project page intro -->
+    {% include {{ page.partials_location }}_intro.html %}
+    <!-- project page intro -->
+    
+    <!-- shortlist list -->
+    {% include shortlist-list.html %}
+    <!-- shortlist list -->
+  {% endif %}
+{% endcapture %}
 
-<!-- project list -->
-{% include_relative {{ page.partials_location }}_featured-projects.html %}
-<!-- project list -->
+{% capture project-grid %}
+   <!-- project list -->
+    {% include {{ page.partials_location }}_featured-projects.html %}
+  <!-- project list -->
+{% endcapture %}
+
+{% capture spacer %}
+  {% if site.fellowship.in_session %}
+    <div class="section-spacer"></div>
+  {% endif %}
+{% endcapture %}
+
+{% if site.fellowship.stage.student_review or
+      site.fellowship.stage.fellowship_ongoing  %}
+
+  {{ project-grid }}
+  {{ spacer }}
+  {{ shortlist }}
+
+{% else %}
+
+  {{ shortlist }}
+  {{ spacer }}
+  {{ project-grid }}
+
+{% endif %}

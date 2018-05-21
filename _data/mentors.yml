@@ -1,7 +1,11 @@
-- name: Simon Kassel
-  shortName: Simon
-  profile: https://www.azavea.com/about/teammate/simon-kassel/
-  image: kassel.jpg
+- name: Ross Bernet
+  shortName: Ross
+  profile: https://www.azavea.com/about/teammate/ross-bernet/
+  image: bernet.jpg
+- name: Dan Ford
+  shortName: Dan
+  profile: https://www.azavea.com/about/teammate/dan-ford/
+  image: ford.jpg
 - name: Esther Needham
   shortName: Esther
   profile: https://www.azavea.com/about/teammate/esther-needham/

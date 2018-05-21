@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2015'
+completed: "2015-public-laboratory-for-open-technology-and-science"
 
 title: "Public Laboratory for Open Technology and Science" # project title or client name
 excerpt: "Tools for Assessing and Managing Human Impacts on Maine's Harbors" # shows on project list page

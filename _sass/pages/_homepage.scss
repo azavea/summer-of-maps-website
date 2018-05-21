@@ -9,3 +9,102 @@ section.qualtifications {
     margin: 1rem -1rem;
   }
 }
+
+.hero-viz {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: -40%;
+  z-index: 99;
+
+  img {
+    position: absolute;
+  }
+
+  /* &:hover {
+    .hero-viz-map {
+      opacity: .9;
+      transform: scale(1) translate(-50%, 5.5%);
+    }
+  } */
+
+  @media (max-width: 920px) {
+    position: relative;
+    top: 0;
+    max-width: 400px;
+    margin: auto;
+    margin-bottom: -70px;
+  }
+}
+
+@keyframes map {
+  from {
+    opacity: 0;
+    transform: scale(1.05) translate(-50%, 2.5%);
+  }
+  to {
+    opacity: .7;
+    transform: scale(.9) translate(-50%, 5.5%);
+  }
+}
+
+.hero-viz-map {
+  width: 82%;
+  left: 50%;
+  border-radius: 100%;
+  box-shadow: $shadow-default;
+  border: 5px solid #cdcebd;
+  transition: 
+    .2s ease-in-out transform,
+    .2s ease-in-out opacity;
+  opacity: 0;
+  transform: scale(.9) translate(-50%, 5.5%);
+  transform-origin: center left;
+  animation: map 1s 0.2s cubic-bezier(0.81, 0.59, 0.01, 0.92) forwards;
+
+  @media (max-width: 920px) {
+    transform: none !important;
+    position: relative !important;
+    transition: none;
+    left: initial;
+    width: 100%;
+    max-width: initial;
+    opacity: .7;
+    animation: none;
+  }
+}
+
+@keyframes counties {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-viz-counties-shapes {
+  z-index: 20;
+  width: 67%;
+  transform: translate(-50.5%, 10%);
+  left: 50%;
+  top: 50%;
+  opacity: 0;
+  animation: counties 1s forwards;
+
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) {
+      animation-delay: .5 + (.1 * $i) + s;
+    }
+  }
+
+  @media (max-width: 920px) {
+    width: 100%;
+    height: auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 1;
+    animation: none;
+  }
+}

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2016'
+completed: "2016-ecotrust"
 
 title: "Ecotrust" # project title or client name
 excerpt: "Ongoing Change in Portland's Urban Forest Canopy and Looking Ahead in the 2035 Comprehensive Plan" # shows on project list page

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2015'
+completed: "2015-pennsylvania-horticultural-society"
 
 title: "The Pennsylvania Horticultural Society" # project title or client name
 excerpt: "Analyzing Philadelphia LandCare's Inactive Parcels and the Impact of the Program in the Neighborhoods Throughout Philadelphia" # shows on project list page

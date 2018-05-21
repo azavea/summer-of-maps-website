@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2012'
+completed: "2012-the-campaign-for-working-families"
 
 title: "The Campaign for Working Families" # project title or client name
 excerpt: "Analyzing Areas of Underservice for Free Tax Preparation and EITC Utilization, Spatial Mismatch in Volunteer Availability and Need, and Financial Workshops and Coaching in Empowerment Zones" # shows on project list page

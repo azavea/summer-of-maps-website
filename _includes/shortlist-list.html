@@ -28,6 +28,9 @@
     <div class="project" 
          data-tag="{{- category | slugify -}}">
       <div class="project-details">
+        {% if project.completed %}
+          <div class="star" data-tooltip="This project was selected by a fellow">★</div>
+        {% endif %}
         <div class="project-category">
           {{ site.data.categories[project.category].name }}
         </div>
@@ -39,6 +42,12 @@
         </div>
       </div>
       <div class="project-action">
+        {% if project.completed %}
+          <a class="btn btn-ghost-primary" 
+             href="/projects/{{ project.completed }}">
+              Final Project
+          </a>
+        {% endif %}
         <a class="btn btn-ghost-secondary" href="{{ site.url }}{{ project.url }}">Read more</a>
       </div>
     </div>

@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2015'
+completed: "2015-legal-clinic-for-the-disabled-inc"
 
 title: "Legal Clinic for the Disabled, Inc." # project title or client name
 excerpt: "Visualizing Correlations Between Poverty, Health Status, Legal Need, and Geography in Philadelphia" # shows on project list page

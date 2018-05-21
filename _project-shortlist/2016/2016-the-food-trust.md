@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2016'
+completed: "2016-the-food-trust"
 
 title: "The Food Trust" # project title or client name
 excerpt: "Defining Context and Presence: Food Access in Philadelphia" # shows on project list page

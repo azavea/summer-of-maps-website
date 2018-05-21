@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2014'
+completed: "2014-girlstart"
 
 title: "Girlstart" # project title or client name
 excerpt: "Analysis of Funding Resources and Program Adoption of Girlstart in Central, Texas" # shows on project list page

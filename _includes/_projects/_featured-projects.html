@@ -4,12 +4,13 @@
       Completed projects
     </span>
     <h2 class="content-title">
-      Project archive
+      Featured projects
     </h2>
   </div>
 </div>
 <div class="project-grid">
-  {% for item in site.projects limit:5 %}
+  {% assign latestProjects = site.projects | where: 'featured', 'true' | reverse %}
+  {% for item in latestProjects limit:5 %}
     {% assign author = site.data.fellows[item.fellow] %}
     <div class="project-card">
       <a class="project-card-link" href="{{ item.url }}">Go to project</a>

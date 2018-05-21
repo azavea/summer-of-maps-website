@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2016'
+completed: "2016-chemical-heritage-foundation"
 
 title: "Chemical Heritage Foundation" # project title or client name
 excerpt: "A Visualization of National, Regional, and Local Air Quality in the U.S." # shows on project list page

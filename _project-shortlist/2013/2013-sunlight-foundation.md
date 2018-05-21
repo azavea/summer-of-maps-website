@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
+completed: "2013-sunlight-foundation"
 
 title: "Sunlight Foundation" # project title or client name
 excerpt: "Mapping and Analysis of Political Influence on Members of the U.S. Congress" # shows on project list page

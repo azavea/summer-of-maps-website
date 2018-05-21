@@ -9,6 +9,8 @@
  5. [Project Shortlists](#project-shortlists)
  6. [Student Projects](#student-projects)
  7. [Data files](#data-files)
+ 8. [Featured Projects](#featured-projects)
+ 9. [Ending the year](#ending-the-year)
 
 ## Developing locally
 ### Requirements
@@ -86,16 +88,19 @@ See [Project Shortlist](#project-shortlists)
 ### Projects `./_projects/`
 See [Student Projects](#student-projects)
 
+### Pages `./_pages/`
+See [Editing Pages](#editing-page)
+
 ### Sass `./_sass/`
 We use `.scss` for styling.
 
 ### Site `./_site/`
 The compiled jekyll site which is served on Github Pages. Do not edit files within.
 
-### Assets `./assets/
+### Assets `./assets/`
 Contains the favicon, svg icons, images and javascript. The most often accessed files here will be images. Inside you can find fellow and mentor photos, office photos and project images.
 
-### CSS `./css/
+### CSS `./css/`
 Should contain only one file: `main.scss` which includes every file from the above sass directory.
 
 ## Editing the site configuration
@@ -153,7 +158,23 @@ Application link values should the the full url to the respective hiring applica
 
 
 ## Editing Pages
-Main pages of the website can be located at the root directory of the repo. Every page begins with `page-` and ends with a descriptive string.
+Main pages of the website can be located within the `_pages` directory of the repo. Every page begins with `page-` and ends with a descriptive string.
+
+### Page front matter settings
+Within the front matter of every page are some settings and overrides. An overview of used settings across pages:
+| Setting | Description | Type |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------|
+| layout | Determines which layout from the `_layouts` directory this page will uses | string |
+| permalink | The link users will use to navigate to the page | string |
+| page_class | A class applied to the body of the page to help with specific styles to the page. | string |
+| title | SEO Title used in the meta tag within the header | string |
+| partials_location | This is used is rare cases. If a page is complex,  we often break it up into multiple includes inside  `_includes/FOLDER-NAME/partials.ext`. This  allows prevents us from repeating code later in  the page. See the homepage for an example in use. | string |
+| js_dependencies | Reference specific javascript assets to be loaded onto the page. | string |
+| hide-c2a | Determine if the call to action on the bottom of the pae will be included on render. See 404 page | boolean |
+| hide-footer | Determine if the footer will be included on render. See 404 page | boolean |
+| use-intro-imagery | Renders three images between hero and content of the page. See About page.  | boolean |
+| no_hero | Determine if the hero will be rendered on build. See 404 page | boolean |
+| page specific front matter | Many pages will use the front matter for injecting copy into html. Those are generally unique to a page |  |
 
 ### Jekyll front matter
 We take advantage of [front matter](https://jekyllrb.com/docs/frontmatter/) pretty heavily for copy editing. Front matter is defined via two lines of three dashes each with YAML inside.
@@ -167,7 +188,7 @@ Each page of our site uses front matter to inject copy into our html code. This 
 **tl;dr**: front-matter allows us to use the power of YAML in our html files.
 
 ### List of pages
-| Page               | permalink                      | file                           s|
+| Page               | permalink                      | files                          |
 |--------------------|--------------------------------|--------------------------------|
 | Homepage           | `/`                            | `page-home.html`               |
 | About              | `/about/`                      | `page-about.md`                |
@@ -175,6 +196,7 @@ Each page of our site uses front matter to inject copy into our html code. This 
 | Contact            | `/contact/`                    | `page-contact.html`            |
 | Projects           | `/projects/`                   | `page-projects.html`           |
 | Project Archive    | `/projects/all`                | `page-project-all.html`        |
+| Project Years      | `/projects/{{year}}`           | `page-projects-{{year}}.html`  |
 | Shortlist {{year}} | `/projects/shortlist/{{year}}` | `page-shortlist-{{year}}.html` |
 | Fellow Guide       | `/fellow-guide/`               | `page-fellow-guide.md`         |
 | Non Profit Guide   | `/nonprofit-guide/`            | `page-nonprofit-guide.md`      |
@@ -197,11 +219,18 @@ Each year, non profits submit to the Summer of Maps project shortlist. Historica
 
 ### Starting a new year
 - Create a new folder within `./_project-shortlist/` with its name being the year for the shortlist. For example, if collecting shortlists for Summer of Maps 2019, name the folder `2019`.
-- Clone one of the `page-shortlist-{{year}}.html` files in the root of the repo and rename it for the current year. In the case of SoM 2019, you would name it `page-shortlist-2019.html` 
+- Clone one of the `page-shortlist-{{year}}.html` files in `_pages/_shortlist-archives-years` of the repo and rename it for the current year. In the case of SoM 2019, you would name it `page-shortlist-2019.html` 
   - Replace every instance of the old year within that file to the current year. Do a find a replace to make sure you don't miss one. VERY IMPORTANT!
   - This creates a unique page where we display only shortlists from that year.
 - Update `./data/categories.yml` to include any new categories, but **DON'T** remove any. The file is used for all years for all time.
   - If you rename/remove a category, it will rename/remove the category through every year
+
+### Ending a year
+Each shortlist that coincides with a completed project needs to reference that project. Open the shortlist markdown file and edit the front matter to include a reference to the name of the completed project under a `completed` setting. _Note: Do not append the filetype to the project's name._ For example:
+
+```
+completed: "2017-clean-air-council"
+``` 
 
 ### Creating a shortlist post
 #### Shortlist template:
@@ -292,3 +321,32 @@ Mentors are typically changing year-to-year, so this file should be updated ever
   image: mcglone.jpg
 ```
 *A note on the `image` key: the image referenced here should be a photo of the fellow and should be uploaded to `./assets/images/mentors/`*
+
+## Featured projects
+On the `/projects/` page there are 5 project cards listed. These can be overriden by adding a setting to individual project posts. Open the project post markdown which should be featured and, in the front matter, add `featured: "true"`.
+
+*Only 5 projects can be featured at a time and the page will show only 5. If your post is not showing, you will need to remove the featured setting from another post until you only have 5 featured posts*
+
+
+## Ending the year
+Congratulations on another successful year of Summer of Maps! There are only a handful of ending year tasks for the website.
+
+### Project archive page:
+Clone one of the `page-projects-{{year}}.html` files in `_pages/_project-archives-years` of the repo and rename it for the year that is closing out. In the case of SoM 2018, you would name it `page-shortlist-2018.html` 
+  - Replace every instance of the old year within that file to the current year. Do a find a replace to make sure you don't miss one. VERY IMPORTANT!
+  - This creates a unique page where we display only projects from that year.
+- Within the `_config.yml` change `fellowship.in_session = false`. It will look something like:
+```
+fellowship:
+  year: 2018
+  ...
+  in_session: false
+  ...
+```
+
+### Update project shortlists with finished projects
+Each shortlist that coincides with a completed project needs to reference that project. Open the shortlist markdown file and edit the front matter to include a reference to the name of the completed project under a `completed` setting. _Note: Do not append the filetype to the project's name._ For example:
+
+```
+completed: "2017-clean-air-council"
+``` 

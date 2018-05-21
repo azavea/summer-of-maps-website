@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: '2014'
+completed: "2014-community-design-collaborative"
 
 title: "Community Design Collaborative" # project title or client name
 excerpt: "Using Spatial Analysis to Prioritize Design Grants in Philadelphia" # shows on project list page

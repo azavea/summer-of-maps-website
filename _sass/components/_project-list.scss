@@ -80,8 +80,47 @@
   margin-bottom: 2rem;
   border-top: 1px solid darken($off-white, 15%);
 
+  .star {
+    position: absolute;
+    left: -34px;
+    background: $primary;
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 30px;
+
+    &:after {
+      content: attr(data-tooltip);
+      line-height: 1.5;
+      font-size: 13px;
+      text-align: left;
+      background: $black;
+      display: block;
+      position: absolute;
+      width: 130px;
+      border-radius: 2px;
+      top: 50%;
+      padding: 5px 8px;
+      opacity: 0;
+      transform: scale(0) translate(20%, -50%);
+      transition: .2s ease-in-out opacity;
+      user-select: none;
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    &:hover:after {
+      opacity: 1;
+      transform: scale(1) translate(20%, -50%);
+    }
+  }
+
   .project-details {
     flex: 1;
+    position: relative;
   }
 
   .project-category {
@@ -104,7 +143,7 @@
   }
 
   .project-action {
-    flex-basis: 20rem;
+    flex-basis: 30rem;
     text-align: right;
   }
 
