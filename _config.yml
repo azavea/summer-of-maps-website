@@ -20,8 +20,8 @@ fellowship:
     nonprofit_signup: false
     nonprofit_review: false
     student_signup: false
-    student_review: true
-    fellowship_ongoing: false
+    student_review: false
+    fellowship_ongoing: true
 
 # Student and Non-profit application links
 # Define where the applications live
@@ -73,7 +73,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-include: 
+include:
   - _pages
   - _project-archive-years
   - _shortlist-archive-years
