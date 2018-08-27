@@ -52,7 +52,7 @@ Then, students submit applications and candidates are interviewed. Qualified stu
 Starting in the summer, each Summer of Maps fellow manages two different nonprofit projects. The fellows are paid a stipend for their work, in addition to the opportunity to learn from mentors and Azavea staff members.
 
 
-### {{ site.fellowship.year }} Dates
+### important Dates
 <ul>
 {% for date in site.data.dates %}
 <li>
