@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2018"
+completed: "2018-sierra-streams-institute"
 
 title: "Sierra Streams Institute" # project title or client name
 excerpt: "Prioritizing Restoration Projects in Sierra Nevada, CA Watershed: Using Suitability Analysis and Prioritization Models" # shows on project list page

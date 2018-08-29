@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2018"
+completed: "2018-national-aquarium"
 
 title: "National Aquarium" # project title or client name
 excerpt: "Identifying Patterns in Mid-Atlantic Marine Debris" # shows on project list page

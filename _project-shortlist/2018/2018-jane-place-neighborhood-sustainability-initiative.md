@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2018"
+completed: "2018-jane-place-neighborhood-sustainability-initiative"
 
 title: "Jane Place Neighborhood Sustainability Initiative" # project title or client name
 excerpt: "Mapping New Orleans Hidden Eviction Crisis" # shows on project list page
