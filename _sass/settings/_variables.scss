@@ -36,3 +36,10 @@ $focus-state: 0 0 0 3px rgba(lighten($primary, 10%), .4);
  * Shadows
  * * * */
 $shadow-default: 0 24px 32px rgba($black, .1);
+
+// Go to Azavea Navbar link:
+$a-font-size: 1.25rem;
+$a-font-weight: 400;
+$a-link-background: $brand-ink;
+$a-link-color: $white;
+$a-box-shadow-color: $brand-granite;

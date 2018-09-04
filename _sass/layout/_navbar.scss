@@ -3,7 +3,7 @@
   position: absolute;
   z-index: 100;
   width: 100%;
-  padding: 2rem;
+  padding: 3rem 2rem 2rem;
   left: 0;
   top: 1rem;
 
@@ -15,6 +15,7 @@
   .container {
     display: flex;
     max-width: 1190px;
+    position: relative;
 
     @include respond-to('xs') {
       flex-direction: column;
@@ -103,6 +104,11 @@
 
 .navbar-left {
   flex: 1;
+
+  @include respond-to('xs') {
+    text-align: left;
+    padding-left: 2.5rem;
+  }
 }
 
 .navbar-right {
@@ -135,4 +141,30 @@
   transform: scale(0.9);
   transform-origin: right;
   margin-top: 5px;
+}
+
+.azavea-link {
+  font-size: $a-font-size;
+  font-weight: $a-font-weight;
+  color: $a-link-color;
+  background: $a-link-background;
+  padding: 1rem 2rem 1rem;
+  border-radius: 0 0 4px 4px;
+  right: 2rem;
+  top: -4rem;
+  line-height: 1;
+  box-shadow: 0 0 10px $a-box-shadow-color;
+  position: absolute;
+
+  @include respond-to('xs') {
+    top: -5px;
+    margin-right: 2.5rem;
+    right: 0;
+  }
+
+  &:hover {
+    color: $primary;
+    cursor: pointer;
+    text-decoration: underline;
+  }
 }
