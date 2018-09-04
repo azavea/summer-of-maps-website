@@ -42,13 +42,11 @@ jekyll_1  |             Source: /usr/src/app
 jekyll_1  |        Destination: /usr/src/app/_site
 jekyll_1  |  Incremental build: disabled. Enable with --incremental
 jekyll_1  |       Generating...
-jekyll_1  |                     done in 0.524 seconds.
+jekyll_1  |                     done in 11.363 seconds.
 jekyll_1  |  Auto-regeneration: enabled for '/usr/src/app'
-jekyll_1  | Configuration file: /usr/src/app/_config.yml
-jekyll_1  |  LiveReload Server: 192.168.50.4:35729
-jekyll_1  |     Server address: http://192.168.50.4:4000/
+jekyll_1  | LiveReload address: http://0.0.0.0:35729
+jekyll_1  |     Server address: http://0.0.0.0:4000/
 jekyll_1  |   Server running... press ctrl-c to stop.
-jekyll_1  |         LiveReload: Browser connected
 ```
 
 In order to build Jekyll's static website output, use:
@@ -61,9 +59,9 @@ $ ./scripts/update
 
 The Vagrant configuration creates a host-only private network between the virtual machine host and the Vagrant virtual machine. In order to access the content served by Jekyll, and the LiveReload endpoint, use the following links:
 
-| Service    | URL                                                    |
-|------------|--------------------------------------------------------|
-| Jekyll     | [`http://192.168.50.4:4000`](http://192.168.50.4:4000) |
+| Service | URL                                              |
+| ------- | ------------------------------------------------ |
+| Jekyll  | [`http://localhost:4000`](http://localhost:4000) |
 
 ## Site Structure
 

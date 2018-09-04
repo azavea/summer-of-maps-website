@@ -78,14 +78,14 @@ include:
   - _project-archive-years
   - _shortlist-archive-years
 
-
 exclude:
-  - deployment
-  - Dockerfile
-  - Vagrantfile
+  - .gitignore
+  - .vagrant/
+  - deployment/
   - docker-compose.yml
-  - LICENSE
-  - README.md
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
-  - scripts
+  - LICENSE
+  - README.md
+  - scripts/
