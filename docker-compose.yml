@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3'
 services:
   jekyll:
     build:
@@ -6,8 +6,10 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./:/usr/src/app
-    network_mode: host
+    ports:
+      - '4000:4000'
+      - '35729:35729'
     environment:
       - JEKYLL_ENV=development
       - LANG=C.UTF-8
-    command: liveserve --force_polling --host 192.168.50.4
+    command: serve --livereload --force_polling --host 0.0.0.0

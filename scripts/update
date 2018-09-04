@@ -20,6 +20,5 @@ if [ "${BASH_SOURCE[0]}" = "${0}" ]; then
         docker-compose build
 
         docker-compose run --rm jekyll build
-        docker-compose run --rm --entrypoint htmlproofer jekyll ./_site
     fi
 fi

@@ -1,27 +1,23 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+Vagrant.require_version ">= 2.1"
+
 ANSIBLE_VERSION = "2.4.*"
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "bento/ubuntu-16.04"
 
   config.vm.synced_folder "./", "/vagrant"
-  config.vm.synced_folder "~/.aws", "/home/vagrant/.aws"
 
-  config.vm.network "private_network", ip: "192.168.50.4"
+  # Jekyll 
+  config.vm.network :forwarded_port, guest: 4000, host: 4000
+  # LiveReload
+  config.vm.network :forwarded_port, guest: 35729, host: 35729
 
   config.vm.provider "virtualbox" do |vb|
     vb.gui = false
     vb.memory = 1024
-  end
-
-  config.vm.provision "shell" do |s|
-    s.inline = <<-SHELL
-    if ! grep -q "cd /vagrant" "/home/vagrant/.bashrc"; then
-      echo "cd /vagrant" >> "/home/vagrant/.bashrc"
-    fi
-    SHELL
   end
 
   config.vm.provision "ansible_local" do |ansible|
@@ -32,5 +28,13 @@ Vagrant.configure("2") do |config|
     ansible.playbook = "deployment/ansible/summer-of-maps.yml"
     ansible.galaxy_role_file = "deployment/ansible/roles.yml"
     ansible.galaxy_roles_path = "deployment/ansible/roles"
+  end
+
+  config.vm.provision "shell" do |s|
+    s.inline = <<-SHELL
+    if ! grep -q "cd /vagrant" "/home/vagrant/.bashrc"; then
+      echo "cd /vagrant" >> "/home/vagrant/.bashrc"
+    fi
+    SHELL
   end
 end
