@@ -1,6 +1,7 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 year: "2018"
+featured: true
 
 title: "National Aquarium" # Displays on the project post page
 client: "National Aquarium" # shows on the project card
@@ -14,19 +15,19 @@ fellow: "xiaoWu"
 
 # No articles related to this project
 
-blogs: # bullet list of blogs
-  - title: ""
-    link: ""
+#blogs: # bullet list of blogs
+#  - title: ""
+#    link: ""
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2018-national-aquarium-featured.png"
+featured_image: "2018-national-aquarium-featured.jpg"
 
 images:
-    - "2018-national-aquarium-01.png"
-    - "2018-national-aquarium-02.png"
-    - "2018-national-aquarium-03.png"
-    - "2018-national-aquarium-04.png"
+    - "2018-national-aquarium-01.jpg"
+    - "2018-national-aquarium-02.jpg"
+    - "2018-national-aquarium-03.jpg"
+    - "2018-national-aquarium-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

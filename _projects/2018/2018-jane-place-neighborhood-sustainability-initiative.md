@@ -1,10 +1,10 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 year: "2018"
 
 title: "Jane Place Neighborhood Sustainability Initiative" # Displays on the project post page
 client: "Jane Place Neighborhood Sustainability Initiative" # shows on the project card
-brief_description: "Mapping New Orleans Hidden Eviction Crisis" # shows on the project card
+brief_description: "Using eviction rates to calculate displacement in New Orleans" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -14,9 +14,9 @@ fellow: "gabrielleBeaudry"
 
 # No articles related to this project
 
-blogs: # bullet list of blogs
-  - title: ""
-    link: ""
+#blogs: # bullet list of blogs
+#  - title: ""
+#    link: ""
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
@@ -27,6 +27,7 @@ images:
     - "2018-jane-place-02.png"
     - "2018-jane-place-03.png"
     - "2018-jane-place-04.png"
+    - "2018-jane-place-05.png"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

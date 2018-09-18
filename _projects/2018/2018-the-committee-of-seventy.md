@@ -1,5 +1,5 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 year: "2018"
 
 title: "The Committee of Seventy" # Displays on the project post page
@@ -14,9 +14,9 @@ fellow: "gabrielleBeaudry"
 
 # No articles related to this project
 
-blogs: # bullet list of blogs
-  - title: ""
-    link: ""
+#blogs: # bullet list of blogs
+#  - title: ""
+#    link: ""
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below

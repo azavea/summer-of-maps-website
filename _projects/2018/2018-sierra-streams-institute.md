@@ -1,5 +1,5 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 year: "2018"
 
 title: "Sierra Streams Institute" # Displays on the project post page
@@ -14,17 +14,17 @@ fellow: "daleWatt"
 
 # No articles related to this project
 
-blogs: # bullet list of blogs
-  - title: "Emerging Hot Spot Analysis: Finding Patterns over Space and Time"
-    link: "https://www.azavea.com/blog/2017/08/15/emerging-hot-spot-spatial-statistics/"
+#blogs: # bullet list of blogs
+#  - title: "Emerging Hot Spot Analysis: Finding Patterns over Space and Time"
+#    link: "https://www.azavea.com/blog/2017/08/15/emerging-hot-spot-spatial-statistics/"
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-world-resources-institute-featured.png"
+featured_image: "2018-sierra-streams-institute-featured.png"
 
 images:
     - "2018-sierra-streams-institute-01.png"
-    - "2018-sierra-streams-institute-02.pdf"
+    - "2018-sierra-streams-institute-02.jpg"
     - "2018-sierra-streams-institute-03.png"
     - "2018-sierra-streams-institute-04.png"
 

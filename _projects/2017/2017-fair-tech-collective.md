@@ -1,7 +1,6 @@
 ---
 published: true # change to true once ready to post
 year: "2017"
-featured: true
 
 title: "Fair Tech Collective" # Displays on the project post page
 client: "Fair Tech Collective" # shows on the project card

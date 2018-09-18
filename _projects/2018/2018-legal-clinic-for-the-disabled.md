@@ -1,5 +1,5 @@
 ---
-published: false # change to true once ready to post
+published: true # change to true once ready to post
 year: "2018"
 
 title: "Legal Clinic for the Disabled" # Displays on the project post page
@@ -14,19 +14,19 @@ fellow: "daleWatt"
 
 # No articles related to this project
 
-blogs: # bullet list of blogs
-  - title: ""
-    link: ""
+#blogs: # bullet list of blogs
+#  - title: ""
+#    link: ""
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2018-legal-clinic-featured.png"
+featured_image: "2018-legal-clinic-featured.jpg"
 
 images:
-    - "2018-legal-clinic-01.png"
-    - "2018-legal-clinic-02.pdf"
-    - "2018-legal-clinic-03.png"
-    - "2018-legal-clinic-04.png"
+    - "2018-legal-clinic-01.jpg"
+    - "2018-legal-clinic-02.jpg"
+    - "2018-legal-clinic-03.jpg"
+    - "2018-legal-clinic-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
