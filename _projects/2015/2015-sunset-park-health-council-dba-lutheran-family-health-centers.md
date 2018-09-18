@@ -4,7 +4,7 @@ year: "2015"
 
 title: "Sunset Park Health Council dba Lutheran Family Health Centers" # Displays on the project post page
 client: "Sunset Park Health Council dba Lutheran Family Health Centers" # shows on the project card
-brief_description: "Analyzing Adult ESOL Students’ Needs and Available Community Assets in Southwest Brooklyn, NY" # shows on the project card
+brief_description: "Analyzing adult ESOL students’ needs and available community assets in southwest Brooklyn, NY" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

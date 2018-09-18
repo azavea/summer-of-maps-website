@@ -4,7 +4,7 @@ year: "2015"
 
 title: "The Greening of Detroit" # Displays on the project post page
 client: "The Greening of Detroit" # shows on the project card
-brief_description: "Analysis of Total Tree Canopy in the City of Detroit" # shows on the project card
+brief_description: "Analysis of total tree canopy in the City of Detroit" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

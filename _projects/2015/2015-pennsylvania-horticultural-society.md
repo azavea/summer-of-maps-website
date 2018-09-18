@@ -4,7 +4,7 @@ year: "2015"
 
 title: "Pennsylvania Horticultural Society" # Displays on the project post page
 client: "Pennsylvania Horticultural Society" # shows on the project card
-brief_description: "Analyzing Philadelphia Landcare’s Inactive Parcels and the Impact of the Program in the Neighborhoods throughout Philadelphia" # shows on the project card
+brief_description: "Analyzing Philadelphia landcare’s inactive parcels and the impact of the program in the neighborhoods throughout Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

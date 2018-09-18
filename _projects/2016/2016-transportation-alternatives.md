@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Transportation Alternatives" # Displays on the project post page
 client: "Transportation Alternatives" # shows on the project card
-brief_description: "The Road to Vision Zero: Traffic Crashes and Poverty Level in New York City" # shows on the project card
+brief_description: "The Road to Vision Zero: traffic crashes and poverty level in New York City" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

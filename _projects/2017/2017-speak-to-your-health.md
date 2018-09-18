@@ -4,7 +4,7 @@ year: "2017"
 
 title: "Speak to Your Health" # Displays on the project post page
 client: "Speak to Your Health" # shows on the project card
-brief_description: "Mapping Impact of the Flint Water Crisis on Community Health" # shows on the project card
+brief_description: "Mapping impact of the Flint Water Crisis on community health" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

@@ -4,7 +4,7 @@ year: "2014"
 
 title: "Community Design Collaborative" # Displays on the project post page
 client: "Community Design Collaborative" # shows on the project card
-brief_description: "Using Spatial Analysis to Prioritize Design Grants in Philadelphia" # shows on the project card
+brief_description: "Using spatial analysis to prioritize design grants in Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

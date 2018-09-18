@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Ecotrust" # Displays on the project post page
 client: "Ecotrust" # shows on the project card
-brief_description: "Ongoing Change in Portland’s Urban Forest Canopy and Looking Ahead in the 2035 Comprehensive Plan" # shows on the project card
+brief_description: "Ongoing change in Portland’s urban forest canopy and looking ahead in the 2035 Comprehensive Plan" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

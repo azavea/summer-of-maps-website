@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Bicycle Coalition of Greater Philadelphia" # Displays on the project post page
 client: "Bicycle Coalition of Greater Philadelphia" # shows on the project card
-brief_description: "An Analysis of Fatal Road Crashes and Equity" # shows on the project card
+brief_description: "An analysis of fatal road crashes and equity" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

@@ -4,7 +4,7 @@ year: "2016"
 
 title: "The Food Trust" # Displays on the project post page
 client: "The Food Trust" # shows on the project card
-brief_description: "Defining Context and Presence: Food Access in Philadelphia" # shows on the project card
+brief_description: "Defining context and presence for food access in Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

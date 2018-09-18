@@ -4,7 +4,7 @@ year: "2017"
 
 title: "Clean Air Council" # Displays on the project post page
 client: "Clean Air Council" # shows on the project card
-brief_description: "An Analysis of Bike Parking Demand in Center City Philadelphia" # shows on the project card
+brief_description: "An analysis of bike parking demand in Center City Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

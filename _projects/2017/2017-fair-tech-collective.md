@@ -4,7 +4,7 @@ year: "2017"
 
 title: "Fair Tech Collective" # Displays on the project post page
 client: "Fair Tech Collective" # shows on the project card
-brief_description: "Petrochemical Pollution Footprint" # shows on the project card
+brief_description: "Investigating refinery flaring pollution and air pollutant concentration" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

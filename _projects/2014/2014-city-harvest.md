@@ -4,7 +4,7 @@ year: "2014"
 
 title: "City Harvest" # Displays on the project post page
 client: "City Harvest" # shows on the project card
-brief_description: "Analysis of Retail Food Access in Low Income Communities to Measure Need for and Impact of City Harvest Programming" # shows on the project card
+brief_description: "Analysis of retail food access in low income communities to measure need for and impact of City Harvest programming" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

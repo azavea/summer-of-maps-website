@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Chemical Heritage Foundation" # Displays on the project post page
 client: "Chemical Heritage Foundation" # shows on the project card
-brief_description: "A Visualization of National, Regional and Local Air Quality in the U.S." # shows on the project card
+brief_description: "A visualization of national, regional and local air quality in the U.S." # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

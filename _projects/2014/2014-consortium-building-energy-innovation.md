@@ -4,7 +4,7 @@ year: "2014"
 
 title: "The Consortium for Building Energy Innovation" # Displays on the project post page
 client: "The Consortium for Building Energy Innovation" # shows on the project card
-brief_description: "Measuring Energy Efficiency of Philadelphia's Building Stock" # shows on the project card
+brief_description: "Measuring energy efficiency of Philadelphia's building stock" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

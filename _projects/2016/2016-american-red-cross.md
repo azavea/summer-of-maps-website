@@ -5,7 +5,7 @@ featured: true
 
 title: "American Red Cross" # Displays on the project post page
 client: "American Red Cross" # shows on the project card
-brief_description: "Identifying Priority Communities for West Africa Health Interventions" # shows on the project card
+brief_description: "Identifying priority communities for West Africa health interventions" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

@@ -4,7 +4,7 @@ year: "2015"
 
 title: "Public Laboratory for Open Technology and Science" # Displays on the project post page
 client: "Public Laboratory for Open Technology and Science" # shows on the project card
-brief_description: "Tools for Assessing and Managing Human Impacts on Maine’s Harbors" # shows on the project card
+brief_description: "Tools for assessing and managing human impacts on Maine’s harbors" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

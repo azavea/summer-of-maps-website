@@ -4,7 +4,7 @@ year: "2014"
 
 title: "GirlStart" # Displays on the project post page
 client: "GirlStart" # shows on the project card
-brief_description: "Analysis Of Funding Resources And Program Adoption Of Girlstart In Central Texas" # shows on the project card
+brief_description: "Analysis of funding resources and program adoption of Girlstart in central Texas" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

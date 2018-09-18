@@ -4,7 +4,7 @@ year: "2015"
 
 title: "Legal Clinic for the Disabled, Inc." # Displays on the project post page
 client: "Legal Clinic for the Disabled, Inc." # shows on the project card
-brief_description: "Visualizing Correlations Between Poverty, Health Status, Legal Need, and Geography in Philadelphia" # shows on the project card
+brief_description: "Visualizing correlations between poverty, health status, legal need, and geography in Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

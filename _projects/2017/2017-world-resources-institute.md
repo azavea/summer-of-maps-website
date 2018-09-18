@@ -4,7 +4,7 @@ year: "2017"
 
 title: "World Resources Institute" # Displays on the project post page
 client: "World Resources Institute" # shows on the project card
-brief_description: "Data Driven Conservation in the Lac Tele-Lac Tumba Landscape" # shows on the project card
+brief_description: "Data driven conservation in the Lac Tele-Lac Tumba landscape" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
