@@ -4,7 +4,7 @@ year: "2018"
 
 title: "The Committee of Seventy" # Displays on the project post page
 client: "The Committee of Seventy" # shows on the project card
-brief_description: "Exploring How Philly Elections Work" # shows on the project card
+brief_description: "Exploring Philadelphia campaign finance data to understand impact of fundraising on elections" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
