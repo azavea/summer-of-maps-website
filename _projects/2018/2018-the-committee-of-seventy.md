@@ -14,9 +14,9 @@ fellow: "gabrielleBeaudry"
 
 # No articles related to this project
 
-#blogs: # bullet list of blogs
-#  - title: ""
-#    link: ""
+blogs: # bullet list of blogs
+  - title: "Cleaning Philadelphia Campaign Finance Data with R"
+    link: "https://www.azavea.com/blog/2018/09/20/cleaning-campaign-finance-data-r/"
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
