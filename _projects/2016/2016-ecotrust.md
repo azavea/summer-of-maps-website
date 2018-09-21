@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Ecotrust" # Displays on the project post page
 client: "Ecotrust" # shows on the project card
-brief_description: "Ongoing Change in Portland’s Urban Forest Canopy and Looking Ahead in the 2035 Comprehensive Plan" # shows on the project card
+brief_description: "Ongoing change in Portland’s urban forest canopy and looking ahead in the 2035 Comprehensive Plan" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -27,12 +27,12 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-ecotrust-featured.png"
+featured_image: "2016-ecotrust-featured.jpg"
 
 images:
- - "2016-ecotrust-01.png"
- - "2016-ecotrust-02.png"
- - "2016-ecotrust-03.png"
+ - "2016-ecotrust-01.jpg"
+ - "2016-ecotrust-02.jpg"
+ - "2016-ecotrust-03.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

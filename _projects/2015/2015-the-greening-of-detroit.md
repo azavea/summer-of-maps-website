@@ -4,7 +4,7 @@ year: "2015"
 
 title: "The Greening of Detroit" # Displays on the project post page
 client: "The Greening of Detroit" # shows on the project card
-brief_description: "Analysis of Total Tree Canopy in the City of Detroit" # shows on the project card
+brief_description: "Analysis of total tree canopy in the City of Detroit" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -27,8 +27,8 @@ featured_image: "2015-the-greening-of-detroit-featured.jpg"
 
 images:
  - "2015-the-greening-of-detroit-01.jpg"
- - "2015-the-greening-of-detroit-02.png"
- - "2015-the-greening-of-detroit-03.png"
+ - "2015-the-greening-of-detroit-02.jpg"
+ - "2015-the-greening-of-detroit-03.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

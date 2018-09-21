@@ -19,12 +19,12 @@ blogs: # bullet list of blogs
   - title: "How to Calculate Location Accessibility with AccessMod 5"
     link: "https://www.azavea.com/blog/2017/08/02/how-to-calculate-location-accessibility-with-accessmod-5/"
 
-featured_image: "2017-human-computation-institute-featured.png"
+featured_image: "2017-human-computation-institute-featured.jpg"
 
 images:
-  - "2017-human-computation-institute-01.png"
-  - "2017-human-computation-institute-02.png"
-  - "2017-human-computation-institute-03.png"
+  - "2017-human-computation-institute-01.jpg"
+  - "2017-human-computation-institute-02.jpg"
+  - "2017-human-computation-institute-03.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

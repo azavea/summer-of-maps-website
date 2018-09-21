@@ -4,7 +4,7 @@ year: "2014"
 
 title: "TreePeople" # Displays on the project post page
 client: "TreePeople" # shows on the project card
-brief_description: "Analysis of the Correlation of Public Health and Socioeconomic Characteristics to Tree Canopy Cover" # shows on the project card
+brief_description: "Analysis of the correlation of public health and socioeconomic characteristics to tree canopy cover" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

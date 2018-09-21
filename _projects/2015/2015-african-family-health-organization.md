@@ -4,7 +4,7 @@ year: "2015"
 
 title: "African Family Health Organization" # Displays on the project post page
 client: "African Family Health Organization" # shows on the project card
-brief_description: "Analysis of Healthcare Needs and Availability for African and Caribbean Immigrants and Refugees in Northeast Philadelphia" # shows on the project card
+brief_description: "Analysis of healthcare needs and availability for African and Caribbean immigrants and refugees in northeast Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

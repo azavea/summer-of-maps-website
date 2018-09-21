@@ -4,7 +4,7 @@ year: "2015"
 
 title: "Public Laboratory for Open Technology and Science" # Displays on the project post page
 client: "Public Laboratory for Open Technology and Science" # shows on the project card
-brief_description: "Tools for Assessing and Managing Human Impacts on Maine’s Harbors" # shows on the project card
+brief_description: "Tools for assessing and managing human impacts on Maine’s harbors" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -27,8 +27,8 @@ featured_image: "2015-public-laboratory-for-open-technology-and-science-featured
 
 images:
  - "2015-public-laboratory-for-open-technology-and-science-01.jpg"
- - "2015-public-laboratory-for-open-technology-and-science-02.png"
- - "2015-public-laboratory-for-open-technology-and-science-03.png"
+ - "2015-public-laboratory-for-open-technology-and-science-02.jpg"
+ - "2015-public-laboratory-for-open-technology-and-science-03.jpg"
  - "2015-public-laboratory-for-open-technology-and-science-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax

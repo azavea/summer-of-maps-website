@@ -4,7 +4,7 @@ year: "2017"
 
 title: "Speak to Your Health" # Displays on the project post page
 client: "Speak to Your Health" # shows on the project card
-brief_description: "Mapping Impact of the Flint Water Crisis on Community Health" # shows on the project card
+brief_description: "Mapping impact of the Flint Water Crisis on community health" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -20,13 +20,13 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-speak-to-your-health-featured.png"
+featured_image: "2017-speak-to-your-health-featured.jpg"
 
 images:
-  - "2017-speak-to-your-health-01.png"
-  - "2017-speak-to-your-health-02.png"
-  - "2017-speak-to-your-health-03.png"
-  - "2017-speak-to-your-health-04.png"
+  - "2017-speak-to-your-health-01.jpg"
+  - "2017-speak-to-your-health-02.jpg"
+  - "2017-speak-to-your-health-03.jpg"
+  - "2017-speak-to-your-health-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

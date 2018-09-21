@@ -4,7 +4,7 @@ year: "2017"
 
 title: "World Resources Institute" # Displays on the project post page
 client: "World Resources Institute" # shows on the project card
-brief_description: "Data Driven Conservation in the Lac Tele-Lac Tumba Landscape" # shows on the project card
+brief_description: "Data driven conservation in the Lac Tele-Lac Tumba landscape" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -20,7 +20,7 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-world-resources-institute-featured.png"
+featured_image: "2017-world-resources-institute-featured.jpg"
 
 images:
   - "2017-world-resources-institute-01.jpg"

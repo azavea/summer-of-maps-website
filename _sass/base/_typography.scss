@@ -82,6 +82,34 @@ ul {
   }
 }
 
+ol {
+  font-size: 1.6rem;
+  color: $base;
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+  margin-bottom: 2rem;
+  counter-reset: ol-counter;
+
+  li {
+    margin: 1rem 0;
+    position: relative;
+    padding-left: 2.5rem;
+    line-height: 1.6;
+
+    &:before {
+      content: counter(ol-counter)':';
+      counter-increment: ol-counter;
+      color: rgba($header, .5);
+      font-size: 1.4rem;
+      padding-right: 1.5rem;
+      position: absolute;
+      top: 2px;
+      left: 0;
+    }
+  }
+}
+
 code, kbd, pre, samp {
   font-family: 'Source Code Pro', monospace;
 }

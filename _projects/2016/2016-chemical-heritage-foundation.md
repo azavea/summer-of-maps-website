@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Chemical Heritage Foundation" # Displays on the project post page
 client: "Chemical Heritage Foundation" # shows on the project card
-brief_description: "A Visualization of National, Regional and Local Air Quality in the U.S." # shows on the project card
+brief_description: "A visualization of national, regional and local air quality in the U.S." # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -27,10 +27,10 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-chemical-heritage-foundation-featured.png"
+featured_image: "2016-chemical-heritage-foundation-featured.jpg"
 
 images:
- - "2016-chemical-heritage-foundation-01.png"
+ - "2016-chemical-heritage-foundation-01.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

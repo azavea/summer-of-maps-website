@@ -4,7 +4,7 @@ year: "2014"
 
 title: "DataHaven" # Displays on the project post page
 client: "DataHaven" # shows on the project card
-brief_description: "Analyzing The Relationships Between Neighborhood Indicators In The Greater New Haven And Valley Region" # shows on the project card
+brief_description: "Analyzing the relationships between neighborhood indicators in the Greater New Haven and Valley Region" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow

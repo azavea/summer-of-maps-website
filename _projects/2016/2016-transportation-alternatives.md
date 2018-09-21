@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Transportation Alternatives" # Displays on the project post page
 client: "Transportation Alternatives" # shows on the project card
-brief_description: "The Road to Vision Zero: Traffic Crashes and Poverty Level in New York City" # shows on the project card
+brief_description: "The Road to Vision Zero: traffic crashes and poverty level in New York City" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -27,12 +27,12 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-transportation-alternatives-featured.png"
+featured_image: "2016-transportation-alternatives-featured.jpg"
 
 images:
- - "2016-transportation-alternatives-01.png"
- - "2016-transportation-alternatives-02.png"
- - "2016-transportation-alternatives-03.png"
+ - "2016-transportation-alternatives-01.jpg"
+ - "2016-transportation-alternatives-02.jpg"
+ - "2016-transportation-alternatives-03.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

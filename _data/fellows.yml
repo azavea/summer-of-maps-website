@@ -1,3 +1,18 @@
+gabrielleBeaudry:
+  name: Gabrielle Beaudry
+  info: 'BS Environmental Science, Energy Management track; Minor in Computer Science, Master in Environmental Informatics candidate at UNC Chapel Hill'
+  year: 2018
+  image: gabrielleBeaudry.jpg
+xiaoWu:
+  name: Xiao Wu
+  info: 'Master of Urban Spatial Analytics and Landscape Architecture and Regional Planning candidate at the University of Pennsylvania School of Design'
+  year: 2018
+  image: xiaoWu.jpg
+daleWatt:
+  name: Dale Watt
+  info: 'Master of Science candidate in Geographic Information Science for Development and Environment at Clark University'
+  year: 2018
+  image: daleWatt.jpg
 sarahGates:
   name: Sarah Gates
   info: 'Master of Science candidate in Geographic Information Science for Development and Environment at Clark University'

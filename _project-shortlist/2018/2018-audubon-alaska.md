@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2018"
+completed: "2018-audubon-alaska"
 
 title: "Audubon Alaska" # project title or client name
 excerpt: "Ecological Analysis of the Arctic National Wildlife Refuge" # shows on project list page

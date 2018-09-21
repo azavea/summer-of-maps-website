@@ -1,11 +1,10 @@
 ---
 published: true # change to true once ready to post
 year: "2017"
-featured: true
 
 title: "Fair Tech Collective" # Displays on the project post page
 client: "Fair Tech Collective" # shows on the project card
-brief_description: "Petrochemical Pollution Footprint" # shows on the project card
+brief_description: "Investigating refinery flaring pollution and air pollutant concentration" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -21,7 +20,7 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-fair-tech-collective-featured.png"
+featured_image: "2017-fair-tech-collective-featured.jpg"
 
 images:
   - "2017-fair-tech-collective-01.jpg"

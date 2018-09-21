@@ -1,0 +1,47 @@
+---
+layout: secondary-fullwidth
+permalink: "/projects/2018"
+page_class: projects
+partials_location: "_project-archives/"
+
+# NO EDITING ABOVE THIS LINE
+# # # # # #
+year: 2018
+
+title: "2018 Projects - Archives"
+seo_description: ""
+
+# hero section
+hero:
+  above-title: "<a href='/projects/all'>&#10094; All Projects</a>"
+  title: "2018 Projects"
+  subtitle: "Azavea Summer of Maps 2018 completed projects"
+# hero section
+---
+{% assign getProjectsByYear =
+  site.projects
+    | where:'year', page.year
+    | group_by: 'name'
+    | first
+%}
+
+<div class="project-grid">
+  {% for item in getProjectsByYear.items  %}
+      {% assign author = site.data.fellows[item.fellow] %}
+      <div class="project-card">
+        <a class="project-card-link" href="{{ item.url }}">Go to project</a>
+        <div class="project-card-image" style="background-image: url(/assets/images/projects/{{item.year}}/{{item.featured_image}})"></div>
+        <div class="project-card-details">
+          <div class="fellow">
+            <div class="fellow-image">
+              <img src="/assets/images/fellows/{{ author.image }}" alt="{{ author.name }}">
+            </div>
+            <div class="fellow-name">{{author.name}}</div>
+            <div class="fellow-year">{{author.year}} fellow</div>
+          </div>
+          <div class="project-card-title">{{ item.client }}</div>
+          <div class="project-card-description">{{ item.brief_description }}</div>
+        </div>
+      </div>
+  {% endfor %}
+</div>

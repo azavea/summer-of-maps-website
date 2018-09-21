@@ -4,7 +4,7 @@ year: "2016"
 
 title: "Bicycle Coalition of Greater Philadelphia" # Displays on the project post page
 client: "Bicycle Coalition of Greater Philadelphia" # shows on the project card
-brief_description: "An Analysis of Fatal Road Crashes and Equity" # shows on the project card
+brief_description: "An analysis of fatal road crashes and equity" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -31,13 +31,13 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-bicycle-coalition-of-greater-philadelphia-featured.png"
+featured_image: "2016-bicycle-coalition-of-greater-philadelphia-featured.jpg"
 
 images:
- - "2016-bicycle-coalition-of-greater-philadelphia-01.png"
- - "2016-bicycle-coalition-of-greater-philadelphia-02.png"
- - "2016-bicycle-coalition-of-greater-philadelphia-03.png"
- - "2016-bicycle-coalition-of-greater-philadelphia-04.png"
+ - "2016-bicycle-coalition-of-greater-philadelphia-01.jpg"
+ - "2016-bicycle-coalition-of-greater-philadelphia-02.jpg"
+ - "2016-bicycle-coalition-of-greater-philadelphia-03.jpg"
+ - "2016-bicycle-coalition-of-greater-philadelphia-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

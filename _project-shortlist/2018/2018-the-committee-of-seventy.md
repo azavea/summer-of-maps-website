@@ -1,6 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2018"
+completed: "2018-the-committee-of-seventy"
 
 title: "The Committee of Seventy" # project title or client name
 excerpt: "Exploring How Philly Elections Work" # shows on project list page

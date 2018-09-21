@@ -5,7 +5,7 @@ featured: true
 
 title: "American Red Cross" # Displays on the project post page
 client: "American Red Cross" # shows on the project card
-brief_description: "Identifying Priority Communities for West Africa Health Interventions" # shows on the project card
+brief_description: "Identifying priority communities for West Africa health interventions" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
@@ -28,12 +28,12 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-american-red-cross-featured.png"
+featured_image: "2016-american-red-cross-featured.jpg"
 
 images:
- - "2016-american-red-cross-01.png"
- - "2016-american-red-cross-02.png"
- - "2016-american-red-cross-03.png"
+ - "2016-american-red-cross-01.jpg"
+ - "2016-american-red-cross-02.jpg"
+ - "2016-american-red-cross-03.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
