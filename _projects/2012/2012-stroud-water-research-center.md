@@ -15,8 +15,7 @@ fellow: "angelaSakrison"
 # No articles related to this project
 
 blogs: # bullet list of blogs
-  - title: ""
-    link: ""
+
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below

@@ -20,13 +20,13 @@ fellow: "gabrielleBeaudry"
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2018-committee-of-seventy-featured.png"
+featured_image: "2018-committee-of-seventy-featured.jpg"
 
 images:
-    - "2018-committee-of-seventy-01.png"
-    - "2018-committee-of-seventy-02.png"
-    - "2018-committee-of-seventy-03.png"
-    - "2018-committee-of-seventy-04.png"
+    - "2018-committee-of-seventy-01.jpg"
+    - "2018-committee-of-seventy-02.jpg"
+    - "2018-committee-of-seventy-03.jpg"
+    - "2018-committee-of-seventy-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

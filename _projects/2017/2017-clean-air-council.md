@@ -18,13 +18,13 @@ blogs: # bullet list of blogs
   - title: "How to Calculate Location Accessibility with AccessMod 5"
     link: "https://www.azavea.com/blog/2017/08/02/how-to-calculate-location-accessibility-with-accessmod-5/"
 
-featured_image: "2017-clean-air-council-featured.png"
+featured_image: "2017-clean-air-council-featured.jpg"
 
 images:
-  - "2017-clean-air-council-01.png"
-  - "2017-clean-air-council-02.png"
-  - "2017-clean-air-council-03.png"
-  - "2017-clean-air-council-04.png"
+  - "2017-clean-air-council-01.jpg"
+  - "2017-clean-air-council-02.jpg"
+  - "2017-clean-air-council-03.jpg"
+  - "2017-clean-air-council-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

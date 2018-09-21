@@ -20,13 +20,13 @@ fellow: "daleWatt"
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2018-sierra-streams-institute-featured.png"
+featured_image: "2018-sierra-streams-institute-featured.jpg"
 
 images:
-    - "2018-sierra-streams-institute-01.png"
+    - "2018-sierra-streams-institute-01.jpg"
     - "2018-sierra-streams-institute-02.jpg"
-    - "2018-sierra-streams-institute-03.png"
-    - "2018-sierra-streams-institute-04.png"
+    - "2018-sierra-streams-institute-03.jpg"
+    - "2018-sierra-streams-institute-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

@@ -29,12 +29,12 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2016-the-food-trust-featured.png"
+featured_image: "2016-the-food-trust-featured.jpg"
 
 images:
- - "2016-the-food-trust-01.png"
- - "2016-the-food-trust-02.png"
- - "2016-the-food-trust-03.png"
+ - "2016-the-food-trust-01.jpg"
+ - "2016-the-food-trust-02.jpg"
+ - "2016-the-food-trust-03.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

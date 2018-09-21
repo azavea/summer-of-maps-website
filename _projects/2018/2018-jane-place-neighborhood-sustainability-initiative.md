@@ -20,14 +20,14 @@ fellow: "gabrielleBeaudry"
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2018-jane-place-featured.png"
+featured_image: "2018-jane-place-featured.jpg"
 
 images:
-    - "2018-jane-place-01.png"
-    - "2018-jane-place-02.png"
-    - "2018-jane-place-03.png"
-    - "2018-jane-place-04.png"
-    - "2018-jane-place-05.png"
+    - "2018-jane-place-01.jpg"
+    - "2018-jane-place-02.jpg"
+    - "2018-jane-place-03.jpg"
+    - "2018-jane-place-04.jpg"
+    - "2018-jane-place-05.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

@@ -20,13 +20,13 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-speak-to-your-health-featured.png"
+featured_image: "2017-speak-to-your-health-featured.jpg"
 
 images:
-  - "2017-speak-to-your-health-01.png"
-  - "2017-speak-to-your-health-02.png"
-  - "2017-speak-to-your-health-03.png"
-  - "2017-speak-to-your-health-04.png"
+  - "2017-speak-to-your-health-01.jpg"
+  - "2017-speak-to-your-health-02.jpg"
+  - "2017-speak-to-your-health-03.jpg"
+  - "2017-speak-to-your-health-04.jpg"
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---

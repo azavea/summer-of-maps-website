@@ -20,7 +20,7 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-world-resources-institute-featured.png"
+featured_image: "2017-world-resources-institute-featured.jpg"
 
 images:
   - "2017-world-resources-institute-01.jpg"

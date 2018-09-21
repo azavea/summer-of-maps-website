@@ -20,7 +20,7 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
-featured_image: "2017-fair-tech-collective-featured.png"
+featured_image: "2017-fair-tech-collective-featured.jpg"
 
 images:
   - "2017-fair-tech-collective-01.jpg"

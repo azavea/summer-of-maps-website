@@ -23,7 +23,7 @@ blogs: # bullet list of blogs
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.ext of the images below
-featured_image: "2015-legal-clinic-for-the-disabled-inc-featured.png"
+featured_image: "2015-legal-clinic-for-the-disabled-inc-featured.jpg"
 
 images:
  - "2015-legal-clinic-for-the-disabled-inc-01.jpg"
