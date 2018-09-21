@@ -14,9 +14,9 @@ fellow: "daleWatt"
 
 # No articles related to this project
 
-#blogs: # bullet list of blogs
-#  - title: ""
-#    link: ""
+blogs: # bullet list of blogs
+  - title: "Geospatial Analysis of Utility Insecurity in Philadelphia"
+    link: "https://www.azavea.com/blog/2018/09/19/understanding-utility-insecurity-the-case-of-the-missing-data/"
 
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
