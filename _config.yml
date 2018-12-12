@@ -17,8 +17,8 @@ fellowship:
   timeframe: Summer 2019
   in_session: true
   stage:
-    nonprofit_signup: false
-    nonprofit_review: true
+    nonprofit_signup: true
+    nonprofit_review: false
     student_signup: false
     student_review: false
     fellowship_ongoing: false
