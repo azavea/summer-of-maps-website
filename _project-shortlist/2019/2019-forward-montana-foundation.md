@@ -4,7 +4,7 @@ year: "2019"
 completed: "" # filename of project post without file type extension
 
 title: "Forward Montana Foundation" # client name
-excerpt: "Travel Barriers for Voters in Urban States" # project title, shows on project list page
+excerpt: "Travel Barriers for Voters in Rural States" # project title, shows on project list page
 client_website: "http://forwardmontanafoundation.org"
 category: "elections" #see list at `./_data/categories.yml`
 
