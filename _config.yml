@@ -18,15 +18,15 @@ fellowship:
   in_session: true
   stage:
     nonprofit_signup: false
-    nonprofit_review: true
-    student_signup: false
+    nonprofit_review: false
+    student_signup: true
     student_review: false
     fellowship_ongoing: false
 
 # Student and Non-profit application links
 # Define where the applications live
 nonprofit_app_link: "https://azavea.forms.fm/2019-summer-of-maps-nonprofit-application"
-student_app_link: "https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAAADK0knd5cWXHZ"
+student_app_link: "https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAABpPLsAwKiJmIa"
 
 ####
 ## DON'T EDIT BEYOND THIS LINE
