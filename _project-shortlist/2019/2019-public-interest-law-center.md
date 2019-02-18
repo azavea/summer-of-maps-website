@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "Public Interest Law Center" # client name
 excerpt: "Improving Housing Quality in Philadelphia" # project title, shows on project list page

@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "Fair Share Housing Center" # client name
 excerpt: "Promoting Equity and Access through New Jersey Fair Housing" # project title, shows on project list page

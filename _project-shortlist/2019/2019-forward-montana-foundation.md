@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "Forward Montana Foundation" # client name
 excerpt: "Travel Barriers for Voters in Rural States" # project title, shows on project list page

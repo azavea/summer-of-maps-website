@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "The Nature Conservancy in New York" # client name
 excerpt: "Characterizing Potential and Need for Green Roofs across New York City" # project title, shows on project list page
@@ -14,7 +14,7 @@ seo_description: "" # goes in project meta description
 ---
 
 ## Spatial Analysis Project:
-Green roofs are vegetated rooftops that can provide myriad benefits including absorption of stormwater, increase in energy efficiency of buildings, and reduction of the urban heat island effect, among others. At The Nature Conservancy (TNC), we recently developed a robust characterization of green roofs in NYC (https://zenodo.org/record/1469674). Effective planning for future green roofs should be informed by an understanding of realistic potential for them (i.e., where are buildings generally suitable for green roofs) and need (e.g., where are benefits of green roofs most needed). We propose a Summer of Maps intern use available data to a) identify buildings that are likely to support a green roof based on existing guidelines, and b) evaluate data at the scales of Census Tracts and Community Districts to prioritize areas in greatest need of green roofs based on metrics related to social vulnerability, urban heat stress, and stormwater absorption needs.
+Green roofs are vegetated rooftops that can provide myriad benefits including absorption of stormwater, increase in energy efficiency of buildings, and reduction of the urban heat island effect, among others. At The Nature Conservancy (TNC), we recently developed a robust characterization of green roofs in NYC [(https://zenodo.org/record/1469674)](https://zenodo.org/record/1469674). Effective planning for future green roofs should be informed by an understanding of realistic potential for them (i.e., where are buildings generally suitable for green roofs) and need (e.g., where are benefits of green roofs most needed). We propose a Summer of Maps intern use available data to a) identify buildings that are likely to support a green roof based on existing guidelines, and b) evaluate data at the scales of Census Tracts and Community Districts to prioritize areas in greatest need of green roofs based on metrics related to social vulnerability, urban heat stress, and stormwater absorption needs.
 
 #### Data available:
 Various datasets are available that will support this work as follows:
@@ -34,7 +34,7 @@ Spatial Prioritization Data:
 - Open Space data such as parks and vegetated areas.
 
 #### Maps and Reports that will be created:
-A key product we anticipate being developed from this work is a list of buildings that are potentially suitable for green roofs based on existing guidelines (described in this report: http://urbandesignlab.columbia.edu/files/2015/04/4_urban_agriculture_nyc.pdf). We would also expect maps and reports to be produced that convey which areas (Census Tracts and Community Districts) should be prioritized for new green roof installations. Such products would incorporate information about existing green roofs and buildings identified as potentially suitable for green roofs, as well as data related to vulnerability of communities (based on heat vulnerability and social vulnerability metrics), stormwater management needs, and existing open space.
+A key product we anticipate being developed from this work is a list of buildings that are potentially suitable for green roofs based on existing guidelines [described in this report](http://urbandesignlab.columbia.edu/files/2015/04/4_urban_agriculture_nyc.pdf). We would also expect maps and reports to be produced that convey which areas (Census Tracts and Community Districts) should be prioritized for new green roof installations. Such products would incorporate information about existing green roofs and buildings identified as potentially suitable for green roofs, as well as data related to vulnerability of communities (based on heat vulnerability and social vulnerability metrics), stormwater management needs, and existing open space.
 
 In addition to these products, we would expect explanations of how analyses were done, and if possible, reproducible scripts, such that analyses can be easily updated as new data become available.
 

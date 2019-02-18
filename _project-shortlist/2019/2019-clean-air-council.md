@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "Clean Air Council" # client name
 excerpt: "Parking Reform Policies to Reduce Single Occupancy Vehicles and Congestion" # project title, shows on project list page

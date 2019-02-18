@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "Britepaths" # client name
 excerpt: "Mapping pay day lenders in Fairfax County to target financial counseling services" # project title, shows on project list page
@@ -20,15 +20,16 @@ Fairfax County is one of the wealthiest counties in the country, with a very hig
 We can work with you to give you any data from our own clients that we collect without identifiers. We have a list of County service centers and payday loan places in Fairfax County, as well as Title Max and other similar establishments. All is available from public databases.
 
 Fairfax County and other regional organizations have a significant number of demographic resources that we use, but we cannot figure out how to layer them or how to get to neighborhood level.
-https://www.fairfaxcounty.gov/demographics/fairfax-county-general-overview
 
-https://www.fairfaxcounty.gov/demographics/research-tools
+- [https://www.fairfaxcounty.gov/demographics/fairfax-county-general-overview](https://www.fairfaxcounty.gov/demographics/fairfax-county-general-overview)
 
-https://opportunityindex.cfnova.org/indicator/chart?region=4&demographic=&indicator=&date_start=2005&date_end=2015
+- [https://www.fairfaxcounty.gov/demographics/research-tools](https://www.fairfaxcounty.gov/demographics/research-tools)
 
-Center for Regional Analysis at George Mason University http://cra.gmu.edu
+- [https://opportunityindex.cfnova.org/indicator/chart?region=4&demographic=&indicator=&date_start=2005&date_end=2015](https://opportunityindex.cfnova.org/indicator/chart?region=4&demographic=&indicator=&date_start=2005&date_end=2015)
 
-https://www.opportunityatlas.org
+- [Center for Regional Analysis at George Mason University](http://cra.gmu.edu)
+
+- [https://www.opportunityatlas.org](https://www.opportunityatlas.org)
 
 #### Maps and Reports that will be created:
 We need a map of Fairfax County, Virginia that includes the independent cities of Fairfax and Falls Church which geographically fall within the County. We want to see the County at a neighborhood or census tract level, that would layer

@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: "" # filename of project post without file type extension
+completed: false # filename of project post without file type extension
 
 title: "The Franklin Institute" # client name
 excerpt: "Understanding reach to focus impact: Where can The Franklin Institute improve engagement with surrounding communities?" # project title, shows on project list page
