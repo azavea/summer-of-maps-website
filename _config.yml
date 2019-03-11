@@ -19,8 +19,8 @@ fellowship:
   stage:
     nonprofit_signup: false
     nonprofit_review: false
-    student_signup: true
-    student_review: false
+    student_signup: false
+    student_review: true
     fellowship_ongoing: false
 
 # Student and Non-profit application links
