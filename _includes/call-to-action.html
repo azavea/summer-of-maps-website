@@ -34,7 +34,9 @@
           {% elsif site.fellowship.stage.student_signup %}
             Fellowship applications for {{ site.fellowship.timeframe }} are open. Apply for a paid fellowship position and work on high impact nonprofit projects!
           {% elsif site.fellowship.stage.student_review %}
-            Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed. <a href="https://www.azavea.com/blog/2018/04/24/azavea-summer-of-maps-fellows-to-work-on-six-nonprofit-projects-this-summer/">Check out this post</a> to learn about the selected projects and fellows!
+            Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed.
+          {% elsif site.fellowship.stage.student_announcement %}
+            The students for the {{ site.fellowship.timeframe }} Azavea Summer of Maps have been <a href="#">announced</a>. Their fellowship will begin shortly.
           {% elsif site.fellowship.stage.fellowship_ongoing %}
             <a href="/contact/">Sign up</a> for notifications about future opportunities and don't forget to check out the <a href="/projects">projects</a> page for nonprofit projects completed by fellows.
           {% endif %}
@@ -61,8 +63,11 @@
             {% elsif site.fellowship.stage.student_review %}
               <h2>Thank you!</h2>
               <h3>Student applications are now closed and under review. The fellowship will begin shortly.</h3>
+            {% elsif site.fellowship.stage.student_announcement %}
+              <h2>Congratulations {{ site.fellowship.year }} fellows</h2>
+              <h3>We are looking forward to the exciting projects you'll be doing in the coming months.</h3>
             {% elsif site.fellowship.stage.fellowship_ongoing %}
-              <h2>Congratulations {{ site.fellowship.timeframe }} fellows</h2>
+              <h2>Congratulations {{ site.fellowship.year }} fellows</h2>
               <h3>Summer of Maps Fellows are hard at work on challenging, high impact projects.</h3>
             {% endif %}
           </div>
