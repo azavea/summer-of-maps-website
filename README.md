@@ -136,6 +136,7 @@ fellowship:
     nonprofit_review: false
     student_signup: false
     student_review: true
+    student_announcement: false
     fellowship_ongoing: false
 ```
 
@@ -143,7 +144,7 @@ fellowship:
 - `fellowship.timeframe` is used in site copy. This makes quickly changing the general timeframe used in the copy a breeze.
 - `fellowship.in_session` determines if we are currently in session *(are we accepting applications or have an ongoing fellowship?)*. If set to `true`, you must set one *and only one* `fellowship.stage.CHILD` to `true`
 - `fellowship.stage` will determine what part of the process we are in if we are in session.
-  - Note: do not add a value paring to the `stage` key itself.
+  - Note: do not add a value pairing to the `stage` key itself.
   - Only one stage child should be set to `true` at a time. All others should be `false`.
   - If `in_session` is set to `false`, this will take precedence over all `stage` options. So no matter if a stage is set to `true` you will only see copy for when Summer of Maps is out of session.
 - `in_session` and `stage.CHILD` only accept `true` or `false` as their value pairing.

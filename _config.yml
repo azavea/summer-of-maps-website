@@ -21,6 +21,7 @@ fellowship:
     nonprofit_review: false
     student_signup: false
     student_review: true
+    student_announcement: false
     fellowship_ongoing: false
 
 # Student and Non-profit application links
