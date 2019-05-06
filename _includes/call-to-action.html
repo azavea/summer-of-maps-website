@@ -6,6 +6,8 @@
           {% if site.fellowship.in_session %}
             {% if site.fellowship.stage.fellowship_ongoing %}
               Thank you
+            {% elsif site.fellowship.stage.student_announcement %}
+              Congrats
             {% else %}
               Join us
             {% endif %}
@@ -17,6 +19,8 @@
           {% if site.fellowship.in_session %}
             {% if site.fellowship.stage.fellowship_ongoing %}
               The current session is underway
+            {% elsif site.fellowship.stage.student_announcement %}
+              New fellows announced
             {% else %}
               {{ site.fellowship.timeframe }}
             {% endif %}
@@ -36,7 +40,7 @@
           {% elsif site.fellowship.stage.student_review %}
             Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed.
           {% elsif site.fellowship.stage.student_announcement %}
-            The students for the {{ site.fellowship.timeframe }} Azavea Summer of Maps have been <a href="#">announced</a>. Their fellowship will begin shortly.
+            The students for the {{ site.fellowship.timeframe }} Azavea Summer of Maps have been <a href="https://www.azavea.com/announcements/summer-of-maps-fellows-and-projects-2019/">announced</a>. Their fellowship will begin shortly.
           {% elsif site.fellowship.stage.fellowship_ongoing %}
             <a href="/contact/">Sign up</a> for notifications about future opportunities and don't forget to check out the <a href="/projects">projects</a> page for nonprofit projects completed by fellows.
           {% endif %}
@@ -65,7 +69,7 @@
               <h3>Student applications are now closed and under review. The fellowship will begin shortly.</h3>
             {% elsif site.fellowship.stage.student_announcement %}
               <h2>Congratulations {{ site.fellowship.year }} fellows</h2>
-              <h3>We are looking forward to the exciting projects you'll be doing in the coming months.</h3>
+              <h3>Summer of Maps Fellows will begin their fellowships shortly.</h3>
             {% elsif site.fellowship.stage.fellowship_ongoing %}
               <h2>Congratulations {{ site.fellowship.year }} fellows</h2>
               <h3>Summer of Maps Fellows are hard at work on challenging, high impact projects.</h3>
