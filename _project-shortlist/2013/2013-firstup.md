@@ -1,7 +1,8 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
-completed: "2013-dvaeyc"
+completed: "2013-firstup"
+redirect_from: "/projects/shortlist/2013-projects/2013-dvaeyc/"
 
 title: "First Up" # project title or client name
 secondary-title: "(formerly DVAEYC)"

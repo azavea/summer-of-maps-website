@@ -2,6 +2,7 @@
 published: true # change to true once ready to post
 year: "2013"
 featured: true
+redirect_from: "/projects/2013-dvaeyc/"
 
 title: "First Up" # Displays on the project post page
 secondary-title: "(formerly DVAEYC)"
