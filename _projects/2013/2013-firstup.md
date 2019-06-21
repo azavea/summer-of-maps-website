@@ -2,9 +2,11 @@
 published: true # change to true once ready to post
 year: "2013"
 featured: true
+redirect_from: "/projects/2013-dvaeyc/"
 
-title: "Delaware Valley Association for the Education of Young Children" # Displays on the project post page
-client: "Delaware Valley Association for the Education of Young Children" # shows on the project card
+title: "First Up" # Displays on the project post page
+secondary-title: "(formerly DVAEYC)"
+client: "First Up" # shows on the project card
 brief_description: "Mapping of need versus capacity of high-quality childcare in the Delaware Valley" # shows on the project card
 seo_description: "" # goes in project meta description
 
@@ -38,7 +40,7 @@ images:
 
 # This file uses Kramdown. See https://kramdown.gettalong.org/syntax.html for syntax
 ---
-The Delaware Valley Association for the Education of Young Children (DVAEYC) sought to analyze the availability of all high quality early childhood services in Philadelphia, including: child care programs at the STAR 3 and 4 level; Head Start programs under the auspices of private contractors as well as the School District of Philadelphia; and public and private PreK settings. This information would be correlated to demographic information that indicates childhood risk factors associated with poor academic and social/emotional performance. Additionally, it would be analyzed to assess the relationship between neighborhood need and neighborhood capacity. Their goal was to produce a map that not only would provide a visual representation of the relationship between family income and quality of child care programs, but also identify areas of need for high quality early childhood programs and oversaturation at the neighborhood level.
+First Up (formerly DVAEYC) sought to analyze the availability of all high quality early childhood services in Philadelphia, including: child care programs at the STAR 3 and 4 level; Head Start programs under the auspices of private contractors as well as the School District of Philadelphia; and public and private PreK settings. This information would be correlated to demographic information that indicates childhood risk factors associated with poor academic and social/emotional performance. Additionally, it would be analyzed to assess the relationship between neighborhood need and neighborhood capacity. Their goal was to produce a map that not only would provide a visual representation of the relationship between family income and quality of child care programs, but also identify areas of need for high quality early childhood programs and oversaturation at the neighborhood level.
 
 Lena produced a report for each City Council, House, Senate and Congressional district within Philadelphia that included:
 

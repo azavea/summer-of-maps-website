@@ -24,6 +24,7 @@
           <div class="fellow-year">{{author.year}} fellow</div>
         </div>
         <div class="project-card-title">{{ item.client }}</div>
+        {% if item.secondary-title %}<div class="project-card-secondary-title">{{ item.secondary-title }}</div>{% endif %}
         <div class="project-card-description">{{ item.brief_description }}</div>
       </div>
     </div>

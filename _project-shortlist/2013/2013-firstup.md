@@ -1,11 +1,13 @@
 ---
 published: true # change to true once ready to post
 year: '2013'
-completed: "2013-dvaeyc"
+completed: "2013-firstup"
+redirect_from: "/projects/shortlist/2013-dvaeyc/"
 
-title: "DVAEYC" # project title or client name
+title: "First Up" # project title or client name
+secondary-title: "(formerly DVAEYC)"
 excerpt: "Mapping the Need Versus Capacity of High-Quality Childcare in the Delaware Valley" # shows on project list page
-client_website: "http://www.dvaeyc.org/"
+client_website: "https://www.firstup.org/"
 category: "community" #see list at `./_data/categories.yml`
 
 seo_description: "" # goes in project meta description
