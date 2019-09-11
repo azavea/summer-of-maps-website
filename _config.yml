@@ -15,13 +15,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 fellowship:
   year: 2019
   timeframe: Summer 2019
-  in_session: true
+  in_session: false
   stage:
     nonprofit_signup: false
     nonprofit_review: false
     student_signup: false
     student_review: false
-    student_announcement: true
+    student_announcement: false
     fellowship_ongoing: false
 
 # Student and Non-profit application links
