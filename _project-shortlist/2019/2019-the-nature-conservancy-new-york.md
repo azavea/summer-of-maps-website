@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: false # filename of project post without file type extension
+completed: "2019-the-nature-conservancy-new-york" # filename of project post without file type extension
 
 title: "The Nature Conservancy in New York" # client name
 excerpt: "Characterizing Potential and Need for Green Roofs across New York City" # project title, shows on project list page

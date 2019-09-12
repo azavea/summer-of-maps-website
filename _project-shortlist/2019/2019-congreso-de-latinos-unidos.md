@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2019"
-completed: false # filename of project post without file type extension
+completed: 2019-congreso-de-latinos-unidos # filename of project post without file type extension
 
 title: "Congreso de Latinos Unidos, Inc." # client name
 excerpt: "Mapping Determinants of Economic Self-Sufficiency and Well-Being in Philadelphia" # project title, shows on project list page
