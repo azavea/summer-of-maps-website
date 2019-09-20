@@ -194,10 +194,49 @@ label {
   }
 }
 
+/* Form honeypot styling */
+.contact-method {
+  position: relative;
+  display: inline-block;
+}
+
+.just-checking {
+  font-size: 1px;
+  visibility: hidden !important;
+  opacity: 0;
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  z-index: -10;
+  width: initial !important;
+  border: initial !important;
+  padding: initial !important;
+}
+
+input[type="checkbox"].just-checking {
+  -webkit-appearance: checkbox;
+} 
+input[type="radio"].just-checking {
+  -webkit-appearance: radio;
+}
+
 .form-group {
   margin: .5rem 0;
   display: flex;
   flex-direction: column;
+
+  &.has-danger {
+    input,
+    select,
+    textarea {
+      border-color: $red;
+    }
+
+    .pristine-error {
+      color: $red;
+      font-size: 13px;
+    }
+  }
 
   &.disabled {
     user-select: none;

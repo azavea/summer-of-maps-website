@@ -63,6 +63,48 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+  <script src="/assets/javascript/pristine.js"></script>
+  <script>
+    /* 
+    ** Basic Front-end spam prevention techniques in use: 
+    ** Technique 1: Only enable form submission 3.5 seconds after page load
+    ** Technique 2: Basic form validation using Pristine.js
+    ** Technique 3: Three honeypot field checks https://stackoverflow.com/questions/36227376/better-honeypot-implementation-form-anti-spam
+    */
+    window.onload = function () {
+      var hpValid = true;
+      var form = document.getElementById("signup-form");
+      var formAction = "https://webto.salesforce.com/servlet/servlet.WebToLead"
+      var submitButton = document.getElementById("contact-form-submit");
+      var pristine = new Pristine(form);
+      
+      // Technique 1
+      setTimeout(function() {
+        submitButton.disabled = false;
+        form.action = formAction;
+      }, 3500);
+
+      // Technique 2 & 3
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        var hpFields = {
+          1: document.getElementById("contact-method-official-name-of-org"),
+          2: document.getElementById("contact-method-phone"),
+          3: document.getElementById("contact-by-phone-only")
+        }
+
+        // check if the form is valid and honeypots are unchanged
+        if (hpFields[1].value.length != 0 ||
+            hpFields[2].value.length != 0 ||
+            hpFields[3].checked) {
+          hpValid = false;
+        };
+        var checkValidity = pristine.validate();
+        if( checkValidity && hpValid ) { form.submit() }
+      });
+    };
+  </script>
   {% if page.js_dependencies %}
     {% for dependency in page.js_dependencies %}
     <script src="{{ site.baseurl }}/assets/javascript/{{ dependency }}"></script>

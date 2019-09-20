@@ -1,5 +1,5 @@
 <div class="form {{ include.theme }}">
-  <form action="https://webto.salesforce.com/servlet/servlet.WebToLead" method="POST" novalidate="novalidate" role="form" id="signup-form">
+  <form action="" method="POST" novalidate="novalidate" role="form" id="signup-form">
     <input type="hidden" name="oid" value="00D30000000efK8">
     <input type="hidden" name="retURL" value="https://www.summerofmaps.com/thank-you">
     <input id="Campaign_ID" name="Campaign_ID" type="hidden" value="70130000001uVrF">
@@ -11,12 +11,12 @@
     <input id="00N30000009Hz7V" name="00N30000009Hz7V" type="hidden" value="MwR6IuFGE6oTIdTFHYgGyYfrkiEUi6w9DN2">
     <div class="form-group">
       <label>First Name <span>*</span>
-         <input id="first_name" name="first_name" required="required" pattern=".*[^ ].*" type="text">
+         <input id="first_name" name="first_name" required="required" type="text">
       </label>
     </div>
     <div class="form-group">
       <label>Last Name <span>*</span>
-        <input id="last_name" name="last_name" required="required" pattern=".*[^ ].*" type="text">
+        <input id="last_name" name="last_name" required="required" type="text">
       </label>
     </div>
     <div class="form-group">
@@ -62,12 +62,36 @@
         <textarea id="description" name="description"></textarea>
       </label>
     </div>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true">
-      <input type="hidden" name="sfga" value="">
+    <div class="contact-method">
+      <label class="just-checking">Leave the following fields empty/unchecked</label>
+      <input 
+        type="text" 
+        class="just-checking" 
+        id="contact-method-official-name-of-org"
+        name="contact-method-official-name-of-org"
+        tabindex="-1" 
+        autocomplete="off"
+        aria-hidden="true">
+      <input 
+        type="checkbox" 
+        name="contact-by-phone-only" 
+        id="contact-by-phone-only" 
+        value="1" 
+        class="just-checking"
+        tabindex="-1" 
+        autocomplete="off"
+        aria-hidden="true">
+      <input 
+        type="text" 
+        class="just-checking" 
+        id="contact-method-phone"
+        name="contact-method-phone"
+        tabindex="-1" 
+        autocomplete="off"
+        aria-hidden="true">
     </div>
     <div class="form-action">
-      <button type="submit" class="btn {{include.submit}}">Get in Touch</button>
+      <button disabled type="submit" class="btn {{include.submit}}" id="contact-form-submit">Get in Touch</button>
     </div>
   </form>
 </div>
