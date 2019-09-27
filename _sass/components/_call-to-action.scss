@@ -62,3 +62,52 @@ section.join-us {
     font-size: 2.5rem;
   }
 }
+
+.webinar-c2a {
+  display: flex;
+  background-color: $white;
+  box-shadow: $shadow-default;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  @media (max-width:900px) {
+    flex-direction: column;
+    max-width: 85%;
+    margin: 0 auto 2rem;
+  }
+
+  .webinar-video {
+    flex-basis: 55%;
+    padding: 10px;
+    margin: 0;
+
+    @media (max-width:900px) {
+      flex-basis: 100%;
+    }
+
+    iframe {
+      max-width: 100%;
+    }
+
+    figcaption {
+      font-size: 14px;
+      font-style: italic;
+      color: $brand-granite;
+    }
+  }
+
+  .webinar-message {
+    flex: 1;
+    padding: 1rem;
+
+    @media (max-width:900px) {
+      padding: 1rem;
+    }
+
+    em {
+      font-size: 14px;
+      font-style: italic;
+      color: $brand-granite;
+    }
+  }
+}

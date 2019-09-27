@@ -2,6 +2,7 @@
 layout: secondary
 permalink: "/nonprofit-guide/"
 page_class: guide
+show-webinar: true
 use-intro-imagery: false
 
 # NO EDITING ABOVE THIS LINE

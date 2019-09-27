@@ -12,4 +12,4 @@ services:
     environment:
       - JEKYLL_ENV=development
       - LANG=C.UTF-8
-    command: serve --livereload --force_polling --host 0.0.0.0
+    command: serve --verbose --incremental --livereload --force_polling --host 0.0.0.0
