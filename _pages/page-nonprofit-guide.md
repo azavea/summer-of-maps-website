@@ -54,7 +54,6 @@ Some examples of potential projects include:
 - **Environment, Sustainability and Ecosystems** - analyze the urban tree canopy and existing development to make a recommendation for future preservation
 - **Public Safety** - analyze the impact of neighborhood indicators or other environmental factors on crime risk
 - **Public Health & Food** - develop three potential sites for a new soup kitchen and perform a market analysis to determine how each will affect existing sites
-- **Community & Economic Development** - analyze housing needs to determine the best site for a new low income housing development
 - **Transportation** - identify the next 10 streets for the addition of bike lanes by scoring all street segments based on a variety of geographic criteria
 
 View previous Project Shortlists or Completed Projects on the [Projects page](/projects/) to learn more about the types of projects that are accepted as part of the Azavea Summer of Maps program.
