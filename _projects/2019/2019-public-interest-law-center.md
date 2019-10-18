@@ -13,6 +13,10 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "fayWalker"
 
+blogs: # bullet list of blogs
+  - title: "Housing & Landlords: Using Open Data to Find Substandard Conditions"
+    link: "https://www.azavea.com/blog/2019/09/26/housing-landlords-using-open-data-to-find-substandard-conditions/"
+
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
 featured_image: "2019-public-interest-law-center-featured.jpg"

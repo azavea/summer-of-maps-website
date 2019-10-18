@@ -13,6 +13,10 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "fayWalker"
 
+blogs: # bullet list of blogs
+  - title: "Putting Native American Voters on the Map: Using Cadastral Data to Geocode Non-Traditional Addresses"
+    link: "https://www.azavea.com/blog/2019/09/12/putting-native-american-voters-on-the-map-with-cadastral-data/"
+
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
 featured_image: "2019-forward-montana-foundation-featured.jpg"
