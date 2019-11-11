@@ -2,8 +2,8 @@
 {% assign categories = shortlist | map: 'category' | uniq %} 
 {% if shortlist.size == 0 %}
 <div class="project-list empty" id="project-list">
-  <div class="empty-message">This year's shortlist hasn't been announced yet. Check back soon.</div>
-  <a class="btn btn-ghost-primary" href="/project/shortlist/{{ site.fellowship.year - 1}}">See last year's project shortlist</a>
+  <div class="empty-message">This year's shortlist hasn't been announced yet.</div>
+  <a class="btn btn-ghost-primary" href="/projects/shortlist/{{ site.fellowship.year | minus: 1}}">See last year's project shortlist</a>
 </div>
 {% else %}
 <div class="project-list" id="project-list">

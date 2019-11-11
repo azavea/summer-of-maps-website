@@ -9,12 +9,10 @@
         <a href="/projects">Projects</a>
         <a href="/faq">FAQ</a>
         <a href="/contact">Contact</a>
-        {% if site.fellowship.in_session %}
-          {% if site.fellowship.stage.nonprofit_signup %}
-          <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
-          {% elsif site.fellowship.stage.student_signup %}
-          <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
-          {% endif %}
+        {% if site.fellowship.in_session.nonprofit_signup %}
+        <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
+        {% elsif site.fellowship.in_session.student_signup %}
+        <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
         {% endif %}
       </nav>
     </div>

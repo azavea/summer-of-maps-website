@@ -14,13 +14,14 @@
     <div class="mentor-list">
       {% for mentor in site.data.mentors %}
         <div class="mentor">
-          <a href="{{ mentor.profile }}" class="mentor-image" title="{{ mentor.name }}">
-            <img src="assets/images/mentors/{{ mentor.image }}" class="avatar" alt="{{ mentor.name }}">
-          </a>
-          <div class="mentor-name">{{ mentor.name }}</div>
-          <a href="{{ mentor.profile }}" class="mentor-profile" title="{{ mentor.name }}" tabindex="-1">
-            <img src="{{ site.baseurl }}/assets/icons/icon-external-link.svg" alt="external link icon"></img> Meet {{ mentor.shortName }}
-          </a>
+          <img src="assets/images/mentors/{{ mentor.image }}" class="avatar" alt="{{ mentor.name }}">
+          <div class="mentor-info">
+            <div class="mentor-name h4">{{ mentor.name }}</div>
+            <div class="mentor-bio">{{ mentor.bio }}</div>
+            <a href="{{ mentor.profile }}" class="mentor-profile" title="{{ mentor.name }}">
+              <img src="{{ site.baseurl }}/assets/icons/icon-external-link.svg" alt="external link icon"></img> Meet {{ mentor.shortName }}
+            </a>
+          </div>
         </div>
       {% endfor %}
     </div>

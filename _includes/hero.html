@@ -1,3 +1,5 @@
+{%- include _global-variables.html -%}
+
 <header class="hero" id="hero">
   {% if page.no_hero != true %}
   <div class="container">
@@ -10,11 +12,14 @@
       </h2>
 
       <div class="hero-actions">
-        {% if site.fellowship.in_session %}
-          {% if site.fellowship.stage.nonprofit_signup %}
+        {% if GlobalInSession %}
+          {% if site.fellowship.in_session.nonprofit_signup %}
           <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
-          {% elsif site.fellowship.stage.student_signup %}
+          {% elsif site.fellowship.in_session.student_signup %}
           <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
+          {% elsif site.fellowship.in_session.applications_signup %}
+          <a href="{{ site.nonprofit_app_link}}" class="btn btn-ghost-secondary">Nonprofits Apply</a>
+          <a href="{{ site.student_app_link}}" class="btn btn-ghost-secondary">Students Apply</a>
           {% endif %}
         {% else %}
           <a href="#job-alert-modal" class="btn btn-ghost-secondary form-modal-open" rel="modal:open">
@@ -25,14 +30,14 @@
       </div>
     </div>
     <div class="hero-viz">
-      <img src="../assets/images/philly-map.jpg" alt="" class="hero-viz-map">
-      <img src="../assets/images/philly-counties-yellow.svg" alt="" class="hero-viz-counties-shapes">
-      <img src="../assets/images/philly-counties-lite-green.svg" alt="" class="hero-viz-counties-shapes">
-      <img src="../assets/images/philly-counties-lame-green.svg" alt="" class="hero-viz-counties-shapes">
-      <img src="../assets/images/philly-counties-teal.svg" alt="" class="hero-viz-counties-shapes">
-      <img src="../assets/images/philly-counties-sky-blue.svg" alt="" class="hero-viz-counties-shapes">
-      <img src="../assets/images/philly-counties-blue.svg" alt="" class="hero-viz-counties-shapes">
-      <img src="../assets/images/philly-counties-dark-blue.svg" alt="" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-map.jpg" alt="" role="presentation" class="hero-viz-map">
+      <img src="../assets/images/philly-counties-yellow.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-counties-lite-green.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-counties-lame-green.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-counties-teal.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-counties-sky-blue.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-counties-blue.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
+      <img src="../assets/images/philly-counties-dark-blue.svg" alt="" role="presentation" class="hero-viz-counties-shapes">
     </div>
   </div>
   {% endif %}

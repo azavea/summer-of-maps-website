@@ -1,9 +1,3 @@
-<div class="content-header">
-  <h2 class="content-title">
-    All projects
-  </h2>
-</div>
-
 {% comment %} Group projects by year. {% endcomment %}
 {% assign projects_grouped = site.projects | group_by: 'year' | reverse %}
 {% comment %}

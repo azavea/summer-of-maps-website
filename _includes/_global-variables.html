@@ -1,0 +1,11 @@
+{% comment %}
+  Logic for determining if in session.
+  1: Assigns output of site.fellowship.in_session to a new variable as a string
+  2: Search new variable for true statement
+  3: Assigns a boolean to variable
+{% endcomment %}
+  {% assign GlobalSessionToString = site.fellowship.in_session | downcase %}
+
+  {% if GlobalSessionToString contains 'true'%}
+    {% assign GlobalInSession = true %}
+  {% endif %}

@@ -1,49 +1,94 @@
-<section class="join-us">
+{%- include _global-variables.html -%}
+
+<section class="join-us" id="join-us">
   <div class="container">
     <div class="inner-content">
       <div class="content-header">
         <span class="content-subtitle">
-          {% if site.fellowship.in_session %}
-            {% if site.fellowship.stage.fellowship_ongoing %}
+          {% if GlobalInSession %}
+            {% if site.fellowship.in_session.fellowship_ongoing %}
               Thank you
-            {% elsif site.fellowship.stage.student_announcement %}
+            {% elsif site.fellowship.in_session.student_announcement %}
               Congrats
             {% else %}
               Join us
             {% endif %}
+          {% elsif site.fellowship.out_of_session.upcoming %}
+            Check back soon
           {% else %}
-          Until next time
+            Until next time
           {% endif %}
         </span>
         <h2 class="content-title">
-          {% if site.fellowship.in_session %}
-            {% if site.fellowship.stage.fellowship_ongoing %}
+          {% if GlobalInSession %}
+            {% if site.fellowship.in_session.fellowship_ongoing %}
               The current session is underway
-            {% elsif site.fellowship.stage.student_announcement %}
+            {% elsif site.fellowship.in_session.student_announcement %}
               New fellows announced
             {% else %}
               {{ site.fellowship.timeframe }}
             {% endif %}
+          {% elsif site.fellowship.out_of_session.upcoming %}
+            We're ramping up for {{ site.fellowship.year | plus: 1 }}
           {% else %}
             {{ site.fellowship.timeframe }} session is closed
           {% endif %}
         </h2>
       </div>
       <p class="content-blurb">
-        {% if site.fellowship.in_session %}
-          {% if site.fellowship.stage.nonprofit_signup %}
-            Nonprofit applications for {{ site.fellowship.timeframe }} are open. Apply for a Geospatial Data Analysis Services Grant today!
-          {% elsif site.fellowship.stage.nonprofit_review %}
-            We are currently reviewing nonprofit applications. Fellowship applications for {{ site.fellowship.timeframe }} will open soon.
-          {% elsif site.fellowship.stage.student_signup %}
-            Fellowship applications for {{ site.fellowship.timeframe }} are open. Apply for a paid fellowship position and work on high impact nonprofit projects!
-          {% elsif site.fellowship.stage.student_review %}
+        {% if GlobalInSession %}
+          {% comment %}
+            <!-- Both Org/Student applications sign up -->
+          {% endcomment %}
+          {% if site.fellowship.in_session.applications_signup %}
+            Organization and student applications for {{ site.fellowship.timeframe }} are open. Apply to be a part of Summer of Maps today!
+
+          {% comment %}
+            <!-- Both Org/Student applications review -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.applications_review %}
             Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed.
-          {% elsif site.fellowship.stage.student_announcement %}
+
+          {% comment %}
+            <!-- Non profit applications sign up only -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.nonprofit_signup %}
+            Nonprofit applications for {{ site.fellowship.timeframe }} are open. Apply for a Geospatial Data Analysis Services Grant today!
+
+          {% comment %}
+            <!-- Non profit applications review only -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.nonprofit_review %}
+            We are currently reviewing nonprofit applications. Fellowship applications for {{ site.fellowship.timeframe }} will open soon.
+
+          {% comment %}
+            <!-- Student applications sign up only -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.student_signup %}
+            Fellowship applications for {{ site.fellowship.timeframe }} are open. Apply for a paid fellowship position and work on high impact nonprofit projects!
+
+          {% comment %}
+            <!-- Student applications review only -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.student_review %}
+            Applications for the {{ site.fellowship.timeframe }} session of the Azavea Summer of Maps fellowship program are now closed.
+
+          {% comment %}
+            <!-- Student/Org announcement -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.student_announcement or 
+             site.fellowship.in_session.applications_announcements 
+          %}
             The students for the {{ site.fellowship.timeframe }} Azavea Summer of Maps have been <a href="https://www.azavea.com/announcements/summer-of-maps-fellows-and-projects-2019/">announced</a>. Their fellowship will begin shortly.
-          {% elsif site.fellowship.stage.fellowship_ongoing %}
+
+          {% comment %}
+            <!-- Fellowship in progress -->
+          {% endcomment %}
+          {% elsif site.fellowship.in_session.fellowship_ongoing %}
             <a href="/contact/">Sign up</a> for notifications about future opportunities and don't forget to check out the <a href="/projects">projects</a> page for nonprofit projects completed by fellows.
           {% endif %}
+        {% elsif site.fellowship.out_of_session.upcoming %}
+          The {{ site.fellowship.year | plus: 1 }} session is nearly upon us and that means applications will be opening up soon.
         {% else %}
           The {{ site.fellowship.timeframe }} session has finished. <a href="/contact/">Sign up</a> for notifications about future opportunities.
         {% endif %}
@@ -51,26 +96,64 @@
     </div>
     <div class="row align-center">
       <div class="column-10">
-        {% if site.fellowship.in_session %}
+        {% if GlobalInSession %}
         <div class="call-to-action">
           <div class="c2a-image"></div>
           <div class="c2a-message">
-            {% if site.fellowship.stage.nonprofit_signup %}
+            {% comment %}
+              <!-- Both Org/Student applications sign up -->
+            {% endcomment %}
+            {% if site.fellowship.in_session.applications_signup %}
+              <h2>Applications are open until {{ site.data.dates[1].date }}.</h2>
+              <a href="{{ site.nonprofit_app_link }}" class="btn btn-ghost-primary">Nonprofits Apply</a>
+              <a href="{{ site.student_app_link }}" class="btn btn-ghost-primary">Students Apply</a>
+
+            {% comment %}
+              <!-- Both Org/Student applications review -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.applications_review %}
+              <h2>Thank you!</h2>
+              <h3>Applications are now closed and under review. The fellowship will begin shortly.</h3>
+
+            {% comment %}
+              <!-- Non profit applications sign up only -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.nonprofit_signup %}
               <h2>Nonprofit applications are open until {{ site.data.dates[1].date }}.</h2>
               <a href="{{ site.nonprofit_app_link }}" class="btn btn-ghost-primary">Apply now</a>
-            {% elsif site.fellowship.stage.nonprofit_review %}
+
+            {% comment %}
+              <!-- Non profit applications review only -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.nonprofit_review %}
               <h2>Nonprofit applications have closed.</h2>
-              <h3>Check back soon for Fellowship applications.</h3>
-            {% elsif site.fellowship.stage.student_signup %}
-              <h2>Fellow applications are open until {{ site.data.dates[3].date }}.</h2>
+              <h3>Check back soon for student applications.</h3>
+            
+            {% comment %}
+              <!-- Student applications sign up only -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.student_signup %}
+              <h2>Student applications are open until {{ site.data.dates[3].date }}.</h2>
               <a href="{{ site.student_app_link }}" class="btn btn-ghost-primary">Apply now</a>
-            {% elsif site.fellowship.stage.student_review %}
+            
+            {% comment %}
+              <!-- Student applications review only -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.student_review %}
               <h2>Thank you!</h2>
               <h3>Student applications are now closed and under review. The fellowship will begin shortly.</h3>
-            {% elsif site.fellowship.stage.student_announcement %}
+            
+            {% comment %}
+              <!-- Student/Org announcement -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.student_announcement or site.fellowship.in_session.applications_announcements  %}
               <h2>Congratulations {{ site.fellowship.year }} fellows</h2>
               <h3>Summer of Maps Fellows will begin their fellowships shortly.</h3>
-            {% elsif site.fellowship.stage.fellowship_ongoing %}
+            
+            {% comment %}
+              <!-- Fellowship in progress -->
+            {% endcomment %}
+            {% elsif site.fellowship.in_session.fellowship_ongoing %}
               <h2>Congratulations {{ site.fellowship.year }} fellows</h2>
               <h3>Summer of Maps Fellows are hard at work on challenging, high impact projects.</h3>
             {% endif %}
