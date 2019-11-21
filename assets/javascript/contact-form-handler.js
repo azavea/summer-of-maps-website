@@ -1,3 +1,7 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
 /* Grab the users ip for Hubspot */
 var userIP;
 function getUserIp() {
