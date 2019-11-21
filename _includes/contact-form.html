@@ -1,56 +1,56 @@
 <div class="form {{ include.theme }}">
-  <form action="" method="POST" novalidate="novalidate" role="form" class="hs-contact-form"">
+  <form action="" method="POST" novalidate="novalidate" role="form" class="contact-form"">
     <div class="form-group">
       <label>First Name <span>*</span>
-         <input name="firstname" required="required" type="text">
+         <input name="FNAME" required="required" type="text">
       </label>
     </div>
     <div class="form-group">
       <label>Last Name <span>*</span>
-        <input name="lastname" required="required" type="text">
+        <input name="LNAME" required="required" type="text">
       </label>
     </div>
     <div class="form-group">
       <label>Email <span>*</span>
-        <input name="email" type="email" required="required" type="email">
+        <input name="EMAIL" type="email" required="required">
       </label>
     </div>
     <div class="form-group">
       <label>Phone
-        <input name="phone" type="tel">
+        <input name="PHONE" type="tel">
       </label>
     </div>
     <div class="form-group">
       <label>Organization
-        <input name="company"  type="text">
+        <input name="COMPANY" type="text">
       </label>
     </div>
     <div class="form-group radio-list">
       <label>I'm interested in becoming a:</label>
       <label class="radio">
-        <input type="radio" name="som_interest" value="fellow">
+        <input type="radio" name="INTEREST" value="Fellow">
         <span></span>
-        fellow
+        Fellow
       </label>
       <label class="radio">
-        <input type="radio" name="som_interest" value="mentor">
+        <input type="radio" name="INTEREST" value="Mentor">
         <span></span>
-        mentor
+        Mentor
       </label>
       <label class="radio">
-        <input type="radio" name="som_interest" value="participating nonprofit">
+        <input type="radio" name="INTEREST" value="Participating nonprofit">
         <span></span>
-        participating nonprofit
+        Participating nonprofit
       </label>
       <label class="radio">
-        <input type="radio" name="som_interest" value="sponsor">
+        <input type="radio" name="INTEREST" value="Sponsor">
         <span></span>
-        sponsor
+        Sponsor
       </label>
     </div>
     <div class="form-group full-width">
       <label>Message
-        <textarea name="message"></textarea>
+        <textarea name="MESSAGE"></textarea>
       </label>
     </div>
     <div class="contact-method">
@@ -70,7 +70,6 @@
         autocomplete="off"
         aria-hidden="true">
     </div>
-    <input name="hs_context" class="hs_context" type="hidden" value="">
     <div class="form-action">
       <input type="submit" value="Submit" class="btn {{include.submit}} contact-form-submit" disabled>
     </div>
