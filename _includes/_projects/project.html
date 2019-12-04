@@ -1,5 +1,7 @@
+{%- include _global-variables.html -%}
+
 {% capture shortlist %}
-  {% if site.fellowship.in_session %}
+  {% if GlobalInSession %}
     <!-- project page intro -->
     {% include {{ page.partials_location }}_intro.html %}
     <!-- project page intro -->
@@ -17,22 +19,11 @@
 {% endcapture %}
 
 {% capture spacer %}
-  {% if site.fellowship.in_session %}
+  {% if GlobalInSession %}
     <div class="section-spacer"></div>
   {% endif %}
 {% endcapture %}
 
-{% if site.fellowship.stage.student_review or
-      site.fellowship.stage.fellowship_ongoing  %}
-
-  {{ project-grid }}
-  {{ spacer }}
-  {{ shortlist }}
-
-{% else %}
-
-  {{ shortlist }}
-  {{ spacer }}
-  {{ project-grid }}
-
-{% endif %}
+{{ project-grid }}
+{{ spacer }}
+{{ shortlist }}

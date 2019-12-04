@@ -1,8 +1,6 @@
-- name: Esther Needham
-  shortName: Esther
-  profile: https://www.azavea.com/about/teammate/esther-needham/
-  image: needham.jpg
 - name: Daniel McGlone
   shortName: Daniel
   profile: https://www.azavea.com/about/teammate/daniel-mcglone/
   image: mcglone.jpg
+  bio: >-
+    Daniel is a Senior GIS Analyst and Technical Lead on the Data Analytics Team and Cicero Data Manager. He supports cartography and analysis projects as well as Cicero research and data entry.
