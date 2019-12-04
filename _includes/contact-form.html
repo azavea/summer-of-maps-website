@@ -1,97 +1,77 @@
 <div class="form {{ include.theme }}">
-  <form action="" method="POST" novalidate="novalidate" role="form" id="signup-form">
-    <input type="hidden" name="oid" value="00D30000000efK8">
-    <input type="hidden" name="retURL" value="https://www.summerofmaps.com/thank-you">
-    <input id="Campaign_ID" name="Campaign_ID" type="hidden" value="70130000001uVrF">
-    <input type="hidden" id="member_status" name="member_status" value="">
-    <input type="hidden" id="00N30000004RyN1" name="00N30000004RyN1" value="1">
-    <input type="hidden" id="70130000001uVrF" name="70130000001uVrF" value="1">
-    <input id="description" name="description" type="hidden" value="">
-    <input id="lead_source" name="lead_source" type="hidden" value="Web">
-    <input id="00N30000009Hz7V" name="00N30000009Hz7V" type="hidden" value="MwR6IuFGE6oTIdTFHYgGyYfrkiEUi6w9DN2">
+  <form action="" method="POST" novalidate="novalidate" role="form" class="contact-form"">
     <div class="form-group">
       <label>First Name <span>*</span>
-         <input id="first_name" name="first_name" required="required" type="text">
+         <input name="FNAME" required="required" type="text">
       </label>
     </div>
     <div class="form-group">
       <label>Last Name <span>*</span>
-        <input id="last_name" name="last_name" required="required" type="text">
+        <input name="LNAME" required="required" type="text">
       </label>
     </div>
     <div class="form-group">
       <label>Email <span>*</span>
-        <input id="email" name="email" type="email" required="required" type="email">
+        <input name="EMAIL" type="email" required="required">
       </label>
     </div>
     <div class="form-group">
       <label>Phone
-        <input id="phone" name="phone" type="tel">
+        <input name="PHONE" type="tel">
       </label>
     </div>
     <div class="form-group">
       <label>Organization
-        <input id="company" name="company"  type="text">
+        <input name="COMPANY" type="text">
       </label>
     </div>
     <div class="form-group radio-list">
       <label>I'm interested in becoming a:</label>
       <label class="radio">
-        <input type="radio" name="involvementType" id="involvementType1" value="701a0000002AIuA">
+        <input type="radio" name="INTEREST" value="Fellow">
         <span></span>
-        fellow
+        Fellow
       </label>
       <label class="radio">
-        <input type="radio" name="involvementType" id="involvementType2" value="701a0000002AIuP">
+        <input type="radio" name="INTEREST" value="Mentor">
         <span></span>
-        mentor
+        Mentor
       </label>
       <label class="radio">
-        <input type="radio" name="involvementType" id="involvementType3" value="701a0000002AIuF">
+        <input type="radio" name="INTEREST" value="Participating nonprofit">
         <span></span>
-        participating nonprofit
+        Participating nonprofit
       </label>
       <label class="radio">
-        <input type="radio" name="involvementType" id="involvementType4" value="701a0000002AIuK">
+        <input type="radio" name="INTEREST" value="Sponsor">
         <span></span>
-        sponsor
+        Sponsor
       </label>
     </div>
     <div class="form-group full-width">
       <label>Message
-        <textarea id="description" name="description"></textarea>
+        <textarea name="MESSAGE"></textarea>
       </label>
     </div>
     <div class="contact-method">
-      <label class="just-checking">Leave the following fields empty/unchecked</label>
+      <label class="just-checking" aria-hidden="true">Leave the following fields empty/unchecked</label>
       <input 
         type="text" 
-        class="just-checking" 
-        id="contact-method-official-name-of-org"
-        name="contact-method-official-name-of-org"
-        tabindex="-1" 
-        autocomplete="off"
-        aria-hidden="true">
-      <input 
-        type="checkbox" 
-        name="contact-by-phone-only" 
-        id="contact-by-phone-only" 
-        value="1" 
-        class="just-checking"
+        class="just-checking contact-method-fullname"
+        name="contact-method-fullname"
         tabindex="-1" 
         autocomplete="off"
         aria-hidden="true">
       <input 
         type="text" 
-        class="just-checking" 
-        id="contact-method-phone"
+        class="just-checking contact-method-phone" 
         name="contact-method-phone"
         tabindex="-1" 
         autocomplete="off"
         aria-hidden="true">
     </div>
     <div class="form-action">
-      <button disabled type="submit" class="btn {{include.submit}}" id="contact-form-submit">Get in Touch</button>
+      <input type="submit" value="Submit" class="btn {{include.submit}} contact-form-submit" disabled>
     </div>
   </form>
 </div>
