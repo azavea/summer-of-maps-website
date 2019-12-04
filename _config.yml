@@ -13,11 +13,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 # What is the stage of the current fellowship?
 # Only assign true to the current stage
 fellowship:
-  year: 2019
-  timeframe: Summer 2019
+  year: 2020
+  timeframe: Summer 2020
   out_of_session:
     # if summer of maps has ended
-    freeze: true
+    freeze: false
     # if summer of maps applications will be going out soon
     upcoming: false
   in_session:
@@ -28,7 +28,7 @@ fellowship:
     student_review: false
     student_announcement: false
     # if nonprofit/student applications at the same times
-    applications_signup: false
+    applications_signup: true
     applications_review: false
     applications_announcements: false
     # if students are actively working
@@ -36,8 +36,8 @@ fellowship:
 
 # Student and Non-profit application links
 # Define where the applications live
-nonprofit_app_link: "https://azavea.forms.fm/2019-summer-of-maps-nonprofit-application"
-student_app_link: "https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAABpPLsAwKiJmIa"
+nonprofit_app_link: "https://azavea.forms.fm/2020-summer-of-maps-nonprofit-application/forms/7494"
+student_app_link: "https://hire.withgoogle.com/public/jobs/azaveacom/view/P_AAAAAADAABpIvUZ6MpUYe-"
 
 ####
 ## DON'T EDIT BEYOND THIS LINE

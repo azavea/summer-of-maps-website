@@ -14,12 +14,12 @@
       <div class="hero-actions">
         {% if GlobalInSession %}
           {% if site.fellowship.in_session.nonprofit_signup %}
-          <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits Apply</a>
+          <a href="{{ site.nonprofit_app_link}}" class="btn btn-primary">Nonprofits apply</a>
           {% elsif site.fellowship.in_session.student_signup %}
-          <a href="{{ site.student_app_link}}" class="btn btn-primary">Students Apply</a>
+          <a href="{{ site.student_app_link}}" class="btn btn-primary">Students apply</a>
           {% elsif site.fellowship.in_session.applications_signup %}
-          <a href="{{ site.nonprofit_app_link}}" class="btn btn-ghost-secondary">Nonprofits Apply</a>
-          <a href="{{ site.student_app_link}}" class="btn btn-ghost-secondary">Students Apply</a>
+          <a href="{{ site.nonprofit_app_link}}" class="btn btn-ghost-secondary">Nonprofits apply</a>
+          <a href="{{ site.student_app_link}}" class="btn btn-ghost-secondary">Students apply</a>
           {% endif %}
         {% else %}
           <a href="#job-alert-modal" class="btn btn-ghost-secondary form-modal-open" rel="modal:open">
