@@ -28,8 +28,8 @@ fellowship:
     student_review: false
     student_announcement: false
     # if nonprofit/student applications at the same times
-    applications_signup: true
-    applications_review: false
+    applications_signup: false
+    applications_review: true
     applications_announcements: false
     # if students are actively working
     fellowship_ongoing: false
