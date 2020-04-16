@@ -12,5 +12,7 @@ food:
   name: "Food & Agriculture"
 health:
   name: "Health"
+publicSafety:
+  name: "Public Safety"
 transportation:
   name: "Transportation"

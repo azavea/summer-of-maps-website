@@ -1,0 +1,22 @@
+---
+layout: secondary-fullwidth
+permalink: "/projects/shortlist/2020"
+page_class: projects
+js_dependencies:
+  - "projects.js"
+
+# NO EDITING ABOVE THIS LINE
+# # # # # #
+
+title: "2020 Project Shortlists"
+seo_description: ""
+
+# hero section
+hero:
+  above-title: "<a href='/projects/'>&#10094; Projects</a>"
+  title: "2020 Project shortlists"
+  subtitle: "Azavea Summer of Maps 2020 project shortlist"
+# hero section
+---
+{% assign shortlist = site.project-shortlist | where:'year', '2020' %}
+{% include shortlist-list.html %}
