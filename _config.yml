@@ -30,9 +30,9 @@ fellowship:
     # if nonprofit/student applications at the same times
     applications_signup: false
     applications_review: false
-    applications_announcements: true
+    applications_announcements: false
     # if students are actively working
-    fellowship_ongoing: false
+    fellowship_ongoing: true
 
 # Student and Non-profit application links
 # Define where the applications live
