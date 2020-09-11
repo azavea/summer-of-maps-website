@@ -17,7 +17,7 @@ fellowship:
   timeframe: Summer 2020
   out_of_session:
     # if summer of maps has ended
-    freeze: false
+    freeze: true
     # if summer of maps applications will be going out soon
     upcoming: false
   in_session:
@@ -32,7 +32,7 @@ fellowship:
     applications_review: false
     applications_announcements: false
     # if students are actively working
-    fellowship_ongoing: true
+    fellowship_ongoing: false
 
 # Student and Non-profit application links
 # Define where the applications live
