@@ -1,7 +1,7 @@
 ---
 published: true
 year: "2020"
-completed: false
+completed: 2020-defenders-of-wildlife
 
 title: "Defenders of Wildlife"
 excerpt: "Monitoring Impacts of the U.S. - Mexico Border Wall on Endangered Wildlife"

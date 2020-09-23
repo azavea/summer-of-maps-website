@@ -5,7 +5,7 @@ featured: false # set to true to display on /projects page
 
 title: "Esperanza" # Displays on the project post page
 client: "Esperanza" # shows on the project card
-brief_description: "Analyzing the impact of the U.S.-Mexico border wall on imperiled wildlife" # shows on the project card
+brief_description: "Identifying suitable and prioritized locations for tree plantings in Hunting Park, Philadelphia" # shows on the project card
 seo_description: "" # goes in project meta description
 
 # Author/Fellow
