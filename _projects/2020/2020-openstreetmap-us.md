@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2020"
-featured: false # set to true to display on /projects page
+featured: true # set to true to display on /projects page
 
 title: "OpenStreetMap US" # Displays on the project post page
 client: "OpenStreetMap US" # shows on the project card

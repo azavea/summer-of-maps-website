@@ -1,7 +1,7 @@
 ---
 published: true # change to true once ready to post
 year: "2020"
-featured: false # set to true to display on /projects page
+featured: true # set to true to display on /projects page
 
 title: "Defenders of Wildlife" # Displays on the project post page
 client: "Defenders of Wildlife" # shows on the project card

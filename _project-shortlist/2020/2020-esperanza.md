@@ -1,7 +1,7 @@
 ---
 published: true
 year: "2020"
-completed: false
+completed: 2020-esperanza
 
 title: "Esperanza"
 excerpt: "Hunting Park: a Model for Urban Cooling"

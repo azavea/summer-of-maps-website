@@ -1,7 +1,7 @@
 ---
 published: true
 year: "2020"
-completed: false
+completed: 2020-openstreetmap-us
 
 title: "OpenStreetMap US"
 excerpt: "Analyzing & Addressing Social Issues with OpenStreetMap & Sustainable Development Goals"

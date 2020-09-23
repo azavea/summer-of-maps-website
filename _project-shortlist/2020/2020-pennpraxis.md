@@ -1,7 +1,7 @@
 ---
 published: true
 year: "2020"
-completed: false
+completed: 2020-pennpraxis
 
 title: "PennPraxis"
 excerpt: "The State Gun Law Project: Understanding the Effectiveness of Gun Laws through Spatial Analysis"
