@@ -13,6 +13,10 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "eugeneChong"
 
+blogs: # bullet list of blogs
+  - title: "How Can OpenStreetMap be Used to Track UN Sustainable Development Goals?"
+    link: "https://www.azavea.com/blog/2020/09/11/openstreetmap-and-the-sustainable-development-goals/"
+
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
 featured_image: "2020-openstreetmap-us-featured.jpg"
