@@ -13,6 +13,10 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "evelynGorey"
 
+blogs: # bullet list of blogs
+  - title: "Using GIS to Examine the U.S.-Mexico Border Wall’s Impact on Wildlife"
+    link: "https://www.azavea.com/blog/2020/09/08/using-gis-to-examine-the-u-s-mexico-border-walls-impact-on-wildlife/"
+
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
 featured_image: "2020-defenders-of-wildlife-featured.jpg"

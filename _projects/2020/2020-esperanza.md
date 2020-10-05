@@ -13,6 +13,10 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "evelynGorey"
 
+blogs: # bullet list of blogs
+  - title: "Using GIS to Guide Philadelphia’s First Neighborhood-Level Forestry Plan"
+    link: "https://www.azavea.com/blog/2020/09/03/gis-neighborhood-forestry-plan/"
+
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
 featured_image: "2020-esperanza-featured.jpg"

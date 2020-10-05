@@ -13,6 +13,10 @@ seo_description: "" # goes in project meta description
 # use the camel case version of the fellow's name
 fellow: "eugeneChong"
 
+blogs: # bullet list of blogs
+  - title: "Choosing a Cell Size for Point Pattern Analysis: Gun Crimes in Baltimore"
+    link: "https://www.azavea.com/blog/2020/09/04/choosing-cell-size-for-point-pattern-analysis/"
+
 # upload images to `/assets/images/projects/{{year}}/...`
 # type only the name.jpg of the images below
 featured_image: "2020-pennpraxis-featured.jpg"
