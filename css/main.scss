@@ -68,3 +68,23 @@
   "pages/post",
   "pages/secondary",
   "pages/thanks";
+
+.banner {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #0a2253;
+  display: flex;
+  z-index: 9999;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h4, p {
+    color: white;
+    margin: 0;
+  }
+}
